@@ -1,8 +1,12 @@
+import java.util.Arrays;
 
 public class PracticeHeap {
     public static void main(String[] args) {
-        System.out.println("Test Heap");
+        System.out.println("Test Heap...");
         Heap.test();
+        System.out.println("================================================");
+        System.out.println("Test HeapSort...");
+        HeapSort.test();
         System.out.println("================================================");
     }
 }
@@ -99,4 +103,76 @@ class Heap<T extends Comparable<T>> {
             k = largerValueIndex;
         }
     }
+}
+
+class HeapSort {
+
+    public static void test() {
+        Integer[] source = { 8, 2, 3, 4, 1, 6 };
+        System.out.println(Arrays.toString(source));
+        System.out.println(Arrays.toString(sort(source)));
+    }
+
+    public static <T extends Comparable<T>> T[] sort(T[] source) {
+        T[] result = source.clone();
+
+        // 构建堆
+        T[] heap = createHeap(source);
+
+        /* 交换最大元素和首元素，并进行有范围的下沉 */
+        int maxUnsortedIndex = heap.length - 1; // 定义一个未排序部分最大元素的索引
+        while (maxUnsortedIndex > 1) {
+            exch(heap, maxUnsortedIndex, 1);
+            sink(heap, 1, maxUnsortedIndex - 1);
+            maxUnsortedIndex--;
+        }
+
+        System.arraycopy(heap, 1, result, 0, source.length);
+        return result;
+    }
+
+    @SuppressWarnings("unchecked")
+    private static <T extends Comparable<T>> T[] createHeap(T[] source) {
+        T[] heap = (T[]) new Comparable[source.length + 1];
+        System.arraycopy(source, 0, heap, 1, source.length);
+
+        for (int i = source.length / 2; i >= 1; i--) {
+            sink(heap, i, heap.length - 1);
+        }
+        return heap;
+    }
+
+    private static <T extends Comparable<T>> boolean less(T[] heap, int i, int j) {
+        return heap[i].compareTo(heap[j]) < 0;
+    }
+
+    private static <T extends Comparable<T>> void exch(T[] heap, int i, int j) {
+        T temp = heap[i];
+        heap[i] = heap[j];
+        heap[j] = temp;
+    }
+
+    private static <T extends Comparable<T>> void sink(T[] heap, int target, int range) {
+        while (2 * target <= range) {
+            // 找出最大的子节点索引
+            int largerValueIndex;
+            if (2 * target + 1 > range) {
+                largerValueIndex = 2 * target;
+            } else {
+                if (less(heap, 2 * target, 2 * target + 1)) {
+                    largerValueIndex = 2 * target + 1;
+                } else {
+                    largerValueIndex = 2 * target;
+                }
+            }
+            // 根据大小决定是否交换
+            if (less(heap, target, largerValueIndex)) {
+                exch(heap, target, largerValueIndex);
+            } else {
+                break;
+            }
+            target = largerValueIndex;
+        }
+    }
+
 }
