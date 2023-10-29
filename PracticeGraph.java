@@ -1,5 +1,6 @@
 import java.util.Queue;
 import java.util.LinkedList;
+import java.util.Stack;
 
 public class PracticeGraph {
     public static void main(String[] args) {
@@ -11,6 +12,9 @@ public class PracticeGraph {
         System.out.println("===============================================================");
         System.out.println("测试图的广度优先搜索...");
         BreadthFirstSearch.test();
+        System.out.println("===============================================================");
+        System.out.println("测试图的广度优先搜索...");
+        DepthFirstPaths.test();
         System.out.println("===============================================================");
     }
 }
@@ -157,4 +161,77 @@ class BreadthFirstSearch {
     public int count() {
         return this.count;
     }
+}
+
+class DepthFirstPaths {
+
+    public static void test() {
+        Graph g1 = new Graph(10);
+        g1.addEdge(0, 2);
+        g1.addEdge(0, 3);
+        g1.addEdge(1, 2);
+        g1.addEdge(8, 4);
+        g1.addEdge(2, 9);
+
+        DepthFirstPaths s = new DepthFirstPaths(g1, 0);
+        System.out.println("从0到1的路径: ");
+        Stack<Integer> path = s.pathTo(1);
+        while (!path.isEmpty()) {
+            System.out.print(path.pop());
+        }
+        System.out.println();
+    }
+
+    private boolean[] marked;
+    // private int s;
+    private int[] edgeTo;
+
+    DepthFirstPaths(Graph g, int s) {
+        this.marked = new boolean[g.V()];
+        // this.s = s;
+        this.edgeTo = new int[g.V()];
+        for (int i = 0; i < g.V(); i++) {
+            if (i == s) {
+                this.edgeTo[i] = i;
+                continue;
+            }
+            this.edgeTo[i] = -1;
+        }
+
+        this.dfs(g, s);
+    }
+
+    private void dfs(Graph g, int v) {
+        marked[v] = true;
+
+        for (int w : g.adj(v)) {
+            if (marked[w] == true) {
+                continue;
+            } else {
+                edgeTo[w] = v;
+                dfs(g, w);
+            }
+        }
+    }
+
+    private boolean hasPathTo(int v) {
+        return marked[v];
+    }
+
+    public Stack<Integer> pathTo(int v) {
+        if (hasPathTo(v)) {
+            Stack<Integer> path = new Stack<Integer>();
+            while (true) {
+                path.push(Integer.valueOf(v));
+                if (edgeTo[v] == v) {
+                    break;
+                }
+                v = edgeTo[v];
+            }
+            return path;
+        } else {
+            return null;
+        }
+    }
+
 }
