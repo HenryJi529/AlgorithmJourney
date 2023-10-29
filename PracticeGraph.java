@@ -473,6 +473,28 @@ class WeightedGraph {
         System.out.println("所有的边为: " + g1.edges());
     }
 
+    public static WeightedGraph get_test_graph() {
+        WeightedGraph g1 = new WeightedGraph(8);
+        g1.addEdge(new Edge(4, 5, 0.35));
+        g1.addEdge(new Edge(4, 7, 0.37));
+        g1.addEdge(new Edge(5, 7, 0.28));
+        g1.addEdge(new Edge(0, 7, 0.16));
+        g1.addEdge(new Edge(1, 5, 0.32));
+        g1.addEdge(new Edge(0, 4, 0.38));
+        g1.addEdge(new Edge(2, 3, 0.17));
+        g1.addEdge(new Edge(1, 7, 0.19));
+        g1.addEdge(new Edge(0, 2, 0.26));
+        g1.addEdge(new Edge(1, 2, 0.36));
+        g1.addEdge(new Edge(1, 3, 0.29));
+        g1.addEdge(new Edge(2, 7, 0.34));
+        g1.addEdge(new Edge(6, 2, 0.40));
+        g1.addEdge(new Edge(3, 6, 0.52));
+        g1.addEdge(new Edge(6, 0, 0.58));
+        g1.addEdge(new Edge(6, 4, 0.93));
+
+        return g1;
+    }
+
     private final int V;
     private int E;
     private Queue<Edge>[] adj;
