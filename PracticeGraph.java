@@ -1,6 +1,9 @@
 import java.util.Queue;
 import java.util.LinkedList;
 import java.util.Stack;
+import java.util.PriorityQueue;
+import java.util.HashMap;
+import java.util.Map;
 
 public class PracticeGraph {
     public static void main(String[] args) {
@@ -27,6 +30,9 @@ public class PracticeGraph {
         System.out.println("===============================================================");
         System.out.println("测试加权无向图...");
         WeightedGraph.test();
+        System.out.println("===============================================================");
+        System.out.println("测试PrimMST...");
+        PrimMST.test();
         System.out.println("===============================================================");
     }
 }
@@ -540,5 +546,119 @@ class WeightedGraph {
             }
         }
         return allEdges;
+    }
+}
+
+class PrimMST {
+    public static void test() {
+        WeightedGraph g = WeightedGraph.get_test_graph();
+        PrimMST primMST = new PrimMST(g);
+        System.out.println(primMST.edges());
+    }
+
+    class MinIndexPriorityQueue<T extends Comparable<T>> {
+        private PriorityQueue<Element> pq;
+        private Map<Integer, Element> map;
+
+        private class Element implements Comparable<Element> {
+            public T value;
+            public int key;
+
+            Element(int key, T value) {
+                this.key = key;
+                this.value = value;
+            }
+
+            @Override
+            public int compareTo(Element that) {
+                return this.value.compareTo(that.value);
+            }
+        }
+
+        MinIndexPriorityQueue() {
+            this.pq = new PriorityQueue<Element>();
+            this.map = new HashMap<>();
+        }
+
+        public boolean isEmpty() {
+            return pq.isEmpty();
+        }
+
+        public T getValue(int key) {
+            return map.get(key).value;
+        }
+
+        public boolean containsKey(int key) {
+            return map.containsKey(key);
+        }
+
+        void insert(int key, T value) {
+            Element ele = new Element(key, value);
+            this.map.put(key, ele);
+            this.pq.add(ele);
+        }
+
+        void update(int key, T value) {
+            Element oldEle = this.map.get(key);
+            Element newEle = new Element(key, value);
+            this.pq.remove(oldEle);
+            this.pq.add(newEle);
+            this.map.put(key, newEle);
+        }
+
+        public T getMinValue() {
+            if (isEmpty()) {
+                throw new IllegalStateException("Queue is empty");
+            }
+            return pq.peek().value;
+        }
+
+        int delMin() {
+            Element ele = this.pq.poll();
+            this.map.remove(ele.key);
+            return ele.key;
+        }
+    }
+
+    private boolean[] marked;
+    private MinIndexPriorityQueue<Edge> pq;
+    private Queue<Edge> edges;
+
+    PrimMST(WeightedGraph G) {
+        this.edges = new LinkedList<Edge>();
+        this.marked = new boolean[G.V()];
+        this.pq = new MinIndexPriorityQueue<Edge>();
+
+        visit(G, 0);
+    }
+
+    private void visit(WeightedGraph G, int v) {
+        this.marked[v] = true;
+        for (Edge e : G.adj(v)) {
+            int w = e.other(v);
+            double weight = e.weight();
+            if (this.marked[w]) {
+                // 代表已经加入到生成树中
+                continue;
+            } else {
+                if (this.pq.containsKey(w)) {
+                    if (this.pq.getValue(w).weight() > weight) {
+                        this.pq.update(w, e);
+                    }
+                } else {
+                    this.pq.insert(w, e);
+                }
+            }
+        }
+        if (this.pq.isEmpty()) {
+            return;
+        } else {
+            this.edges.add(this.pq.getMinValue());
+            visit(G, this.pq.delMin());
+        }
+    }
+
+    public Queue<Edge> edges() {
+        return edges;
     }
 }
