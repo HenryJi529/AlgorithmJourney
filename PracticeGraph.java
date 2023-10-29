@@ -16,6 +16,15 @@ public class PracticeGraph {
         System.out.println("测试图的广度优先搜索...");
         DepthFirstPaths.test();
         System.out.println("===============================================================");
+        System.out.println("测试有向图...");
+        Digraph.test();
+        System.out.println("===============================================================");
+        System.out.println("测试有向图环检测...");
+        DirectedCycle.test();
+        System.out.println("===============================================================");
+        System.out.println("测试拓扑排序...");
+        TopoLogicalOrder.test();
+        System.out.println("===============================================================");
     }
 }
 
@@ -233,5 +242,172 @@ class DepthFirstPaths {
             return null;
         }
     }
+}
 
+class Digraph {
+    public static void test() {
+        Digraph g = new Digraph(5);
+        g.addEdge(0, 1);
+        g.addEdge(1, 3);
+        g.addEdge(1, 0);
+        g.addEdge(4, 0);
+        System.out.println("图中，从0开始的边为: " + g.adj(0));
+        System.out.println("图中，从0结束的边为: " + g.reverse().adj(0));
+    }
+
+    private final int V;
+    private int E;
+    private Queue<Integer>[] adj;
+
+    @SuppressWarnings("unchecked")
+    Digraph(int V) {
+        this.V = V;
+        this.E = 0;
+        this.adj = new Queue[V];
+        for (int i = 0; i < V; i++) {
+            this.adj[i] = new LinkedList<Integer>();
+        }
+    }
+
+    public int V() {
+        return V;
+    }
+
+    public int E() {
+        return E;
+    }
+
+    public void addEdge(int v, int w) {
+        adj[v].add(w);
+    }
+
+    public Queue<Integer> adj(int v) {
+        return adj[v];
+    }
+
+    public Digraph reverse() {
+        Digraph g_reverse = new Digraph(V);
+        for (int v = 0; v < V; v++) {
+            for (int w : adj[v]) {
+                g_reverse.adj[w].add(v);
+            }
+        }
+        return g_reverse;
+    }
+}
+
+class DirectedCycle {
+
+    public static void test() {
+        Digraph g = new Digraph(5);
+        g.addEdge(0, 1);
+        g.addEdge(1, 2);
+        g.addEdge(2, 0);
+        g.addEdge(4, 0);
+        DirectedCycle cycle = new DirectedCycle(g);
+        System.out.println("图中是否存在环: " + cycle.hasCycle);
+    }
+
+    private boolean[] marked;
+    private boolean hasCycle;
+    private boolean[] onStack;
+
+    public DirectedCycle(Digraph g) {
+        this.marked = new boolean[g.V()];
+        this.onStack = new boolean[g.V()];
+        this.hasCycle = false;
+
+        for (int v = 0; v < g.V(); v++) {
+            if (marked[v]) {
+                continue;
+            }
+            dfs(g, v);
+        }
+    }
+
+    private void dfs(Digraph g, int v) {
+        marked[v] = true;
+        onStack[v] = true;
+        for (int w : g.adj(v)) {
+            if (!marked[w]) {
+                dfs(g, w);
+            }
+
+            if (onStack[w]) {
+                hasCycle = true;
+                break;
+            }
+        }
+        onStack[v] = false;
+    }
+
+    public boolean hasCycle() {
+        return hasCycle;
+    }
+}
+
+/* 顶点排序 */
+class DepthFirstOrder {
+    private boolean[] marked;
+    private Stack<Integer> reversePost;
+
+    DepthFirstOrder(Digraph g) {
+        this.marked = new boolean[g.V()];
+        this.reversePost = new Stack<Integer>();
+
+        for (int i = 0; i < g.V(); i++) {
+            if (marked[i]) {
+                continue;
+            }
+            dfs(g, i);
+        }
+    }
+
+    private void dfs(Digraph g, int v) {
+        marked[v] = true;
+        for (int w : g.adj(v)) {
+            if (marked[w]) {
+                continue;
+            }
+            dfs(g, w);
+        }
+        reversePost.push(v);
+    }
+
+    public Stack<Integer> reversePost() {
+        return reversePost;
+    }
+}
+
+class TopoLogicalOrder {
+
+    public static void test() {
+        Digraph g = new Digraph(6);
+        g.addEdge(0, 2);
+        g.addEdge(0, 3);
+        g.addEdge(2, 4);
+        g.addEdge(3, 4);
+        g.addEdge(4, 5);
+        g.addEdge(1, 3);
+        TopoLogicalOrder order = new TopoLogicalOrder(g);
+        System.out.println(order.order());
+    }
+
+    private Stack<Integer> order;
+
+    TopoLogicalOrder(Digraph g) {
+        DirectedCycle cycle = new DirectedCycle(g);
+        if (!cycle.hasCycle()) {
+            DepthFirstOrder depthFirstOrder = new DepthFirstOrder(g);
+            order = depthFirstOrder.reversePost();
+        }
+    }
+
+    public boolean isCycle() {
+        return order == null;
+    }
+
+    public Stack<Integer> order() {
+        return order;
+    }
 }
