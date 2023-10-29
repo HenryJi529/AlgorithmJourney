@@ -25,6 +25,9 @@ public class PracticeGraph {
         System.out.println("测试拓扑排序...");
         TopoLogicalOrder.test();
         System.out.println("===============================================================");
+        System.out.println("测试加权无向图...");
+        WeightedGraph.test();
+        System.out.println("===============================================================");
     }
 }
 
@@ -409,5 +412,111 @@ class TopoLogicalOrder {
 
     public Stack<Integer> order() {
         return order;
+    }
+}
+
+class Edge implements Comparable<Edge> {
+    private final int v;
+    private final int w;
+    private final double weight;
+
+    Edge(int v, int w, double weight) {
+        this.v = v;
+        this.w = w;
+        this.weight = weight;
+    }
+
+    public double weight() {
+        return weight;
+    }
+
+    public int either() {
+        return v;
+    }
+
+    public int other(int vertex) {
+        if (vertex == v) {
+            return w;
+        } else {
+            return v;
+        }
+
+    }
+
+    @Override
+    public int compareTo(Edge that) {
+        int cmp;
+        if (this.weight > that.weight) {
+            cmp = 1;
+        } else if (this.weight < that.weight) {
+            cmp = -1;
+        } else {
+            cmp = 0;
+        }
+        return cmp;
+    }
+
+    public String toString() {
+        return String.format("(v=%d, w=%d, weight=%.2f)", v, w, weight);
+    }
+
+}
+
+class WeightedGraph {
+
+    public static void test() {
+        WeightedGraph g1 = new WeightedGraph(5);
+        g1.addEdge(new Edge(0, 1, 0.5));
+        g1.addEdge(new Edge(0, 2, 2));
+        g1.addEdge(new Edge(2, 4, 1));
+
+        System.out.println("所有的边为: " + g1.edges());
+    }
+
+    private final int V;
+    private int E;
+    private Queue<Edge>[] adj;
+
+    @SuppressWarnings("unchecked")
+    WeightedGraph(int V) {
+        this.V = V;
+        this.E = 0;
+        this.adj = new Queue[V];
+        for (int i = 0; i < V; i++) {
+            this.adj[i] = new LinkedList<Edge>();
+        }
+    }
+
+    public int V() {
+        return V;
+    }
+
+    public int E() {
+        return E;
+    }
+
+    public void addEdge(Edge e) {
+        int v = e.either();
+        int w = e.other(v);
+
+        adj[v].add(e);
+        adj[w].add(e);
+    }
+
+    public Queue<Edge> adj(int w) {
+        return adj[w];
+    }
+
+    public Queue<Edge> edges() {
+        Queue<Edge> allEdges = new LinkedList<Edge>();
+        for (int v = 0; v < V; v++) {
+            for (Edge e : adj(v)) {
+                int w = e.other(v);
+                if (w > v) {
+                    allEdges.add(e);
+                }
+            }
+        }
+        return allEdges;
     }
 }
