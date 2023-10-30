@@ -40,6 +40,74 @@ public class PracticeGraph {
         System.out.println("测试加权有向图...");
         WeightedDigraph.test();
         System.out.println("===============================================================");
+        System.out.println("测试Dijkstra算法...");
+        DijkstraSP.test();
+        System.out.println("===============================================================");
+    }
+}
+
+/* 基于PriorityQueue和HashMap的MinIndexPriorityQueue */
+class MinIndexPriorityQueue<T extends Comparable<T>> {
+    private PriorityQueue<Element> pq;
+    private Map<Integer, Element> map;
+
+    private class Element implements Comparable<Element> {
+        public T value;
+        public int key;
+
+        Element(int key, T value) {
+            this.key = key;
+            this.value = value;
+        }
+
+        @Override
+        public int compareTo(Element that) {
+            return this.value.compareTo(that.value);
+        }
+    }
+
+    MinIndexPriorityQueue() {
+        this.pq = new PriorityQueue<Element>();
+        this.map = new HashMap<>();
+    }
+
+    public boolean isEmpty() {
+        return pq.isEmpty();
+    }
+
+    public T getValue(int key) {
+        return map.get(key).value;
+    }
+
+    public boolean containsKey(int key) {
+        return map.containsKey(key);
+    }
+
+    void insert(int key, T value) {
+        Element ele = new Element(key, value);
+        this.map.put(key, ele);
+        this.pq.add(ele);
+    }
+
+    void update(int key, T value) {
+        Element oldEle = this.map.get(key);
+        Element newEle = new Element(key, value);
+        this.pq.remove(oldEle);
+        this.pq.add(newEle);
+        this.map.put(key, newEle);
+    }
+
+    public T getMinValue() {
+        if (isEmpty()) {
+            throw new IllegalStateException("Queue is empty");
+        }
+        return pq.peek().value;
+    }
+
+    int delMin() {
+        Element ele = this.pq.poll();
+        this.map.remove(ele.key);
+        return ele.key;
     }
 }
 
@@ -565,70 +633,6 @@ class PrimMST {
         System.out.println(primMST.edges());
     }
 
-    class MinIndexPriorityQueue<T extends Comparable<T>> {
-        private PriorityQueue<Element> pq;
-        private Map<Integer, Element> map;
-
-        private class Element implements Comparable<Element> {
-            public T value;
-            public int key;
-
-            Element(int key, T value) {
-                this.key = key;
-                this.value = value;
-            }
-
-            @Override
-            public int compareTo(Element that) {
-                return this.value.compareTo(that.value);
-            }
-        }
-
-        MinIndexPriorityQueue() {
-            this.pq = new PriorityQueue<Element>();
-            this.map = new HashMap<>();
-        }
-
-        public boolean isEmpty() {
-            return pq.isEmpty();
-        }
-
-        public T getValue(int key) {
-            return map.get(key).value;
-        }
-
-        public boolean containsKey(int key) {
-            return map.containsKey(key);
-        }
-
-        void insert(int key, T value) {
-            Element ele = new Element(key, value);
-            this.map.put(key, ele);
-            this.pq.add(ele);
-        }
-
-        void update(int key, T value) {
-            Element oldEle = this.map.get(key);
-            Element newEle = new Element(key, value);
-            this.pq.remove(oldEle);
-            this.pq.add(newEle);
-            this.map.put(key, newEle);
-        }
-
-        public T getMinValue() {
-            if (isEmpty()) {
-                throw new IllegalStateException("Queue is empty");
-            }
-            return pq.peek().value;
-        }
-
-        int delMin() {
-            Element ele = this.pq.poll();
-            this.map.remove(ele.key);
-            return ele.key;
-        }
-    }
-
     private boolean[] marked;
     private MinIndexPriorityQueue<Edge> pq;
     private Queue<Edge> edges;
@@ -848,7 +852,7 @@ class WeightedDigraph {
     }
 
     public Queue<DirectedEdge> adj(int v) {
-        return this.adj(v);
+        return this.adj[v];
     }
 
     public Queue<DirectedEdge> edges() {
@@ -859,5 +863,66 @@ class WeightedDigraph {
             }
         }
         return queue;
+    }
+}
+
+class DijkstraSP {
+    public static void test() {
+        WeightedDigraph graph = WeightedDigraph.get_test_graph();
+        DijkstraSP sp = new DijkstraSP(graph, 0);
+        System.out.println(sp.pathTo(6));
+    }
+
+    private DirectedEdge[] edgeTo;
+    private double[] distTo;
+    private MinIndexPriorityQueue<Double> pq;
+
+    public DijkstraSP(WeightedDigraph G, int s) {
+        this.edgeTo = new DirectedEdge[G.V()];
+        this.distTo = new double[G.V()];
+        this.pq = new MinIndexPriorityQueue<Double>();
+        for (int i = 0; i < G.V(); i++) {
+            this.distTo[i] = Double.POSITIVE_INFINITY;
+        }
+
+        this.distTo[0] = 0;
+        this.pq.insert(0, 0.0);
+        while (!this.pq.isEmpty()) {
+            relax(G, pq.delMin());
+        }
+    }
+
+    private void relax(WeightedDigraph G, int v) {
+        for (DirectedEdge e : G.adj(v)) {
+            int w = e.to();
+            double weight = e.weight();
+            if (this.distTo[w] > this.distTo[v] + weight) {
+                // 说明新的路径优于旧的路径，需要松弛
+                this.edgeTo[w] = e;
+                this.distTo[w] = this.distTo[v] + weight;
+                this.pq.update(w, this.distTo[v] + weight);
+            }
+        }
+    }
+
+    public double distTo(int v) {
+        return this.distTo[v];
+    }
+
+    public boolean hasPathTo(int v) {
+        return this.distTo[v] < Double.POSITIVE_INFINITY;
+    }
+
+    public Queue<DirectedEdge> pathTo(int v) {
+        Queue<DirectedEdge> path = new LinkedList<>();
+        if (!hasPathTo(v)) {
+            return null;
+        }
+        while (v != 0) {
+            DirectedEdge edge = edgeTo[v];
+            v = edge.from();
+            path.add(edge);
+        }
+        return path;
     }
 }
