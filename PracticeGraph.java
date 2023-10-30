@@ -37,6 +37,9 @@ public class PracticeGraph {
         System.out.println("测试KruskalMST...");
         KruskalMST.test();
         System.out.println("===============================================================");
+        System.out.println("测试加权有向图...");
+        WeightedDigraph.test();
+        System.out.println("===============================================================");
     }
 }
 
@@ -757,4 +760,84 @@ class KruskalMST {
         return mst;
     }
 
+}
+
+class DirectedEdge {
+    private final int v;
+    private final int w;
+    private final double weight;
+
+    DirectedEdge(int v, int w, double weight) {
+        this.v = v;
+        this.w = w;
+        this.weight = weight;
+    }
+
+    public double weight() {
+        return weight;
+    }
+
+    public int from() {
+        return v;
+    }
+
+    public int to() {
+        return w;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%d->%d(%.2f)", v, w, weight);
+    }
+}
+
+class WeightedDigraph {
+    public static void test() {
+        WeightedDigraph g = new WeightedDigraph(5);
+        g.addEdge(new DirectedEdge(0, 1, 0.2));
+        g.addEdge(new DirectedEdge(1, 2, 0.24));
+        g.addEdge(new DirectedEdge(3, 4, 0.3));
+        System.out.println(g.edges());
+    }
+
+    private final int V;
+    private int E;
+    private Queue<DirectedEdge>[] adj;
+
+    @SuppressWarnings("unchecked")
+    WeightedDigraph(int V) {
+        this.V = V;
+        this.E = 0;
+        this.adj = new LinkedList[V];
+        for (int i = 0; i < V; i++) {
+            this.adj[i] = new LinkedList<>();
+        }
+    }
+
+    public int V() {
+        return V;
+    }
+
+    public int E() {
+        return E;
+    }
+
+    public void addEdge(DirectedEdge e) {
+        this.adj[e.from()].add(e);
+        E++;
+    }
+
+    public Queue<DirectedEdge> adj(int v) {
+        return this.adj(v);
+    }
+
+    public Queue<DirectedEdge> edges() {
+        Queue<DirectedEdge> queue = new LinkedList<DirectedEdge>();
+        for (int v = 0; v < V; v++) {
+            for (DirectedEdge e : this.adj[v]) {
+                queue.add(e);
+            }
+        }
+        return queue;
+    }
 }
