@@ -34,6 +34,9 @@ public class PracticeGraph {
         System.out.println("测试PrimMST...");
         PrimMST.test();
         System.out.println("===============================================================");
+        System.out.println("测试KruskalMST...");
+        KruskalMST.test();
+        System.out.println("===============================================================");
     }
 }
 
@@ -288,6 +291,7 @@ class Digraph {
 
     public void addEdge(int v, int w) {
         adj[v].add(w);
+        E++;
     }
 
     public Queue<Integer> adj(int v) {
@@ -529,6 +533,8 @@ class WeightedGraph {
 
         adj[v].add(e);
         adj[w].add(e);
+
+        E++;
     }
 
     public Queue<Edge> adj(int w) {
@@ -661,4 +667,94 @@ class PrimMST {
     public Queue<Edge> edges() {
         return edges;
     }
+}
+
+class KruskalMST {
+
+    public static void test() {
+        WeightedGraph g = WeightedGraph.get_test_graph();
+        KruskalMST kruskalMST = new KruskalMST(g);
+        System.out.println(kruskalMST.edges());
+    }
+
+    class UnionFind {
+        private int count;
+        private int[] parent;
+        private int[] rank;
+
+        UnionFind(int N) {
+            this.count = N;
+            this.parent = new int[N];
+            this.rank = new int[N];
+
+            for (int i = 0; i < N; i++) {
+                this.parent[i] = i;
+                this.rank[i] = 1;
+            }
+        }
+
+        int count() {
+            return this.count;
+        }
+
+        int find(int p) {
+            while (parent[p] != p) {
+                p = parent[p];
+            }
+            return p;
+        }
+
+        boolean connected(int p, int q) {
+            return find(p) == find(q);
+        }
+
+        void union(int p, int q) {
+            int pRoot = find(p);
+            int qRoot = find(q);
+
+            if (qRoot == pRoot) {
+                return;
+            }
+
+            if (rank[pRoot] < rank[qRoot]) {
+                parent[pRoot] = qRoot;
+                rank[qRoot] = rank[pRoot] + 1 <= rank[qRoot] ? rank[qRoot] : rank[pRoot] + 1;
+            } else {
+                parent[qRoot] = pRoot;
+                rank[pRoot] = rank[qRoot] + 1 <= rank[pRoot] ? rank[pRoot] : rank[qRoot] + 1;
+            }
+            this.count--;
+        }
+    }
+
+    private Queue<Edge> mst;
+    private UnionFind uf;
+    private PriorityQueue<Edge> pq;
+
+    KruskalMST(WeightedGraph g) {
+        this.mst = new LinkedList<Edge>();
+        this.uf = new UnionFind(g.V());
+        this.pq = new PriorityQueue<Edge>();
+
+        for (Edge e : g.edges()) {
+            pq.add(e);
+        }
+
+        while (uf.count() > 1) {
+            Edge e = pq.poll();
+            int v = e.either();
+            int w = e.other(v);
+            if (uf.connected(v, w)) {
+                continue;
+            } else {
+                uf.union(v, w);
+                mst.add(e);
+            }
+        }
+    }
+
+    public Queue<Edge> edges() {
+        return mst;
+    }
+
 }
