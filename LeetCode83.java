@@ -1,5 +1,7 @@
 // https://leetcode.cn/problems/remove-duplicates-from-sorted-list/description/
 
+import LeetCode.util.ListNode;
+
 public class LeetCode83 {
     public static void main(String[] args) {
 
