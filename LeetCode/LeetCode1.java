@@ -1,4 +1,6 @@
-// https://leetcode.cn/problems/two-sum/description/
+/* 
+ * 问题描述: https://leetcode.cn/problems/two-sum/description/
+ */
 
 import java.util.Map;
 import java.util.HashMap;
