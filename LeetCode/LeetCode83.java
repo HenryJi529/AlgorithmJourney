@@ -1,4 +1,6 @@
-// https://leetcode.cn/problems/remove-duplicates-from-sorted-list/description/
+/* 
+ * 问题描述: https://leetcode.cn/problems/remove-duplicates-from-sorted-list/description/
+ */
 
 import util.ListNode;
 
