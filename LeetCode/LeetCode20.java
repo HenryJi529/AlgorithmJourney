@@ -1,3 +1,7 @@
+/* 
+ * 问题描述: https://leetcode.cn/problems/valid-parentheses/submissions/ 
+ */
+
 import java.util.Stack;
 import java.util.HashMap;
 
