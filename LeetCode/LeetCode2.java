@@ -1,4 +1,4 @@
-import LeetCode.util.ListNode;
+import util.ListNode;
 
 public class LeetCode2 {
     public static void main(String[] args) {

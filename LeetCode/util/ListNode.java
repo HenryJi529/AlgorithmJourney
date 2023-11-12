@@ -1,4 +1,4 @@
-package LeetCode.util;
+package util;
 
 public class ListNode {
     public int val;

@@ -1,6 +1,3 @@
-from utils import colored_print
-
-
 class SequentialList:
     def __init__(self, capacity: int):
         self.eles = [None] * capacity
@@ -198,9 +195,9 @@ class LinkedList:
 
 
 if __name__ == "__main__":
-    colored_print("Test SequentialList...")
+    print("Test SequentialList...")
     SequentialList.test()
-    colored_print("=" * 90)
-    colored_print("Test LinkedList...")
+    print("=" * 90)
+    print("Test LinkedList...")
     LinkedList.test()
-    colored_print("=" * 90)
+    print("=" * 90)
