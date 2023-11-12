@@ -1,4 +1,6 @@
-// https://leetcode.cn/problems/sqrtx/description/
+/* 
+ * 问题描述: https://leetcode.cn/problems/sqrtx/description/ 
+ */
 
 public class LeetCode69 {
 
