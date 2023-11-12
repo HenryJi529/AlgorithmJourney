@@ -1,6 +1,7 @@
-// https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/
-
-// 思路: 滑动窗口
+/* 
+ * 问题描述: https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/
+ * 解题思路: 滑动窗口
+ */
 
 import java.util.HashSet;
 
