@@ -8,14 +8,14 @@ public class LeetCode70 {
     public static void main(String[] args) {
         // 输入：n = 2
         // 输出：2
-        System.out.println(new Solution().climbStairs(2));
+        System.out.println(new Solution70().climbStairs(2));
         // 输入：n = 3
         // 输出：3
-        System.out.println(new Solution().climbStairs(3));
+        System.out.println(new Solution70().climbStairs(3));
     }
 }
 
-class Solution {
+class Solution70 {
     private HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
 
     public int climbStairs(int n) {

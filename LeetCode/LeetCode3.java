@@ -7,13 +7,13 @@ import java.util.HashSet;
 
 public class LeetCode3 {
     public static void main(String[] args) {
-        System.out.println(new Solution().lengthOfLongestSubstring("abcabcbb"));
-        System.out.println(new Solution().lengthOfLongestSubstring("bbbbb"));
-        System.out.println(new Solution().lengthOfLongestSubstring("pwwkew"));
+        System.out.println(new Solution3().lengthOfLongestSubstring("abcabcbb"));
+        System.out.println(new Solution3().lengthOfLongestSubstring("bbbbb"));
+        System.out.println(new Solution3().lengthOfLongestSubstring("pwwkew"));
     }
 }
 
-class Solution {
+class Solution3 {
     public int lengthOfLongestSubstring(String s) {
         int ans = 0;
         int rk = -1;

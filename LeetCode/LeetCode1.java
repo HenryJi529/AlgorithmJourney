@@ -9,13 +9,13 @@ public class LeetCode1 {
     public static void main(String[] args) {
         int[] nums = { 2, 7, 11, 15 };
         int target = 9;
-        for (int n : new Solution2().twoSum(nums, target)) {
+        for (int n : new Solution1_2().twoSum(nums, target)) {
             System.out.println(n);
         }
     }
 }
 
-class Solution1 {
+class Solution1_1 {
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
@@ -28,7 +28,7 @@ class Solution1 {
     }
 }
 
-class Solution2 {
+class Solution1_2 {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> hashtable = new HashMap<Integer, Integer>();
         for (int i = 0; i < nums.length; ++i) {

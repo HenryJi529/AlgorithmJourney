@@ -8,14 +8,14 @@ public class LeetCode198 {
     public static void main(String[] args) {
         // 输入：[1,2,3,1]
         // 输出：4
-        System.out.println(new Solution().rob(new int[] { 1, 2, 3, 1 }));
+        System.out.println(new Solution198().rob(new int[] { 1, 2, 3, 1 }));
         // 输入：[2,7,9,3,1]
         // 输出：12
-        System.out.println(new Solution().rob(new int[] { 2, 7, 9, 3, 1 }));
+        System.out.println(new Solution198().rob(new int[] { 2, 7, 9, 3, 1 }));
     }
 }
 
-class Solution {
+class Solution198 {
     private int[] money;
     private int N;
     private HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();

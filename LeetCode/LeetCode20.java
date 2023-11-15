@@ -7,13 +7,13 @@ import java.util.HashMap;
 
 public class LeetCode20 {
     public static void main(String[] args) {
-        System.out.println(new Solution().isValid("()"));
-        System.out.println(new Solution().isValid("()[]{}"));
-        System.out.println(new Solution().isValid("(]"));
+        System.out.println(new Solution20().isValid("()"));
+        System.out.println(new Solution20().isValid("()[]{}"));
+        System.out.println(new Solution20().isValid("(]"));
     }
 }
 
-class Solution {
+class Solution20 {
     public boolean isValid(String s) {
         if (s.length() % 2 == 1) {
             return false;

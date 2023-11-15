@@ -9,19 +9,19 @@ public class LeetCode93 {
     public static void main(String[] args) {
         // 输入：s = "25525511135"
         // 输出：["255.255.11.135","255.255.111.35"]
-        System.out.println(new Solution().restoreIpAddresses("25525511135"));
+        System.out.println(new Solution93().restoreIpAddresses("25525511135"));
 
         // 输入：s = "0000"
         // 输出：["0.0.0.0"]
-        System.out.println(new Solution().restoreIpAddresses("0000"));
+        System.out.println(new Solution93().restoreIpAddresses("0000"));
 
         // 输入：s = "101023"
         // 输出：["1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"]
-        System.out.println(new Solution().restoreIpAddresses("101023"));
+        System.out.println(new Solution93().restoreIpAddresses("101023"));
     }
 }
 
-class Solution {
+class Solution93 {
     public List<String> restoreIpAddresses(String s) {
         ArrayList<String> list = new ArrayList<String>();
         int N = s.length();

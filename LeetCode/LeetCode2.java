@@ -16,7 +16,7 @@ public class LeetCode2 {
         head2.next.next = new ListNode(4, null);
         System.out.println(head1);
         System.out.println(head2);
-        head3 = new Solution().addTwoNumbers(head1, head2);
+        head3 = new Solution2().addTwoNumbers(head1, head2);
         System.out.println(head3);
         System.out.println("================================================");
 
@@ -24,7 +24,7 @@ public class LeetCode2 {
         head2 = new ListNode(0, null);
         System.out.println(head1);
         System.out.println(head2);
-        head3 = new Solution().addTwoNumbers(head1, head2);
+        head3 = new Solution2().addTwoNumbers(head1, head2);
         System.out.println(head3);
         System.out.println("================================================");
 
@@ -41,13 +41,13 @@ public class LeetCode2 {
         head2.next.next.next = new ListNode(9, null);
         System.out.println(head1);
         System.out.println(head2);
-        head3 = new Solution().addTwoNumbers(head1, head2);
+        head3 = new Solution2().addTwoNumbers(head1, head2);
         System.out.println(head3);
         System.out.println("================================================");
     }
 }
 
-class Solution {
+class Solution2 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode l3 = new ListNode(0);
         ListNode currentNode1 = l1;

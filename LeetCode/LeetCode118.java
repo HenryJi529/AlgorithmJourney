@@ -12,16 +12,16 @@ public class LeetCode118 {
         List<List<Integer>> nestedList;
         // 输入: numRows = 5
         // 输出: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
-        nestedList = new Solution().generate(5);
+        nestedList = new Solution118().generate(5);
         PrintUtil.printNestedArray(nestedList);
         // 输入: numRows = 1
         // 输出: [[1]]
-        nestedList = new Solution().generate(1);
+        nestedList = new Solution118().generate(1);
         PrintUtil.printNestedArray(nestedList);
     }
 }
 
-class Solution {
+class Solution118 {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> nestedList = new ArrayList<List<Integer>>();
         List<Integer> row;

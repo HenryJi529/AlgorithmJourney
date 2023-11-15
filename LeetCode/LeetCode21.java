@@ -17,7 +17,7 @@ public class LeetCode21 {
         l2 = new ListNode(1);
         l2.next = new ListNode(3);
         l2.next.next = new ListNode(4);
-        l3 = new Solution().mergeTwoLists(l1, l2);
+        l3 = new Solution21().mergeTwoLists(l1, l2);
         System.out.println(l3);
         System.out.println("================================================");
 
@@ -25,7 +25,7 @@ public class LeetCode21 {
         // 输出：[]
         l1 = new ListNode();
         l2 = new ListNode();
-        l3 = new Solution().mergeTwoLists(l1, l2);
+        l3 = new Solution21().mergeTwoLists(l1, l2);
         System.out.println(l3);
         System.out.println("================================================");
 
@@ -33,13 +33,13 @@ public class LeetCode21 {
         // 输出：[0]
         l1 = new ListNode();
         l2 = new ListNode(0);
-        l3 = new Solution().mergeTwoLists(l1, l2);
+        l3 = new Solution21().mergeTwoLists(l1, l2);
         System.out.println(l3);
         System.out.println("================================================");
     }
 }
 
-class Solution {
+class Solution21 {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode list3 = new ListNode();
 

@@ -11,7 +11,7 @@ public class LeetCode83 {
         head1.next = new ListNode(1, null);
         head1.next.next = new ListNode(2, null);
         System.out.println(head1);
-        new Solution().deleteDuplicates(head1);
+        new Solution83().deleteDuplicates(head1);
         System.out.println(head1);
         System.out.println("================================================");
 
@@ -21,13 +21,13 @@ public class LeetCode83 {
         head2.next.next.next = new ListNode(3, null);
         head2.next.next.next.next = new ListNode(3, null);
         System.out.println(head2);
-        new Solution().deleteDuplicates(head2);
+        new Solution83().deleteDuplicates(head2);
         System.out.println(head2);
         System.out.println("================================================");
 
         ListNode head3 = new ListNode();
         System.out.println(head3);
-        new Solution().deleteDuplicates(head3);
+        new Solution83().deleteDuplicates(head3);
         System.out.println(head3);
         System.out.println("================================================");
 
@@ -35,13 +35,13 @@ public class LeetCode83 {
         head4.next = new ListNode(1, null);
         head4.next.next = new ListNode(1, null);
         System.out.println(head4);
-        new Solution().deleteDuplicates(head4);
+        new Solution83().deleteDuplicates(head4);
         System.out.println(head4);
         System.out.println("================================================");
     }
 }
 
-class Solution {
+class Solution83 {
     public ListNode deleteDuplicates(ListNode head) {
         ListNode node = head;
         while (node != null && node.next != null) {

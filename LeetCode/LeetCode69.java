@@ -8,11 +8,11 @@ public class LeetCode69 {
         int x = 2147395600;
         // int x = 2147483647;
         // int x = 10;
-        System.out.println((new Solution4()).mySqrt(x));
+        System.out.println((new Solution69_4()).mySqrt(x));
     }
 }
 
-class Solution1 {
+class Solution69_1 {
     public int mySqrt(int x) {
         int result = 0;
         while (true) {
@@ -28,7 +28,7 @@ class Solution1 {
     }
 }
 
-class Solution2 {
+class Solution69_2 {
     public int mySqrt(int x) {
         if (x == 0) {
             return 0;
@@ -45,7 +45,7 @@ class Solution2 {
     }
 }
 
-class Solution3 {
+class Solution69_3 {
     public int mySqrt(int x) {
         int l = 0, r = x, ans = -1;
         while (l <= r) {
@@ -61,7 +61,7 @@ class Solution3 {
     }
 }
 
-class Solution4 {
+class Solution69_4 {
     public int mySqrt(int x) {
         if (x == 0) {
             return 0;
