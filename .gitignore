@@ -1,9 +1,8 @@
-**/__pycache__/
+.DS_Store
 
 .VSCodeCounter/
+tempCodeRunnerFile.java
 
+**/__pycache__/
 *.class
-
 test.*
-
-.DS_Store
