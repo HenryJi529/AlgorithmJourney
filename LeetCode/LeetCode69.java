@@ -1,39 +1,47 @@
 /* 
  * 问题描述: https://leetcode.cn/problems/sqrtx/description/ 
+ * 解题思路: 二分查找、数学公式替换、牛顿法
  */
 
 public class LeetCode69 {
 
     public static void main(String[] args) {
-        int x = 2147395600;
-        // int x = 2147483647;
-        // int x = 10;
-        System.out.println((new Solution69_4()).mySqrt(x));
+        // 输入：x = 4
+        // 输出：2
+        System.out.println(new Solution69_1().mySqrt(4));
+
+        // 输入：x = 8
+        // 输出：2
+        System.out.println(new Solution69_1().mySqrt(8));
     }
 }
 
 class Solution69_1 {
     public int mySqrt(int x) {
-        int result = 0;
-        while (true) {
-            if (result * result <= x && (result + 1) * (result + 1) >= x) {
-                if ((result + 1) * (result + 1) == x) {
-                    return result + 1;
-                } else {
-                    return result;
-                }
+        int l = 0, r = x;
+        int mid;
+        int ans = -1;
+
+        while (l <= r) {
+            mid = l + (r - l) / 2;
+            if ((long) mid * mid <= x) {
+                ans = mid;
+                l = mid + 1;
+            } else {
+                r = mid - 1;
             }
-            result++;
         }
+        return ans;
     }
 }
 
 class Solution69_2 {
+    // 「袖珍计算器算法」是一种用指数函数exp⁡和对数函数ln代替平方根函数的方法。我们通过有限的可以使用的数学函数，得到我们想要计算的结果。
     public int mySqrt(int x) {
         if (x == 0) {
             return 0;
         }
-        int ans = (int) Math.exp(0.5 * Math.log(x));
+        int ans = (int) Math.exp(0.5 * Math.log(x)); // 浮点数计算会带来误差，需要进一步处理
 
         if ((ans + 1) * (ans + 1) == x) {
             return ans + 1;
@@ -46,42 +54,20 @@ class Solution69_2 {
 }
 
 class Solution69_3 {
-    public int mySqrt(int x) {
-        int l = 0, r = x, ans = -1;
-        while (l <= r) {
-            int m = l + (r - l) / 2;
-            if ((long) m * m <= x) {
-                ans = m;
-                l = m + 1;
-            } else {
-                r = m - 1;
-            }
-        }
-        return ans;
-    }
-}
-
-class Solution69_4 {
+    // 牛顿迭代法
     public int mySqrt(int x) {
         if (x == 0) {
             return 0;
         }
-        if (x == 1) {
-            return 1;
+
+        double C = x, x0 = x;
+        while (true) {
+            double xi = 0.5 * (x0 + C / x0);
+            if (Math.abs(x0 - xi) < 1e-7) {
+                break;
+            }
+            x0 = xi;
         }
-        int temp = x;
-        while ((long) temp * temp > x) {
-            temp = (int) (temp / 2 + (0.5 * (x / temp)));
-        }
-        if ((long) temp * temp <= x && (long) (temp + 1) * (temp + 1) > x) {
-            return temp;
-        }
-        if ((long) (temp - 1) * (temp - 1) <= x && (long) (temp) * (temp) > x) {
-            return temp - 1;
-        }
-        if ((long) (temp + 1) * (temp + 1) <= x && (long) (temp + 2) * (temp + 2) > x) {
-            return temp + 1;
-        }
-        return 0;
+        return (int) x0;
     }
 }
