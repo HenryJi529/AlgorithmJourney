@@ -1,5 +1,11 @@
 # LeetCode刷题列表(按题型分类)
 
+
+- 双指针:
+    1. [141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/description/)
+        - 思路: 快慢指针或哈希表
+        - 代码: [LeetCode141.java](./LeetCode141.java)
+
 - 贪心算法:
     1. [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/description/):
         - 代码: [LeetCode11.java](./LeetCode11.java)
