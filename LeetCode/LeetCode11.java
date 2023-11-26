@@ -1,7 +1,3 @@
-/*
- * 问题描述: https://leetcode.cn/problems/container-with-most-water/description/
- */
-
 public class LeetCode11 {
     public static void main(String[] args) {
         // 输入：[1,8,6,2,5,4,8,3,7]
