@@ -1,7 +1,3 @@
-/* 
- * 问题描述: https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/
- */
-
 public class LeetCode1011 {
     public static void main(String[] args) {
         int[] weights;
