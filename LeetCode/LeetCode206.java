@@ -44,10 +44,9 @@ class Solution206 {
         if (head == null || head.next == null) {
             return head;
         }
-        ListNode preNode = reverseList(head.next);
-        // preNode 一直是最后一个元素
+        ListNode newFirstNode = reverseList(head.next);
         head.next.next = head;
         head.next = null;
-        return preNode;
+        return newFirstNode;
     }
 }
