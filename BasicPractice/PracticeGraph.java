@@ -47,7 +47,7 @@ public class PracticeGraph {
 }
 
 /* 基于PriorityQueue和HashMap的MinIndexPriorityQueue */
-class MinIndexPriorityQueue<T extends Comparable<T>> {
+class MyMinIndexPriorityQueue<T extends Comparable<T>> {
     private PriorityQueue<Element> pq;
     private Map<Integer, Element> map;
 
@@ -66,7 +66,7 @@ class MinIndexPriorityQueue<T extends Comparable<T>> {
         }
     }
 
-    MinIndexPriorityQueue() {
+    MyMinIndexPriorityQueue() {
         this.pq = new PriorityQueue<Element>();
         this.map = new HashMap<>();
     }
@@ -634,13 +634,13 @@ class PrimMST {
     }
 
     private boolean[] marked;
-    private MinIndexPriorityQueue<Edge> pq;
+    private MyMinIndexPriorityQueue<Edge> pq;
     private Queue<Edge> edges;
 
     PrimMST(WeightedGraph G) {
         this.edges = new LinkedList<Edge>();
         this.marked = new boolean[G.V()];
-        this.pq = new MinIndexPriorityQueue<Edge>();
+        this.pq = new MyMinIndexPriorityQueue<Edge>();
 
         visit(G, 0);
     }
@@ -875,12 +875,12 @@ class DijkstraSP {
 
     private DirectedEdge[] edgeTo;
     private double[] distTo;
-    private MinIndexPriorityQueue<Double> pq;
+    private MyMinIndexPriorityQueue<Double> pq;
 
     public DijkstraSP(WeightedDigraph G, int s) {
         this.edgeTo = new DirectedEdge[G.V()];
         this.distTo = new double[G.V()];
-        this.pq = new MinIndexPriorityQueue<Double>();
+        this.pq = new MyMinIndexPriorityQueue<Double>();
         for (int i = 0; i < G.V(); i++) {
             this.distTo[i] = Double.POSITIVE_INFINITY;
         }
