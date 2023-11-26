@@ -1,8 +1,3 @@
-/*
- * 问题描述: https://leetcode.cn/problems/reverse-linked-list/
- * 解题思路: 递归(需要保证返回值为末端元素)
- */
-
 import util.ListNode;
 
 public class LeetCode206 {
