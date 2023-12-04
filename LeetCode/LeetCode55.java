@@ -1,8 +1,3 @@
-/* 
- * 问题描述: https://leetcode.cn/problems/jump-game/description/
- * 解题思路: 其实不用动态规划，直接使用贪心算法更新最远位置就行
- */
-
 public class LeetCode55 {
     public static void main(String[] args) {
         // 输入：nums = [2,3,1,1,4]

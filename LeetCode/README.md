@@ -10,7 +10,7 @@
     1. [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/description/):
         - 代码: [LeetCode11.java](./LeetCode11.java)
 
-- 二分查找: 
+- 二分查找:
     1. [1011.在D天内送达包裹的能力](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/):
         - 思路: 先构造一个判别能否运送完成的函数，再确定二分的上下界，最后进行二分查找
         - 代码: [LeetCode1011.java](./LeetCode1011.java)
@@ -23,3 +23,8 @@
 - 栈:
     1. [20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/)
         - 代码: [LeetCode20.java](./LeetCode20.java)
+
+- 动态规划:
+    1. [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/description/)
+        - 思路: 其实不用动态规划，直接使用贪心算法更新最远位置就行
+        - 代码: [LeetCode55.java](./LeetCode55.java)
