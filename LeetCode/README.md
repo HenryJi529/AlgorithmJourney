@@ -19,3 +19,7 @@
     1. [206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/)
         - 思路: 注意需要保证返回值为末端元素
         - 代码: [LeetCode206.java](./LeetCode206.java)
+
+- 栈:
+    1. [20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/)
+        - 代码: [LeetCode20.java](./LeetCode20.java)
