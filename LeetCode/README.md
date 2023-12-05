@@ -11,6 +11,9 @@
         - 代码: [LeetCode11.java](./LeetCode11.java)
 
 - 二分查找:
+    - [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/):
+        - 思路: 两次二分查找
+        - 代码: [LeetCode34.java](./LeetCode34.java)
     - [1011.在D天内送达包裹的能力](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/):
         - 思路: 先构造一个判别能否运送完成的函数，再确定二分的上下界，最后进行二分查找
         - 代码: [LeetCode1011.java](./LeetCode1011.java)
