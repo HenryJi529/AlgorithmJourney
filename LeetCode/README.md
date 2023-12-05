@@ -34,6 +34,9 @@
 - 并查集:
     - [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/)
         - 代码: [LeetCode547.java](./LeetCode547.java)
+    - [1584. 连接所有点的最小费用](https://leetcode.cn/problems/min-cost-to-connect-all-points/)
+        - 思路: 用并查集解决最小生成树问题
+        - 代码: [LeetCode1584.java](./LeetCode1584.java)
     - [1971. 寻找图中是否存在路径](https://leetcode.cn/problems/find-if-path-exists-in-graph/)
         - 代码: [LeetCode1971.java](./LeetCode1971.java)
 
