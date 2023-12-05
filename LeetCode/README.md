@@ -31,6 +31,10 @@
     - [735. 小行星碰撞](https://leetcode.cn/problems/asteroid-collision/)
         - 代码: [LeetCode735.java](./LeetCode735.java)
 
+- 并查集:
+    - [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/)
+        - 代码: [LeetCode547.java](./LeetCode547.java)
+
 - 动态规划:
     - [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/description/)
         - 思路: 其实不用动态规划，直接使用贪心算法更新最远位置就行
