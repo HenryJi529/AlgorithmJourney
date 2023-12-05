@@ -885,8 +885,8 @@ class DijkstraSP {
             this.distTo[i] = Double.POSITIVE_INFINITY;
         }
 
-        this.distTo[0] = 0;
-        this.pq.insert(0, 0.0);
+        this.distTo[s] = 0;
+        this.pq.insert(s, 0.0);
         while (!this.pq.isEmpty()) {
             relax(G, pq.delMin());
         }
