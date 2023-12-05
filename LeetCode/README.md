@@ -34,6 +34,8 @@
 - 并查集:
     - [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/)
         - 代码: [LeetCode547.java](./LeetCode547.java)
+    - [1971. 寻找图中是否存在路径](https://leetcode.cn/problems/find-if-path-exists-in-graph/)
+        - 代码: [LeetCode1971.java](./LeetCode1971.java)
 
 - 动态规划:
     - [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/description/)

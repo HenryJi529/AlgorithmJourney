@@ -1,8 +1,3 @@
-/* 
- * 问题描述: https://leetcode.cn/problems/find-if-path-exists-in-graph/
- * 解题思路: 并查集简单运用
- */
-
 public class LeetCode1971 {
     public static void main(String[] args) {
         int n;
