@@ -31,6 +31,10 @@
     - [735. 小行星碰撞](https://leetcode.cn/problems/asteroid-collision/)
         - 代码: [LeetCode735.java](./LeetCode735.java)
 
+- 二叉树:
+    - [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/)
+        - 代码: [LeetCode144.java](./LeetCode144.java)
+
 - 并查集:
     - [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/)
         - 代码: [LeetCode547.java](./LeetCode547.java)
