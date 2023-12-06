@@ -28,6 +28,8 @@
         - 代码: [LeetCode20.java](./LeetCode20.java)
     - [84. 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/)
         - 代码: [LeetCode84.java](./LeetCode84.java)
+    - [394. 字符串解码](https://leetcode.cn/problems/decode-string/)
+        - 代码: [LeetCode394.java](./LeetCode394.java)
     - [735. 小行星碰撞](https://leetcode.cn/problems/asteroid-collision/)
         - 代码: [LeetCode735.java](./LeetCode735.java)
 
