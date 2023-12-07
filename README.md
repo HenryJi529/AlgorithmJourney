@@ -41,6 +41,9 @@
 - 二叉树:
     - [94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)
         - 代码: [LeetCode94.java](./LeetCode/LeetCode94.java)
+    - [105. 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+        - 思路: 根据中序遍历确定左右子树，根据前序遍历确定根节点
+        - 代码: [LeetCode105.java](./LeetCode/LeetCode105.java)
     - [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/)
         - 代码: [LeetCode144.java](./LeetCode/LeetCode144.java)
 
