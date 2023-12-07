@@ -39,6 +39,8 @@
         - 代码: [LeetCode735.java](./LeetCode/LeetCode735.java)
 
 - 二叉树:
+    - [94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)
+        - 代码: [LeetCode94.java](./LeetCode/LeetCode94.java)
     - [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/)
         - 代码: [LeetCode144.java](./LeetCode/LeetCode144.java)
 
