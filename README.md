@@ -57,6 +57,11 @@
         - 代码: [LeetCode1971.java](./LeetCode/LeetCode1971.java)
 
 - 动态规划:
-    - [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/description/)
+    - [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/)
         - 思路: 其实不用动态规划，直接使用贪心算法更新最远位置就行
         - 代码: [LeetCode55.java](./LeetCode/LeetCode55.java)
+    - [115. 不同的子序列](https://leetcode.cn/problems/distinct-subsequences/)
+        - 思路: 二维动态规划
+        - 代码: [LeetCode115.java](./LeetCode/LeetCode115.java)
+
+        
