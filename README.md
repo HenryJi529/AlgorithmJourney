@@ -47,6 +47,10 @@
     - [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/)
         - 代码: [LeetCode144.java](./LeetCode/LeetCode144.java)
 
+- 字符串:
+    - [165. 比较版本号](https://leetcode.cn/problems/compare-version-numbers/)
+        - 代码: [LeetCode165.java](./LeetCode/LeetCode165.java)
+
 - 并查集:
     - [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/)
         - 代码: [LeetCode547.java](./LeetCode/LeetCode547.java)
