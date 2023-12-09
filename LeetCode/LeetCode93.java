@@ -1,7 +1,3 @@
-/* 
- * 问题描述: https://leetcode.cn/problems/restore-ip-addresses/
- */
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,25 +19,24 @@ public class LeetCode93 {
 
 class Solution93 {
     public List<String> restoreIpAddresses(String s) {
-        ArrayList<String> list = new ArrayList<String>();
         int N = s.length();
         if (N < 4) {
-            return list;
+            return new ArrayList<String>();
         }
-
+        ArrayList<String> list = new ArrayList<String>();
         for (int loc1 = 0; loc1 <= Math.min(2, N - 4); loc1++) {
-            if (!isValid(s, -1, loc1)) {
+            if (!isValid2(s, -1, loc1)) {
                 continue;
             }
             for (int loc2 = loc1 + 1; loc2 <= Math.min(5, N - 3); loc2++) {
-                if (!isValid(s, loc1, loc2)) {
+                if (!isValid2(s, loc1, loc2)) {
                     continue;
                 }
                 for (int loc3 = loc2 + 1; loc3 <= Math.min(8, N - 2); loc3++) {
-                    if (!isValid(s, loc2, loc3)) {
+                    if (!isValid2(s, loc2, loc3)) {
                         continue;
                     }
-                    if (!isValid(s, loc3, N - 1)) {
+                    if (!isValid2(s, loc3, N - 1)) {
                         continue;
                     }
                     list.add(getIP(s, loc1, loc2, loc3));
@@ -64,12 +59,14 @@ class Solution93 {
         return sb.toString();
     }
 
-    private boolean isValid(String s, int start, int end) {
+    public boolean isValid1(String s, int start, int end) {
         int length = end - start;
         if (length > 1 && s.charAt(start + 1) == '0') {
+            // 不能有前导0
             return false;
         }
         if (length > 0 && length < 3) {
+            // 长度在1-2之间的
             return true;
         } else if (length == 3) {
             char firstChar = s.charAt(start + 1);
@@ -93,6 +90,24 @@ class Solution93 {
                     }
                 }
             }
+        } else {
+            return false;
+        }
+    }
+
+    public boolean isValid2(String s, int start, int end) {
+        int length = end - start;
+        if (length < 0 || length > 3) {
+            // 长度限制
+            return false;
+        }
+        if (length > 1 && s.charAt(start + 1) == '0') {
+            // 不能有前导0
+            return false;
+        }
+        int curr = Integer.parseInt(s.substring(start + 1, end + 1));
+        if (curr >= 0 && curr <= 255) {
+            return true;
         } else {
             return false;
         }
