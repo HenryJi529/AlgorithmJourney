@@ -21,7 +21,10 @@
         - 思路: 先构造一个判别能否运送完成的函数，再确定二分的上下界，最后进行二分查找
         - 代码: [LeetCode1011.java](./LeetCode/LeetCode1011.java)
 
-- 链表递归:
+- 链表:
+    - [92. 反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii/)
+        - 思路: 引入DummyNode解决特殊情况
+        - 代码: [LeetCode92.java](./LeetCode/LeetCode92.java)
     - [206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/)
         - 思路: 注意需要保证返回值为末端元素
         - 代码: [LeetCode206.java](./LeetCode/LeetCode206.java)
