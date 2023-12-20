@@ -57,6 +57,8 @@
         - 代码: [LeetCode165.java](./LeetCode/LeetCode165.java)
 
 - 栈:
+    - [23. 合并 K 个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/)
+        - 代码: [LeetCode23.java](./LeetCode/LeetCode23.java)
     - [215. 数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/)
         - 思路: 直接原地排序 | 原地maxHeap | 长度为k的maxHeap
         - 代码: [LeetCode215.java](./LeetCode/LeetCode215.java)
