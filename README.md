@@ -56,6 +56,11 @@
     - [165. 比较版本号](https://leetcode.cn/problems/compare-version-numbers/)
         - 代码: [LeetCode165.java](./LeetCode/LeetCode165.java)
 
+- 栈:
+    - [215. 数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/)
+        - 思路: 直接原地排序 | 原地maxHeap | 长度为k的maxHeap
+        - 代码: [LeetCode215.java](./LeetCode/LeetCode215.java)
+
 - 并查集:
     - [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/)
         - 代码: [LeetCode547.java](./LeetCode/LeetCode547.java)
@@ -73,4 +78,8 @@
         - 思路: 二维动态规划
         - 代码: [LeetCode115.java](./LeetCode/LeetCode115.java)
 
-        
+- 数据库:
+    - [175. 组合两个表](https://leetcode.cn/problems/combine-two-tables/)
+        - 代码: [LeetCode175.sql](./LeetCode/LeetCode175.sql)
+    - [181. 超过经理收入的员工](https://leetcode.cn/problems/employees-earning-more-than-their-managers/)
+        - 代码: [LeetCode181.sql](./LeetCode/LeetCode181.sql)

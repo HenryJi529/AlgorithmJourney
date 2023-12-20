@@ -1,5 +1,3 @@
--- https://leetcode.cn/problems/combine-two-tables/description/
-
 select
     P.FirstName as firstName,
     P.LastName as lastName,
