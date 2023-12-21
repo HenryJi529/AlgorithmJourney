@@ -56,7 +56,7 @@
     - [165. 比较版本号](https://leetcode.cn/problems/compare-version-numbers/)
         - 代码: [LeetCode165.java](./LeetCode/LeetCode165.java)
 
-- 栈:
+- 堆:
     - [23. 合并 K 个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/)
         - 代码: [LeetCode23.java](./LeetCode/LeetCode23.java)
     - [215. 数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/)
