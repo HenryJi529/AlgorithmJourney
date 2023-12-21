@@ -62,6 +62,8 @@
     - [215. 数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/)
         - 思路: 直接原地排序 | 原地maxHeap | 长度为k的maxHeap
         - 代码: [LeetCode215.java](./LeetCode/LeetCode215.java)
+    - [347. 前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/)
+        - 代码: [LeetCode347.java](./LeetCode/LeetCode347.java)
 
 - 并查集:
     - [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/)
