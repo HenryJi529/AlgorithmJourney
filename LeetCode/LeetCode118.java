@@ -1,11 +1,7 @@
-/* 
- * 问题描述: https://leetcode.cn/problems/pascals-triangle/description/
- */
-
-import util.PrintUtil;
-
 import java.util.List;
 import java.util.ArrayList;
+
+import util.PrintUtil;
 
 public class LeetCode118 {
     public static void main(String[] args) {
@@ -13,11 +9,11 @@ public class LeetCode118 {
         // 输入: numRows = 5
         // 输出: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
         nestedList = new Solution118().generate(5);
-        PrintUtil.printNestedArray(nestedList);
+        PrintUtil.printNestedList(nestedList);
         // 输入: numRows = 1
         // 输出: [[1]]
         nestedList = new Solution118().generate(1);
-        PrintUtil.printNestedArray(nestedList);
+        PrintUtil.printNestedList(nestedList);
     }
 }
 

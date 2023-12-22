@@ -21,6 +21,10 @@
         - 思路: 先构造一个判别能否运送完成的函数，再确定二分的上下界，最后进行二分查找
         - 代码: [LeetCode1011.java](./LeetCode/LeetCode1011.java)
 
+- 数组:
+    - [118. 杨辉三角](https://leetcode.cn/problems/pascals-triangle/)
+        - 代码: [LeetCode118.java](./LeetCode/LeetCode118.java)
+
 - 链表:
     - [92. 反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii/)
         - 思路: 引入DummyNode解决特殊情况
@@ -80,7 +84,6 @@
         - 代码: [LeetCode112.java](./LeetCode/LeetCode112.java)
     - [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/)
         - 代码: [LeetCode144.java](./LeetCode/LeetCode144.java)
-
 
 - 并查集:
     - [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/)
