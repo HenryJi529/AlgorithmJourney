@@ -79,6 +79,8 @@
     - [102. 二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal/)
         - 思路: 用BFS实现
         - 代码: [LeetCode102.java](./LeetCode/LeetCode102.java)
+    - [104. 二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/)
+        - 代码: [LeetCode104.java](./LeetCode/LeetCode104.java)
     - [105. 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
         - 思路: 根据中序遍历确定左右子树，根据前序遍历确定根节点
         - 代码: [LeetCode105.java](./LeetCode/LeetCode105.java)
