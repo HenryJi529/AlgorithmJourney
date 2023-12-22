@@ -68,6 +68,9 @@
 - 哈希表:
     - [1. 两数之和](https://leetcode.cn/problems/two-sum/)
         - 代码: [LeetCode1.java](./LeetCode/LeetCode1.java)
+    - [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
+        - 思路: 滑动窗口
+        - 代码: [LeetCode3.java](./LeetCode/LeetCode3.java)
 
 - 并查集:
     - [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/)

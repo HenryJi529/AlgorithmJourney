@@ -1,33 +1,50 @@
-/* 
- * 问题描述: https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/
- * 解题思路: 滑动窗口
- */
-
 import java.util.HashSet;
+import java.util.HashMap;
 
 public class LeetCode3 {
     public static void main(String[] args) {
-        System.out.println(new Solution3().lengthOfLongestSubstring("abcabcbb"));
-        System.out.println(new Solution3().lengthOfLongestSubstring("bbbbb"));
-        System.out.println(new Solution3().lengthOfLongestSubstring("pwwkew"));
+        System.out.println(new Solution3_2().lengthOfLongestSubstring("abcabcbb"));
+        System.out.println(new Solution3_2().lengthOfLongestSubstring("bbbbb"));
+        System.out.println(new Solution3_2().lengthOfLongestSubstring("pwwkew"));
+        System.out.println(new Solution3_2().lengthOfLongestSubstring("aabaab!bb"));
     }
 }
 
-class Solution3 {
+class Solution3_1 {
     public int lengthOfLongestSubstring(String s) {
-        int ans = 0;
-        int rk = -1;
-        HashSet<Character> set = new HashSet<Character>();
-        for (int i = 0; i < s.length(); i++) {
-            if (i != 0) {
-                set.remove(s.charAt(i - 1));
-            }
-            while (rk + 1 < s.length() && !set.contains(s.charAt(rk + 1))) {
-                set.add(s.charAt(rk + 1));
-                rk++;
-            }
-            ans = Math.max(ans, set.size());
+        if (s.length() == 0) {
+            return 0;
         }
-        return ans;
+        HashSet<Character> set = new HashSet<Character>();
+        int ans = 0;
+        int left = 0;
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            ans = Math.max(ans, set.size());
+            while (set.contains(c)) {
+                set.remove(s.charAt(left));
+                left++;
+            }
+            set.add(c);
+        }
+        return Math.max(ans, set.size());
+    }
+}
+
+class Solution3_2 {
+    public int lengthOfLongestSubstring(String s) {
+        if (s.length() == 0)
+            return 0;
+        HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+        int max = 0;
+        int left = 0;
+        for (int i = 0; i < s.length(); i++) {
+            if (map.containsKey(s.charAt(i))) {
+                left = Math.max(left, map.get(s.charAt(i)) + 1);
+            }
+            map.put(s.charAt(i), i);
+            max = Math.max(max, i - left + 1);
+        }
+        return max;
     }
 }
