@@ -1,38 +1,24 @@
 import java.util.Queue;
 import java.util.LinkedList;
+
 import util.TreeNode;
 
 public class LeetCode100 {
     public static void main(String[] args) {
-        TreeNode p, q;
         // 输入：p = [1,2,3], q = [1,2,3]
         // 输出：true
-        p = new TreeNode(1);
-        p.left = new TreeNode(2);
-        p.right = new TreeNode(3);
-        q = new TreeNode(1);
-        q.left = new TreeNode(2);
-        q.right = new TreeNode(3);
-        System.out.println(new Solution100_1().isSameTree(p, q));
+        System.out.println(new Solution100_1().isSameTree(TreeNode.buildTree(new Integer[] { 1, 2, 3 }),
+                TreeNode.buildTree(new Integer[] { 1, 2, 3 })));
 
         // 输入：p = [1,2], q = [1,null,2]
         // 输出：false
-        p = new TreeNode(1);
-        p.left = new TreeNode(2);
-        q = new TreeNode(1);
-        q.left = null;
-        q.right = new TreeNode(2);
-        System.out.println(new Solution100_1().isSameTree(p, q));
+        System.out.println(new Solution100_1().isSameTree(TreeNode.buildTree(new Integer[] { 1, 2 }),
+                TreeNode.buildTree(new Integer[] { 1, null, 2 })));
 
         // 输入：p = [1,2,1], q = [1,1,2]
         // 输出：false
-        p = new TreeNode(1);
-        p.left = new TreeNode(2);
-        q.right = new TreeNode(1);
-        q = new TreeNode(1);
-        p.left = new TreeNode(1);
-        q.right = new TreeNode(2);
-        System.out.println(new Solution100_1().isSameTree(p, q));
+        System.out.println(new Solution100_1().isSameTree(TreeNode.buildTree(new Integer[] { 1, 2, 1 }),
+                TreeNode.buildTree(new Integer[] { 1, 1, 2 })));
     }
 }
 
