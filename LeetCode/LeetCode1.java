@@ -1,7 +1,3 @@
-/* 
- * 问题描述: https://leetcode.cn/problems/two-sum/description/
- */
-
 import java.util.Map;
 import java.util.HashMap;
 

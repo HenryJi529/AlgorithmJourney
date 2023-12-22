@@ -65,6 +65,10 @@
     - [347. 前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/)
         - 代码: [LeetCode347.java](./LeetCode/LeetCode347.java)
 
+- 哈希表:
+    - [1. 两数之和](https://leetcode.cn/problems/two-sum/)
+        - 代码: [LeetCode1.java](./LeetCode/LeetCode1.java)
+
 - 并查集:
     - [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/)
         - 代码: [LeetCode547.java](./LeetCode/LeetCode547.java)
