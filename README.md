@@ -41,15 +41,6 @@
     - [735. 小行星碰撞](https://leetcode.cn/problems/asteroid-collision/)
         - 代码: [LeetCode735.java](./LeetCode/LeetCode735.java)
 
-- 二叉树:
-    - [94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)
-        - 代码: [LeetCode94.java](./LeetCode/LeetCode94.java)
-    - [105. 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-        - 思路: 根据中序遍历确定左右子树，根据前序遍历确定根节点
-        - 代码: [LeetCode105.java](./LeetCode/LeetCode105.java)
-    - [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/)
-        - 代码: [LeetCode144.java](./LeetCode/LeetCode144.java)
-
 - 字符串:
     - [93. 复原 IP 地址](https://leetcode.cn/problems/restore-ip-addresses/)
         - 代码: [LeetCode93.java](./LeetCode/LeetCode93.java)
@@ -76,9 +67,17 @@
         - 代码: [LeetCode560.java](./LeetCode/LeetCode560.java)
 
 - 树:
+    - [94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)
+        - 代码: [LeetCode94.java](./LeetCode/LeetCode94.java)
     - [100. 相同的树](https://leetcode.cn/problems/same-tree/)
         - 思路: DFS角度实现起来更方便
         - 代码: [LeetCode100.java](./LeetCode/LeetCode100.java)
+    - [105. 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+        - 思路: 根据中序遍历确定左右子树，根据前序遍历确定根节点
+        - 代码: [LeetCode105.java](./LeetCode/LeetCode105.java)
+    - [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/)
+        - 代码: [LeetCode144.java](./LeetCode/LeetCode144.java)
+
 
 - 并查集:
     - [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/)
