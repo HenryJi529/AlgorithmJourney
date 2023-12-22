@@ -1,7 +1,3 @@
-
-/* 
- * 问题描述: https://leetcode.cn/problems/same-tree/
- */
 import java.util.Queue;
 import java.util.LinkedList;
 import util.TreeNode;
@@ -41,6 +37,7 @@ public class LeetCode100 {
 }
 
 class Solution100_1 {
+    // NOTE: BFS角度
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null) {
             return true;
@@ -91,6 +88,7 @@ class Solution100_1 {
 }
 
 class Solution101_2 {
+    // NOTE: DFS角度
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null) {
             return true;

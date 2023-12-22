@@ -75,6 +75,11 @@
         - 思路: 子数组的sum = sum(0-y) - sum(0-x)
         - 代码: [LeetCode560.java](./LeetCode/LeetCode560.java)
 
+- 树:
+    - [100. 相同的树](https://leetcode.cn/problems/same-tree/)
+        - 思路: DFS角度实现起来更方便
+        - 代码: [LeetCode100.java](./LeetCode/LeetCode100.java)
+
 - 并查集:
     - [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/)
         - 代码: [LeetCode547.java](./LeetCode/LeetCode547.java)
