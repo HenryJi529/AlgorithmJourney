@@ -3,11 +3,11 @@ package util;
 import java.util.List;
 
 public class PrintUtil {
-    public static void printNestedArray(List<List<Integer>> nestedList) {
+    public static <T> void printNestedList(List<List<T>> nestedList) {
         StringBuilder sb = new StringBuilder();
         sb.append("[");
         for (int i = 0; i < nestedList.size(); i++) {
-            List<Integer> innerList = nestedList.get(i);
+            List<T> innerList = nestedList.get(i);
             sb.append("[");
             for (int j = 0; j < innerList.size(); j++) {
                 sb.append(innerList.get(j));
