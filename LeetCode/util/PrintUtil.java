@@ -4,6 +4,10 @@ import java.util.List;
 
 public class PrintUtil {
     public static <T> void printNestedList(List<List<T>> nestedList) {
+        if (nestedList == null) {
+            System.out.println("[]");
+            return;
+        }
         StringBuilder sb = new StringBuilder();
         sb.append("[");
         for (int i = 0; i < nestedList.size(); i++) {
