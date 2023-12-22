@@ -75,6 +75,9 @@
     - [105. 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
         - 思路: 根据中序遍历确定左右子树，根据前序遍历确定根节点
         - 代码: [LeetCode105.java](./LeetCode/LeetCode105.java)
+    - [112. 路径总和](https://leetcode.cn/problems/path-sum/)
+        - 思路: DFS角度，在没有左右节点时确定是否满足条件
+        - 代码: [LeetCode112.java](./LeetCode/LeetCode112.java)
     - [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/)
         - 代码: [LeetCode144.java](./LeetCode/LeetCode144.java)
 
