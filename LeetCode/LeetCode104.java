@@ -8,16 +8,18 @@ public class LeetCode104 {
         // 输入：root = [3,9,20,null,null,15,7]
         // 输出：3
         System.out
-                .println(new Solution104().maxDepth(TreeNode.buildTree(new Integer[] { 3, 9, 20, null, null, 15, 7 })));
+                .println(new Solution104_2()
+                        .maxDepth(TreeNode.buildTree(new Integer[] { 3, 9, 20, null, null, 15, 7 })));
 
         // 输入：root = [1,null,2]
         // 输出：2
         System.out
-                .println(new Solution104().maxDepth(TreeNode.buildTree(new Integer[] { 1, null, 2 })));
+                .println(new Solution104_2().maxDepth(TreeNode.buildTree(new Integer[] { 1, null, 2 })));
     }
 }
 
-class Solution104 {
+class Solution104_1 {
+    // BFS
     public int maxDepth(TreeNode root) {
         if (root == null) {
             return 0;
@@ -40,5 +42,19 @@ class Solution104 {
             ans++;
         }
         return ans;
+    }
+}
+
+class Solution104_2 {
+    // DFS
+    public int maxDepth(TreeNode root) {
+        return dfs(root, 0);
+    }
+
+    public int dfs(TreeNode node, int depth) {
+        if (node == null) {
+            return depth;
+        }
+        return Math.max(dfs(node.left, depth), dfs(node.right, depth)) + 1;
     }
 }
