@@ -87,6 +87,8 @@
     - [112. 路径总和](https://leetcode.cn/problems/path-sum/)
         - 思路: DFS角度，在没有左右节点时确定是否满足条件
         - 代码: [LeetCode112.java](./LeetCode/LeetCode112.java)
+    - [124. 二叉树中的最大路径和](https://leetcode.cn/problems/binary-tree-maximum-path-sum/)
+        - 代码: [LeetCode124.java](./LeetCode/LeetCode124.java)
     - [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/)
         - 代码: [LeetCode144.java](./LeetCode/LeetCode144.java)
     - [199. 二叉树的右视图](https://leetcode.cn/problems/binary-tree-right-side-view/)
