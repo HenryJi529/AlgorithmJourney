@@ -96,6 +96,13 @@
     - [199. 二叉树的右视图](https://leetcode.cn/problems/binary-tree-right-side-view/)
         - 代码: [LeetCode199.java](./LeetCode/LeetCode199.java)
 
+- 图:
+    - [542. 01 矩阵](https://leetcode.cn/problems/01-matrix/description/)
+        - 思路: 
+            - 直接思维: 对于每一个1，利用BFS找他最近的0[O(mn*mn)]
+            - 逆向思维: 对于所有的0，利用BFS填充到每一个1的距离[O(mn)]
+        - 代码: [LeetCode542.java](./LeetCode/LeetCode542.java)
+
 - 并查集:
     - [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/)
         - 代码: [LeetCode547.java](./LeetCode/LeetCode547.java)
