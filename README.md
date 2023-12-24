@@ -105,6 +105,8 @@
             - 直接思维: 对于每一个1，利用BFS找他最近的0[O(mn*mn)]
             - 逆向思维: 对于所有的0，利用BFS填充到每一个1的距离[O(mn)]
         - 代码: [LeetCode542.java](./LeetCode/LeetCode542.java)
+    - [743. 网络延迟时间](https://leetcode.cn/problems/network-delay-time/)
+        - 代码: [LeetCode743.java](./LeetCode/LeetCode743.java)
 
 - 并查集:
     - [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/)
