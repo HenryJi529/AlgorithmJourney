@@ -900,7 +900,7 @@ class DijkstraSP {
                 // 说明新的路径优于旧的路径，需要松弛
                 this.edgeTo[w] = e;
                 this.distTo[w] = this.distTo[v] + weight;
-                this.pq.update(w, this.distTo[v] + weight);
+                this.pq.update(w, this.distTo[v] + weight); // NOTE: 如果不是用索引最小优先队列的话，就不要update，而是直接添加更划算
             }
         }
     }
