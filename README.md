@@ -97,8 +97,11 @@
         - 代码: [LeetCode199.java](./LeetCode/LeetCode199.java)
 
 - 图:
+    - [126. 单词接龙 II](https://leetcode.cn/problems/word-ladder-ii/description/)
+        - 思路: 按照要求先构图，用started跟ended降低复杂度
+        - 代码: [LeetCode127.java](./LeetCode/LeetCode127.java)
     - [127. 单词接龙](https://leetcode.cn/problems/word-ladder/)
-        - 思路: 按照要求先构图，降低复杂度
+        - 思路: 按照要求先构图，用visited降低复杂度
         - 代码: [LeetCode127.java](./LeetCode/LeetCode127.java)
     - [542. 01 矩阵](https://leetcode.cn/problems/01-matrix/description/)
         - 思路: 
