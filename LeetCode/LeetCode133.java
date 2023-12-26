@@ -1,12 +1,8 @@
-/*
- * 问题描述: https://leetcode.cn/problems/clone-graph/
- * 解题思路: 这一题用深度优先比广度优先更易理解
- */
+import java.util.Arrays;
+import java.util.HashMap;
 
 import util.Node;
 import util.GraphTool;
-import java.util.Arrays;
-import java.util.HashMap;
 
 public class LeetCode133 {
     public static void main(String[] args) {
@@ -73,13 +69,7 @@ class Solution133 {
         Node newNode = new Node(node.val);
         map.put(node.val, newNode);
         for (Node neighbor : node.neighbors) {
-            Node newNeighbor;
-            if (!map.containsKey(neighbor.val)) {
-                newNeighbor = cloneGraph(neighbor);
-            } else {
-                newNeighbor = map.get(neighbor.val);
-            }
-            newNode.neighbors.add(newNeighbor);
+            newNode.neighbors.add(cloneGraph(neighbor));
         }
         return newNode;
     }
