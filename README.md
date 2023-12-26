@@ -105,6 +105,9 @@
         - 代码: [LeetCode127.java](./LeetCode/LeetCode127.java)
     - [200. 岛屿数量](https://leetcode.cn/problems/number-of-islands/)
         - 代码: [LeetCode200.java](./LeetCode/LeetCode200.java)
+    - [332. 重新安排行程](https://leetcode.cn/problems/reconstruct-itinerary/)
+        - 思路: 针对边的post-order traversal(边的深度优先搜索)
+        - 代码: [LeetCode332.java](./LeetCode/LeetCode332.java)
     - [542. 01 矩阵](https://leetcode.cn/problems/01-matrix/description/)
         - 思路: 
             - 直接思维: 对于每一个1，利用BFS找他最近的0[O(mn*mn)]
