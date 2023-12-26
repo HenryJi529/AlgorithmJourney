@@ -1,7 +1,3 @@
-/* 
- * 问题描述: https://leetcode.cn/problems/house-robber/description/
- */
-
 import java.util.HashMap;
 
 public class LeetCode198 {
