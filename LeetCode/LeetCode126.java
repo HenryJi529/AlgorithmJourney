@@ -11,20 +11,20 @@ public class LeetCode126 {
         // ["hot","dot","dog","lot","log","cog"]
         // 输出：[["hit","hot","dot","dog","cog"],["hit","hot","lot","log","cog"]]
         System.out.println(new Solution126().findLadders("hit", "cog",
-                new ArrayList<String>(Arrays.asList("hot", "dot", "dog", "lot", "log",
-                        "cog"))));
+                Arrays.asList("hot", "dot", "dog", "lot", "log",
+                        "cog")));
 
         // 输入：beginWord = "hit", endWord = "cog", wordList =
         // ["hot","dot","dog","lot","log"]
         // 输出：[]
         System.out.println(new Solution126().findLadders("hit", "cog",
-                new ArrayList<String>(Arrays.asList("hot", "dot", "dog", "lot", "log"))));
+                List.of("hot", "dot", "dog", "lot", "log")));
 
         // 输入：beginWord = "red", endWord = "tax", wordList =
         // ["ted","tex","red","tax","tad","den","rex","pee"]
         // 输出：[]
         System.out.println(new Solution126().findLadders("red", "tax",
-                new ArrayList<String>(Arrays.asList("ted", "tex", "red", "tax", "tad", "den", "rex", "pee"))));
+                Arrays.asList("ted", "tex", "red", "tax", "tad", "den", "rex", "pee")));
     }
 }
 

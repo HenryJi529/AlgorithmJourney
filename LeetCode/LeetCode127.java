@@ -13,13 +13,13 @@ public class LeetCode127 {
         // ["hot","dot","dog","lot","log","cog"]
         // 输出：5
         System.out.println(new Solution127_2().ladderLength("hit", "cog",
-                new ArrayList<String>(Arrays.asList("hot", "dot", "dog", "lot", "log", "cog"))));
+                Arrays.asList("hot", "dot", "dog", "lot", "log", "cog")));
 
         // 输入：beginWord = "hit", endWord = "cog", wordList =
         // ["hot","dot","dog","lot","log"]
         // 输出：0
         System.out.println(new Solution127_2().ladderLength("hit", "cog",
-                new ArrayList<String>(Arrays.asList("hot", "dot", "dog", "lot", "log"))));
+                Arrays.asList("hot", "dot", "dog", "lot", "log")));
     }
 }
 
