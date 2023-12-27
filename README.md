@@ -144,6 +144,8 @@
     - [115. 不同的子序列](https://leetcode.cn/problems/distinct-subsequences/)
         - 思路: 二维动态规划
         - 代码: [LeetCode115.java](./LeetCode/LeetCode115.java)
+    - [139. 单词拆分](https://leetcode.cn/problems/word-break/)
+        - 代码: [LeetCode139.java](./LeetCode/LeetCode139.java)
     - [198. 打家劫舍](https://leetcode.cn/problems/house-robber/)
         - 思路: 先找出最小的问题，再想想怎样扩大问题规模
         - 代码: [LeetCode198.java](./LeetCode/LeetCode198.java)
