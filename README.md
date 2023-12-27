@@ -133,6 +133,10 @@
     - [1971. 寻找图中是否存在路径](https://leetcode.cn/problems/find-if-path-exists-in-graph/)
         - 代码: [LeetCode1971.java](./LeetCode/LeetCode1971.java)
 
+- 搜索:
+    - [78. 子集](https://leetcode.cn/problems/subsets/)
+        - 代码: [LeetCode78.java](./LeetCode/LeetCode78.java)
+
 - 动态规划:
     - [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/)
         - 思路: 其实不用动态规划，直接使用贪心算法更新最远位置就行
