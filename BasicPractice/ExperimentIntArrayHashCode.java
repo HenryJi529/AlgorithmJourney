@@ -19,9 +19,9 @@ public class ExperimentIntArrayHashCode {
 
         // 检查 hashCode 是否相同
         boolean hashCodeEqualsArray = (Arrays.hashCode(array1) == Arrays.hashCode(array2));
-        System.out.println("HashCode equals: " + hashCodeEqualsArray);
+        System.out.println("ArrayHashCode equals: " + hashCodeEqualsArray);
         boolean hashCodeEqualsNaive = (array1.hashCode() == array2.hashCode());
-        System.out.println("HashCode equals: " + hashCodeEqualsNaive);
+        System.out.println("NaiveHashCode equals: " + hashCodeEqualsNaive);
 
         HashSet<int[]> set = new HashSet<int[]>();
         set.add(array1);
