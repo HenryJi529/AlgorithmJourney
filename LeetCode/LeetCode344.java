@@ -1,7 +1,3 @@
-/* 
- * 问题描述: https://leetcode.cn/problems/reverse-string/
- */
-
 import java.util.Arrays;
 
 public class LeetCode344 {
@@ -13,6 +9,7 @@ public class LeetCode344 {
         System.out.println(Arrays.toString(s));
         new Solution344().reverseString(s);
         System.out.println(Arrays.toString(s));
+        System.out.println("================================================================");
 
         // 输入：s = ["H","a","n","n","a","h"]
         // 输出：["h","a","n","n","a","H"]
@@ -20,20 +17,21 @@ public class LeetCode344 {
         System.out.println(Arrays.toString(s));
         new Solution344().reverseString(s);
         System.out.println(Arrays.toString(s));
+        System.out.println("================================================================");
     }
 }
 
 class Solution344 {
     public void reverseString(char[] s) {
-        int i = 0;
-        int j = s.length - 1;
+        int left = 0;
+        int right = s.length - 1;
         char temp;
-        while (i < j) {
-            temp = s[i];
-            s[i] = s[j];
-            s[j] = temp;
-            i++;
-            j--;
+        while (left < right) {
+            temp = s[left];
+            s[left] = s[right];
+            s[right] = temp;
+            left++;
+            right--;
         }
     }
 }

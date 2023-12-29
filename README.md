@@ -8,6 +8,8 @@
     - [141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/description/)
         - 思路: 快慢指针或哈希表
         - 代码: [LeetCode141.java](./LeetCode/LeetCode141.java)
+    - [344. 反转字符串](https://leetcode.cn/problems/reverse-string/)
+        - 代码: [LeetCode344.java](./LeetCode/LeetCode344.java)
 
 - 贪心算法:
     - [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/description/):
