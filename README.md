@@ -163,6 +163,8 @@
         - 代码: [LeetCode181.sql](./LeetCode/LeetCode181.sql)
     - [182. 查找重复的电子邮箱](https://leetcode.cn/problems/duplicate-emails/)
         - 代码: [LeetCode182.sql](./LeetCode/LeetCode182.sql)
+    - [183. 从不订购的客户](https://leetcode.cn/problems/customers-who-never-order/)
+        - 代码: [LeetCode183.sql](./LeetCode/LeetCode183.sql)
 
 - Shell:
     - [194. 转置文件](https://leetcode.cn/problems/transpose-file/)
