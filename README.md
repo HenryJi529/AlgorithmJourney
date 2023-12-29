@@ -167,6 +167,8 @@
         - 代码: [LeetCode183.sql](./LeetCode/LeetCode183.sql)
     - [196. 删除重复的电子邮箱](https://leetcode.cn/problems/delete-duplicate-emails/)
         - 代码: [LeetCode196.sql](./LeetCode/LeetCode196.sql)
+    - [197. 上升的温度](https://leetcode.cn/problems/rising-temperature/)
+        - 代码: [LeetCode197.sql](./LeetCode/LeetCode197.sql)
 
 - Shell:
     - [194. 转置文件](https://leetcode.cn/problems/transpose-file/)
