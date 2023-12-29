@@ -42,6 +42,8 @@
         - 代码: [LeetCode84.java](./LeetCode/LeetCode84.java)
     - [225. 用队列实现栈](https://leetcode.cn/problems/implement-stack-using-queues/)
         - 代码: [LeetCode225.java](./LeetCode/LeetCode225.java)
+    - [232. 用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/)
+        - 代码: [LeetCode232.java](./LeetCode/LeetCode232.java)
     - [394. 字符串解码](https://leetcode.cn/problems/decode-string/)
         - 代码: [LeetCode394.java](./LeetCode/LeetCode394.java)
     - [735. 小行星碰撞](https://leetcode.cn/problems/asteroid-collision/)
