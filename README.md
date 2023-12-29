@@ -65,6 +65,8 @@
         - 代码: [LeetCode215.java](./LeetCode/LeetCode215.java)
     - [347. 前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/)
         - 代码: [LeetCode347.java](./LeetCode/LeetCode347.java)
+    - [373. 查找和最小的 K 对数字](https://leetcode.cn/problems/find-k-pairs-with-smallest-sums/)
+        - 代码: [LeetCode373.java](./LeetCode/LeetCode373.java)
 
 - 哈希表:
     - [1. 两数之和](https://leetcode.cn/problems/two-sum/)
