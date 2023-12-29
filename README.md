@@ -161,6 +161,8 @@
         - 代码: [LeetCode175.sql](./LeetCode/LeetCode175.sql)
     - [181. 超过经理收入的员工](https://leetcode.cn/problems/employees-earning-more-than-their-managers/)
         - 代码: [LeetCode181.sql](./LeetCode/LeetCode181.sql)
+    - [182. 查找重复的电子邮箱](https://leetcode.cn/problems/duplicate-emails/)
+        - 代码: [LeetCode182.sql](./LeetCode/LeetCode182.sql)
 
 - Shell:
     - [194. 转置文件](https://leetcode.cn/problems/transpose-file/)
