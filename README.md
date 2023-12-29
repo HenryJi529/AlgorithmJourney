@@ -169,6 +169,8 @@
         - 代码: [LeetCode196.sql](./LeetCode/LeetCode196.sql)
     - [197. 上升的温度](https://leetcode.cn/problems/rising-temperature/)
         - 代码: [LeetCode197.sql](./LeetCode/LeetCode197.sql)
+    - [627. 变更性别](https://leetcode.cn/problems/swap-salary/)
+        - 代码: [LeetCode627.sql](./LeetCode/LeetCode627.sql)
 
 - Shell:
     - [194. 转置文件](https://leetcode.cn/problems/transpose-file/)
