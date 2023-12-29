@@ -159,6 +159,8 @@
     - [198. 打家劫舍](https://leetcode.cn/problems/house-robber/)
         - 思路: 先找出最小的问题，再想想怎样扩大问题规模
         - 代码: [LeetCode198.java](./LeetCode/LeetCode198.java)
+    - [1143. 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/)
+        - 代码: [LeetCode1143.java](./LeetCode/LeetCode1143.java)
 
 - 数据库:
     - [175. 组合两个表](https://leetcode.cn/problems/combine-two-tables/)
