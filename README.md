@@ -141,6 +141,8 @@
     - [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/)
         - 思路: 其实不用动态规划，直接使用贪心算法更新最远位置就行
         - 代码: [LeetCode55.java](./LeetCode/LeetCode55.java)
+    - [62. 不同路径](https://leetcode.cn/problems/unique-paths/)
+        - 代码: [LeetCode62.java](./LeetCode/LeetCode62.java)
     - [91. 解码方法](https://leetcode.cn/problems/decode-ways/)
         - 思路: 问题划分时需要考虑避免重合
         - 代码: [LeetCode91.java](./LeetCode/LeetCode91.java)
