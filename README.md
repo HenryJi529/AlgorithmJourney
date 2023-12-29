@@ -40,6 +40,8 @@
         - 代码: [LeetCode71.java](./LeetCode/LeetCode71.java)
     - [84. 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/)
         - 代码: [LeetCode84.java](./LeetCode/LeetCode84.java)
+    - [225. 用队列实现栈](https://leetcode.cn/problems/implement-stack-using-queues/)
+        - 代码: [LeetCode225.java](./LeetCode/LeetCode225.java)
     - [394. 字符串解码](https://leetcode.cn/problems/decode-string/)
         - 代码: [LeetCode394.java](./LeetCode/LeetCode394.java)
     - [735. 小行星碰撞](https://leetcode.cn/problems/asteroid-collision/)
