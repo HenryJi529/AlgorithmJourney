@@ -146,6 +146,9 @@
         - 代码: [LeetCode78.java](./LeetCode/LeetCode78.java)
 
 - 动态规划:
+    - [5. 最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/)
+        - 思路: 遍历节点(中心展开) 或 2维的DP
+        - 代码: [LeetCode5.java](./LeetCode/LeetCode5.java)
     - [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/)
         - 思路: 其实不用动态规划，直接使用贪心算法更新最远位置就行
         - 代码: [LeetCode55.java](./LeetCode/LeetCode55.java)
