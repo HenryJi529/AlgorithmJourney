@@ -170,6 +170,9 @@
     - [198. 打家劫舍](https://leetcode.cn/problems/house-robber/)
         - 思路: 先找出最小的问题，再想想怎样扩大问题规模
         - 代码: [LeetCode198.java](./LeetCode/LeetCode198.java)
+    - [877. 石子游戏](https://leetcode.cn/problems/stone-game/)
+        - 思路: Min-Max + DP 或 脑筋急转弯 
+        - 代码: [LeetCode877.java](./LeetCode/LeetCode877.java)
     - [1143. 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/)
         - 代码: [LeetCode1143.java](./LeetCode/LeetCode1143.java)
 
