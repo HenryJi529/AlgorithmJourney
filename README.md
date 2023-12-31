@@ -178,6 +178,10 @@
     - [1143. 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/)
         - 代码: [LeetCode1143.java](./LeetCode/LeetCode1143.java)
 
+- 回溯:
+    - [46. 全排列](https://leetcode.cn/problems/permutations/)
+        - 代码: [LeetCode46.java](./LeetCode/LeetCode46.java)
+
 - 数据库:
     - [175. 组合两个表](https://leetcode.cn/problems/combine-two-tables/)
         - 代码: [LeetCode175.sql](./LeetCode/LeetCode175.sql)
