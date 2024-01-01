@@ -67,6 +67,9 @@
         - 代码: [LeetCode347.java](./LeetCode/LeetCode347.java)
     - [373. 查找和最小的 K 对数字](https://leetcode.cn/problems/find-k-pairs-with-smallest-sums/)
         - 代码: [LeetCode373.java](./LeetCode/LeetCode373.java)
+    - [378. 有序矩阵中第 K 小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/)
+        - 思路: 堆(只利用每行递增与"第K个") | BestFirstSearch+堆(需要注意查重)
+        - 代码: [LeetCode378.java](./LeetCode/LeetCode378.java)
 
 - 哈希表:
     - [1. 两数之和](https://leetcode.cn/problems/two-sum/)
