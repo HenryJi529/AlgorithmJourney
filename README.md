@@ -126,6 +126,9 @@
     - [332. 重新安排行程](https://leetcode.cn/problems/reconstruct-itinerary/)
         - 思路: 针对边的post-order traversal(边的深度优先搜索)
         - 代码: [LeetCode332.java](./LeetCode/LeetCode332.java)
+    - [399. 除法求值](https://leetcode.cn/problems/evaluate-division/)
+        - 思路: 按照除法顺序构建连边，后DFS+回溯寻找路径
+        - 代码: [LeetCode399.java](./LeetCode/LeetCode399.java)
     - [542. 01 矩阵](https://leetcode.cn/problems/01-matrix/description/)
         - 思路: 
             - 直接思维: 对于每一个1，利用BFS找他最近的0[O(mn*mn)]
