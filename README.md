@@ -142,6 +142,8 @@
     - [787. K 站中转内最便宜的航班](https://leetcode.cn/problems/cheapest-flights-within-k-stops/)
         - 思路: 要确定节点是否真的算完全访问过，必要时留下记录
         - 代码: [LeetCode787.java](./LeetCode/LeetCode787.java)
+    - [841. 钥匙和房间](https://leetcode.cn/problems/keys-and-rooms/)
+        - 代码: [LeetCode841.java](./LeetCode/LeetCode841.java)
 
 - 并查集:
     - [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/)
