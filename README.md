@@ -72,6 +72,8 @@
     - [378. 有序矩阵中第 K 小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/)
         - 思路: 堆(只利用每行递增与"第K个") | BestFirstSearch+堆(需要注意查重以及堆的长度)
         - 代码: [LeetCode378.java](./LeetCode/LeetCode378.java)
+    - [703. 数据流中的第 K 大元素](https://leetcode.cn/problems/kth-largest-element-in-a-stream/)
+        - 代码: [LeetCode703.java](./LeetCode/LeetCode703.java)
 
 - 哈希表:
     - [1. 两数之和](https://leetcode.cn/problems/two-sum/)
