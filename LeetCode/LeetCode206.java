@@ -5,11 +5,7 @@ public class LeetCode206 {
         ListNode head;
         // 输入：head = [1,2,3,4,5]
         // 输出：[5,4,3,2,1]
-        head = new ListNode(1);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(3);
-        head.next.next.next = new ListNode(4);
-        head.next.next.next.next = new ListNode(5);
+        head = ListNode.buildLinkedList(new Integer[] { 1, 2, 3, 4, 5 });
         System.out.println(head);
         head = new Solution206_3().reverseList(head);
         System.out.println(head);
@@ -17,8 +13,7 @@ public class LeetCode206 {
 
         // 输入：head = [1,2]
         // 输出：[2,1]
-        head = new ListNode(1);
-        head.next = new ListNode(2);
+        head = ListNode.buildLinkedList(new Integer[] { 1, 2 });
         System.out.println(head);
         head = new Solution206_3().reverseList(head);
         System.out.println(head);
