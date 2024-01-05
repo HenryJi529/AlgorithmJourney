@@ -1,40 +1,23 @@
-/* 
- * 问题描述: https://leetcode.cn/problems/merge-two-sorted-lists/description/
- * 解题思路: 多指针迭代或递归
- */
-
 import util.ListNode;
 
 public class LeetCode21 {
     public static void main(String[] args) {
-        ListNode l1, l2, l3;
-
         // 输入：l1 = [1,2,4], l2 = [1,3,4]
         // 输出：[1,1,2,3,4,4]
-        l1 = new ListNode(1);
-        l1.next = new ListNode(2);
-        l1.next.next = new ListNode(4);
-        l2 = new ListNode(1);
-        l2.next = new ListNode(3);
-        l2.next.next = new ListNode(4);
-        l3 = new Solution21().mergeTwoLists(l1, l2);
-        System.out.println(l3);
+        System.out.println(new Solution21().mergeTwoLists(ListNode.buildLinkedList(new Integer[] { 1, 2, 4 }),
+                ListNode.buildLinkedList(new Integer[] { 1, 3, 4 })));
         System.out.println("================================================");
 
         // 输入：l1 = [], l2 = []
         // 输出：[]
-        l1 = new ListNode();
-        l2 = new ListNode();
-        l3 = new Solution21().mergeTwoLists(l1, l2);
-        System.out.println(l3);
+        System.out.println(new Solution21().mergeTwoLists(ListNode.buildLinkedList(new Integer[] {}),
+                ListNode.buildLinkedList(new Integer[] {})));
         System.out.println("================================================");
 
         // 输入：l1 = [], l2 = [0]
         // 输出：[0]
-        l1 = new ListNode();
-        l2 = new ListNode(0);
-        l3 = new Solution21().mergeTwoLists(l1, l2);
-        System.out.println(l3);
+        System.out.println(new Solution21().mergeTwoLists(ListNode.buildLinkedList(new Integer[] {}),
+                ListNode.buildLinkedList(new Integer[] { 0 })));
         System.out.println("================================================");
     }
 }

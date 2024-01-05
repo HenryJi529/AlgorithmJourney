@@ -37,6 +37,9 @@
     - [19. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)
         - 思路: 快慢指针(要注意边界情况)
         - 代码: [LeetCode19.java](./LeetCode/LeetCode19.java)
+    - [21. 合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/)
+        - 思路: 多指针迭代或递归
+        - 代码: [LeetCode21.java](./LeetCode/LeetCode21.java)
     - [92. 反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii/)
         - 思路: 引入DummyNode解决特殊情况
         - 代码: [LeetCode92.java](./LeetCode/LeetCode92.java)
