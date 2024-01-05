@@ -30,4 +30,18 @@ public class ListNode {
         sb.append("]");
         return sb.toString();
     }
+
+    public static ListNode buildLinkedList(Integer[] nodes) {
+        if (nodes.length == 0) {
+            return null;
+        }
+        ListNode head = new ListNode(nodes[0]);
+        ListNode cur = head;
+        int i = 1;
+        while (i < nodes.length) {
+            cur.next = new ListNode(nodes[i++]);
+            cur = cur.next;
+        }
+        return head;
+    }
 }
