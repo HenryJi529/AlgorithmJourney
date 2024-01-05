@@ -54,6 +54,9 @@
         - 代码: [LeetCode394.java](./LeetCode/LeetCode394.java)
     - [735. 小行星碰撞](https://leetcode.cn/problems/asteroid-collision/)
         - 代码: [LeetCode735.java](./LeetCode/LeetCode735.java)
+    - [739. 每日温度](https://leetcode.cn/problems/daily-temperatures/)
+        - 思路: 存储中间结果以降低时间复杂度
+        - 代码: [LeetCode739.java](./LeetCode/LeetCode739.java)
 
 - 字符串:
     - [93. 复原 IP 地址](https://leetcode.cn/problems/restore-ip-addresses/)
