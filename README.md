@@ -21,6 +21,8 @@
         - 代码: [LeetCode34.java](./LeetCode/LeetCode34.java)
     - [704. 二分查找](https://leetcode.cn/problems/binary-search/):
         - 代码: [LeetCode704.java](./LeetCode/LeetCode704.java)
+    - [875. 爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/description/):
+        - 代码: [LeetCode875.java](./LeetCode/LeetCode875.java)
     - [1011.在D天内送达包裹的能力](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/):
         - 思路: 先构造一个判别能否运送完成的函数，再确定二分的上下界，最后进行二分查找
         - 代码: [LeetCode1011.java](./LeetCode/LeetCode1011.java)
