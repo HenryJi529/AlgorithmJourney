@@ -6,11 +6,7 @@ public record LeetCode92() {
         int left, right;
         // 输入：head = [1,2,3,4,5], left = 2, right = 4
         // 输出：[1,4,3,2,5]
-        head = new ListNode(1);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(3);
-        head.next.next.next = new ListNode(4);
-        head.next.next.next.next = new ListNode(5);
+        head = ListNode.buildLinkedList(new Integer[] { 1, 2, 3, 4, 5 });
         left = 2;
         right = 4;
         System.out.println(head + " left: " + left + " right: " + right);
@@ -30,8 +26,7 @@ public record LeetCode92() {
 
         // 输入：head = [3, 5], left = 1, right = 2
         // 输出：[5, 3]
-        head = new ListNode(3);
-        head.next = new ListNode(5);
+        head = ListNode.buildLinkedList(new Integer[] { 3, 5 });
         left = 1;
         right = 2;
         System.out.println(head + " left: " + left + " right: " + right);
