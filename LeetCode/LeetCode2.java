@@ -1,48 +1,25 @@
-/* 
- * 问题描述: https://leetcode.cn/problems/add-two-numbers/
- */
-
 import util.ListNode;
 
 public class LeetCode2 {
     public static void main(String[] args) {
-        ListNode head1, head2, head3;
-
-        head1 = new ListNode(2, null);
-        head1.next = new ListNode(3, null);
-        head1.next.next = new ListNode(4, null);
-        head2 = new ListNode(5, null);
-        head2.next = new ListNode(6, null);
-        head2.next.next = new ListNode(4, null);
-        System.out.println(head1);
-        System.out.println(head2);
-        head3 = new Solution2().addTwoNumbers(head1, head2);
-        System.out.println(head3);
+        // 输入：l1 = [2,4,3], l2 = [5,6,4]
+        // 输出：[7,0,8]
+        // 解释：342 + 465 = 807.
+        System.out.println(new Solution2().addTwoNumbers(ListNode.buildLinkedList(new Integer[] { 2, 4, 3 }),
+                ListNode.buildLinkedList(new Integer[] { 5, 6, 4 })));
         System.out.println("================================================");
 
-        head1 = new ListNode(0, null);
-        head2 = new ListNode(0, null);
-        System.out.println(head1);
-        System.out.println(head2);
-        head3 = new Solution2().addTwoNumbers(head1, head2);
-        System.out.println(head3);
+        // 输入：l1 = [0], l2 = [0]
+        // 输出：[0]
+        System.out.println(new Solution2().addTwoNumbers(ListNode.buildLinkedList(new Integer[] { 0 }),
+                ListNode.buildLinkedList(new Integer[] { 0 })));
         System.out.println("================================================");
 
-        head1 = new ListNode(9, null);
-        head1.next = new ListNode(9, null);
-        head1.next.next = new ListNode(9, null);
-        head1.next.next.next = new ListNode(9, null);
-        head1.next.next.next.next = new ListNode(9, null);
-        head1.next.next.next.next.next = new ListNode(9, null);
-        head1.next.next.next.next.next.next = new ListNode(9, null);
-        head2 = new ListNode(9, null);
-        head2.next = new ListNode(9, null);
-        head2.next.next = new ListNode(9, null);
-        head2.next.next.next = new ListNode(9, null);
-        System.out.println(head1);
-        System.out.println(head2);
-        head3 = new Solution2().addTwoNumbers(head1, head2);
-        System.out.println(head3);
+        // 输入：l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
+        // 输出：[8,9,9,9,0,0,0,1]
+        System.out
+                .println(new Solution2().addTwoNumbers(ListNode.buildLinkedList(new Integer[] { 9, 9, 9, 9, 9, 9, 9 }),
+                        ListNode.buildLinkedList(new Integer[] { 9, 9, 9, 9 })));
         System.out.println("================================================");
     }
 }

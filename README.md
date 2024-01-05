@@ -32,6 +32,8 @@
         - 代码: [LeetCode118.java](./LeetCode/LeetCode118.java)
 
 - 链表:
+    - [2. 两数相加](https://leetcode.cn/problems/add-two-numbers/)
+        - 代码: [LeetCode2.java](./LeetCode/LeetCode2.java)
     - [92. 反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii/)
         - 思路: 引入DummyNode解决特殊情况
         - 代码: [LeetCode92.java](./LeetCode/LeetCode92.java)
