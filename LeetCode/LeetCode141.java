@@ -5,17 +5,13 @@ public class LeetCode141 {
         ListNode head;
         // 输入：head = [3,2,0,-4], pos = 1
         // 输出：true
-        head = new ListNode(3);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(0);
-        head.next.next.next = new ListNode(-4);
+        head = ListNode.buildLinkedList(new Integer[] { 3, 2, 0, -4 });
         head.next.next.next.next = head.next;
         System.out.println(new Solution141().hasCycle(head));
 
         // 输入：head = [1,2], pos = 0
         // 输出：true
-        head = new ListNode(1);
-        head.next = new ListNode(2);
+        head = ListNode.buildLinkedList(new Integer[] { 1, 2 });
         head.next.next = head;
         System.out.println(new Solution141().hasCycle(head));
 
