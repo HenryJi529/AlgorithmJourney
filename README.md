@@ -48,6 +48,8 @@
     - [206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/)
         - 思路: 递归思路下，注意需要保证返回值为末端元素
         - 代码: [LeetCode206.java](./LeetCode/LeetCode206.java)
+    - [237. 删除链表中的节点](https://leetcode.cn/problems/delete-node-in-a-linked-list/)
+        - 代码: [LeetCode237.java](./LeetCode/LeetCode237.java)
 
 - 栈:
     - [20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/)
