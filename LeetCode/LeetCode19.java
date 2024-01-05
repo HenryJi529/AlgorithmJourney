@@ -1,8 +1,3 @@
-/*
- * 问题描述: https://leetcode.cn/problems/remove-nth-node-from-end-of-list/
- * 解题思路: 快慢指针(要注意边界情况)
- */
-
 import util.ListNode;
 
 public class LeetCode19 {
@@ -10,11 +5,7 @@ public class LeetCode19 {
         ListNode head;
         // 输入：head = [1,2,3,4,5], n = 2
         // 输出：[1,2,3,5]
-        head = new ListNode(1);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(3);
-        head.next.next.next = new ListNode(4);
-        head.next.next.next.next = new ListNode(5);
+        head = ListNode.buildLinkedList(new Integer[] { 1, 2, 3, 4, 5 });
         System.out.println(head);
         head = new Solution19().removeNthFromEnd(head, 2);
         System.out.println(head);
@@ -30,8 +21,7 @@ public class LeetCode19 {
 
         // 输入：head = [1,2], n = 1
         // 输出：[1]
-        head = new ListNode(1);
-        head.next = new ListNode(2);
+        head = ListNode.buildLinkedList(new Integer[] { 1, 2 });
         System.out.println(head);
         head = new Solution19().removeNthFromEnd(head, 1);
         System.out.println(head);
@@ -39,8 +29,7 @@ public class LeetCode19 {
 
         // 输入：head = [1,2], n = 2
         // 输出：[2]
-        head = new ListNode(1);
-        head.next = new ListNode(2);
+        head = ListNode.buildLinkedList(new Integer[] { 1, 2 });
         System.out.println(head);
         head = new Solution19().removeNthFromEnd(head, 2);
         System.out.println(head);
