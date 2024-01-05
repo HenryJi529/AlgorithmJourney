@@ -5,14 +5,14 @@
 
 
 - 双指针:
-    - [141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/description/)
+    - [141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/)
         - 思路: 快慢指针或哈希表
         - 代码: [LeetCode141.java](./LeetCode/LeetCode141.java)
     - [344. 反转字符串](https://leetcode.cn/problems/reverse-string/)
         - 代码: [LeetCode344.java](./LeetCode/LeetCode344.java)
 
 - 贪心算法:
-    - [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/description/):
+    - [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/):
         - 代码: [LeetCode11.java](./LeetCode/LeetCode11.java)
 
 - 二分查找:
@@ -21,7 +21,7 @@
         - 代码: [LeetCode34.java](./LeetCode/LeetCode34.java)
     - [704. 二分查找](https://leetcode.cn/problems/binary-search/):
         - 代码: [LeetCode704.java](./LeetCode/LeetCode704.java)
-    - [875. 爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/description/):
+    - [875. 爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/):
         - 代码: [LeetCode875.java](./LeetCode/LeetCode875.java)
     - [1011.在D天内送达包裹的能力](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/):
         - 思路: 先构造一个判别能否运送完成的函数，再确定二分的上下界，最后进行二分查找
@@ -133,12 +133,12 @@
         - 代码: [LeetCode145.java](./LeetCode/LeetCode145.java)
     - [199. 二叉树的右视图](https://leetcode.cn/problems/binary-tree-right-side-view/)
         - 代码: [LeetCode199.java](./LeetCode/LeetCode199.java)
-    - [450. 删除二叉搜索树中的节点](https://leetcode.cn/problems/delete-node-in-a-bst/description/)
+    - [450. 删除二叉搜索树中的节点](https://leetcode.cn/problems/delete-node-in-a-bst/)
         - 思路: 考虑被删除节点的位置和被删除节点是否有左右子树
         - 代码: [LeetCode450.java](./LeetCode/LeetCode450.java)
 
 - 图:
-    - [126. 单词接龙 II](https://leetcode.cn/problems/word-ladder-ii/description/)
+    - [126. 单词接龙 II](https://leetcode.cn/problems/word-ladder-ii/)
         - 思路: 按照要求先构图，用started跟ended降低复杂度
         - 代码: [LeetCode127.java](./LeetCode/LeetCode127.java)
     - [127. 单词接龙](https://leetcode.cn/problems/word-ladder/)
@@ -155,7 +155,7 @@
     - [399. 除法求值](https://leetcode.cn/problems/evaluate-division/)
         - 思路: 按照除法顺序构建连边，后DFS+回溯寻找路径
         - 代码: [LeetCode399.java](./LeetCode/LeetCode399.java)
-    - [542. 01 矩阵](https://leetcode.cn/problems/01-matrix/description/)
+    - [542. 01 矩阵](https://leetcode.cn/problems/01-matrix/)
         - 思路: 
             - 直接思维: 对于每一个1，利用BFS找他最近的0[O(mn*mn)]
             - 逆向思维: 对于所有的0，利用BFS填充到每一个1的距离[O(mn)]
