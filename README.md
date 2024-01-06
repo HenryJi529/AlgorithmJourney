@@ -141,6 +141,9 @@
     - [450. 删除二叉搜索树中的节点](https://leetcode.cn/problems/delete-node-in-a-bst/)
         - 思路: 考虑被删除节点的位置和被删除节点是否有左右子树
         - 代码: [LeetCode450.java](./LeetCode/LeetCode450.java)
+    - [1123. 最深叶节点的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-deepest-leaves/)
+        - 思路: 深度优先遍历(处理好子树高度、节点深度的关系)
+        - 代码: [LeetCode1123.java](./LeetCode/LeetCode1123.java)
 
 - 图:
     - [126. 单词接龙 II](https://leetcode.cn/problems/word-ladder-ii/)
