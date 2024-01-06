@@ -172,6 +172,8 @@
         - 代码: [LeetCode787.java](./LeetCode/LeetCode787.java)
     - [841. 钥匙和房间](https://leetcode.cn/problems/keys-and-rooms/)
         - 代码: [LeetCode841.java](./LeetCode/LeetCode841.java)
+    - [994. 腐烂的橘子](https://leetcode.cn/problems/rotting-oranges/)
+        - 代码: [LeetCode994.java](./LeetCode/LeetCode994.java)
 
 - 并查集:
     - [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/)
