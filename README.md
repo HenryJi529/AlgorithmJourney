@@ -249,3 +249,10 @@
         - 代码: [LeetCode194.sh](./LeetCode/LeetCode194.sh)
     - [195. 第十行](https://leetcode.cn/problems/tenth-line/)
         - 代码: [LeetCode195.sh](./LeetCode/LeetCode195.sh)
+
+
+## LanQiao刷题列表(按题型分类)
+
+- DFS:
+    - [89. 路径之谜](https://www.lanqiao.cn/problems/89/learning/)
+        - 代码: [LanQiao89](./LanQiao/LanQiao89.java)
