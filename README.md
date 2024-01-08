@@ -253,6 +253,11 @@
 
 ## LanQiao刷题列表(按题型分类)
 
+- 字符串:
+    - [504. 单词分析](https://www.lanqiao.cn/problems/504/learning/)
+        - 代码: [LanQiao504](./LanQiao/LanQiao504.java)
+
 - DFS:
     - [89. 路径之谜](https://www.lanqiao.cn/problems/89/learning/)
         - 代码: [LanQiao89](./LanQiao/LanQiao89.java)
+
