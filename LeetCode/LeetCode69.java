@@ -1,8 +1,3 @@
-/* 
- * 问题描述: https://leetcode.cn/problems/sqrtx/description/ 
- * 解题思路: 二分查找、数学公式替换、牛顿法
- */
-
 public class LeetCode69 {
 
     public static void main(String[] args) {
@@ -20,18 +15,18 @@ class Solution69_1 {
     public int mySqrt(int x) {
         int l = 0, r = x;
         int mid;
-        int ans = -1;
 
         while (l <= r) {
             mid = l + (r - l) / 2;
-            if ((long) mid * mid <= x) {
-                ans = mid;
+            if ((long) mid * mid < x) {
                 l = mid + 1;
-            } else {
+            } else if ((long) mid * mid > x) {
                 r = mid - 1;
+            } else {
+                return mid;
             }
         }
-        return ans;
+        return l - 1;
     }
 }
 

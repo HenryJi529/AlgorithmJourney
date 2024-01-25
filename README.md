@@ -19,6 +19,9 @@
     - [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/):
         - 思路: 两次二分查找
         - 代码: [LeetCode34.java](./LeetCode/LeetCode34.java)
+    - [69. x 的平方根](https://leetcode.cn/problems/sqrtx/):
+        - 思路: 二分查找、数学公式替换、牛顿法
+        - 代码: [LeetCode69.java](./LeetCode/LeetCode69.java)
     - [704. 二分查找](https://leetcode.cn/problems/binary-search/):
         - 代码: [LeetCode704.java](./LeetCode/LeetCode704.java)
     - [875. 爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/):
