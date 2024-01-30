@@ -1,7 +1,3 @@
-/*
- * 问题描述: https://leetcode.cn/problems/sort-colors/description/
- */
-
 import java.util.Arrays;
 
 public class LeetCode75 {
@@ -35,19 +31,19 @@ public class LeetCode75 {
 
 class Solution75 {
     public void sortColors(int[] nums) {
-        int slow = -1;
-        int fast = nums.length;
+        int left = -1;
+        int right = nums.length;
         int i = 0;
-        while (i < fast && i < nums.length) {
+        while (i < right && i < nums.length) {
             if (nums[i] == 0) {
-                slow++;
-                nums[i] = nums[slow];
-                nums[slow] = 0;
+                left++;
+                nums[i] = nums[left];
+                nums[left] = 0;
                 i++;
             } else if (nums[i] == 2) {
-                fast--;
-                nums[i] = nums[fast];
-                nums[fast] = 2;
+                right--;
+                nums[i] = nums[right];
+                nums[right] = 2;
             } else {
                 i++;
             }
