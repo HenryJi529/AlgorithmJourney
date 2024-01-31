@@ -245,6 +245,8 @@
         - 代码: [LeetCode175.sql](./LeetCode/sql/LeetCode175.sql)
     - [176. 第二高的薪水](https://leetcode.cn/problems/second-highest-salary/)
         - 代码: [LeetCode176.sql](./LeetCode/sql/LeetCode176.sql)
+    - [177. 第N高的薪水](https://leetcode.cn/problems/nth-highest-salary/)
+        - 代码: [LeetCode177.sql](./LeetCode/sql/LeetCode177.sql)
     - [181. 超过经理收入的员工](https://leetcode.cn/problems/employees-earning-more-than-their-managers/)
         - 代码: [LeetCode181.sql](./LeetCode/sql/LeetCode181.sql)
     - [182. 查找重复的电子邮箱](https://leetcode.cn/problems/duplicate-emails/)
