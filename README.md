@@ -261,6 +261,8 @@
         - 代码: [LeetCode619.sql](./LeetCode/sql/LeetCode619.sql)
     - [627. 变更性别](https://leetcode.cn/problems/swap-salary/)
         - 代码: [LeetCode627.sql](./LeetCode/sql/LeetCode627.sql)
+    - [1075. 项目员工 I](https://leetcode.cn/problems/project-employees-i/)
+        - 代码: [LeetCode1075.sql](./LeetCode/sql/LeetCode1075.sql)
 
 - Shell:
     - [194. 转置文件](https://leetcode.cn/problems/transpose-file/)
