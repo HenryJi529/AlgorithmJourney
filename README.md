@@ -257,6 +257,8 @@
         - 代码: [LeetCode584.sql](./LeetCode/sql/LeetCode584.sql)
     - [610. 判断三角形](https://leetcode.cn/problems/triangle-judgement/)
         - 代码: [LeetCode610.sql](./LeetCode/sql/LeetCode610.sql)
+    - [619. 只出现一次的最大数字](https://leetcode.cn/problems/biggest-single-number/)
+        - 代码: [LeetCode619.sql](./LeetCode/sql/LeetCode619.sql)
     - [627. 变更性别](https://leetcode.cn/problems/swap-salary/)
         - 代码: [LeetCode627.sql](./LeetCode/sql/LeetCode627.sql)
 
