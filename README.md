@@ -242,19 +242,21 @@
 
 - 数据库:
     - [175. 组合两个表](https://leetcode.cn/problems/combine-two-tables/)
-        - 代码: [LeetCode175.sql](./LeetCode/LeetCode175.sql)
+        - 代码: [LeetCode175.sql](./LeetCode/sql/LeetCode175.sql)
     - [181. 超过经理收入的员工](https://leetcode.cn/problems/employees-earning-more-than-their-managers/)
-        - 代码: [LeetCode181.sql](./LeetCode/LeetCode181.sql)
+        - 代码: [LeetCode181.sql](./LeetCode/sql/LeetCode181.sql)
     - [182. 查找重复的电子邮箱](https://leetcode.cn/problems/duplicate-emails/)
-        - 代码: [LeetCode182.sql](./LeetCode/LeetCode182.sql)
+        - 代码: [LeetCode182.sql](./LeetCode/sql/LeetCode182.sql)
     - [183. 从不订购的客户](https://leetcode.cn/problems/customers-who-never-order/)
-        - 代码: [LeetCode183.sql](./LeetCode/LeetCode183.sql)
+        - 代码: [LeetCode183.sql](./LeetCode/sql/LeetCode183.sql)
     - [196. 删除重复的电子邮箱](https://leetcode.cn/problems/delete-duplicate-emails/)
-        - 代码: [LeetCode196.sql](./LeetCode/LeetCode196.sql)
+        - 代码: [LeetCode196.sql](./LeetCode/sql/LeetCode196.sql)
     - [197. 上升的温度](https://leetcode.cn/problems/rising-temperature/)
-        - 代码: [LeetCode197.sql](./LeetCode/LeetCode197.sql)
+        - 代码: [LeetCode197.sql](./LeetCode/sql/LeetCode197.sql)
+    - [610. 判断三角形](https://leetcode.cn/problems/triangle-judgement/)
+        - 代码: [LeetCode610.sql](./LeetCode/sql/LeetCode610.sql)
     - [627. 变更性别](https://leetcode.cn/problems/swap-salary/)
-        - 代码: [LeetCode627.sql](./LeetCode/LeetCode627.sql)
+        - 代码: [LeetCode627.sql](./LeetCode/sql/LeetCode627.sql)
 
 - Shell:
     - [194. 转置文件](https://leetcode.cn/problems/transpose-file/)
