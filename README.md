@@ -258,9 +258,9 @@
 
 - Shell:
     - [194. 转置文件](https://leetcode.cn/problems/transpose-file/)
-        - 代码: [LeetCode194.sh](./LeetCode/LeetCode194.sh)
+        - 代码: [LeetCode194.sh](./LeetCode/shell/LeetCode194.sh)
     - [195. 第十行](https://leetcode.cn/problems/tenth-line/)
-        - 代码: [LeetCode195.sh](./LeetCode/LeetCode195.sh)
+        - 代码: [LeetCode195.sh](./LeetCode/shell/LeetCode195.sh)
 
 
 ## LanQiao刷题列表(按题型分类)
