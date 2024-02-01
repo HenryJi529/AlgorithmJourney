@@ -95,7 +95,15 @@
     - [165. 比较版本号](https://leetcode.cn/problems/compare-version-numbers/)
         - 代码: [LeetCode165.java](./LeetCode/LeetCode165.java)
 
-- 哈希表:
+- 哈希:
+    - [1. 两数之和](https://leetcode.cn/problems/two-sum/)
+        - 代码: [LeetCode1.java](./LeetCode/LeetCode1.java)
+    - [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
+        - 思路: 滑动窗口
+        - 代码: [LeetCode3.java](./LeetCode/LeetCode3.java)
+    - [560. 和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/)
+        - 思路: 子数组的sum = sum(0-y) - sum(0-x)
+        - 代码: [LeetCode560.java](./LeetCode/LeetCode560.java)
     - [706. 设计哈希映射](https://leetcode.cn/problems/design-hashmap/):
         - 代码: [LeetCode706.java](./LeetCode/LeetCode706.java)
 
@@ -116,16 +124,6 @@
         - 代码: [LeetCode378.java](./LeetCode/LeetCode378.java)
     - [703. 数据流中的第 K 大元素](https://leetcode.cn/problems/kth-largest-element-in-a-stream/)
         - 代码: [LeetCode703.java](./LeetCode/LeetCode703.java)
-
-- 哈希表:
-    - [1. 两数之和](https://leetcode.cn/problems/two-sum/)
-        - 代码: [LeetCode1.java](./LeetCode/LeetCode1.java)
-    - [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
-        - 思路: 滑动窗口
-        - 代码: [LeetCode3.java](./LeetCode/LeetCode3.java)
-    - [560. 和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/)
-        - 思路: 子数组的sum = sum(0-y) - sum(0-x)
-        - 代码: [LeetCode560.java](./LeetCode/LeetCode560.java)
 
 - 树:
     - [94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)
