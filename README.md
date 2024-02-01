@@ -73,6 +73,8 @@
         - 代码: [LeetCode71.java](./LeetCode/LeetCode71.java)
     - [84. 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/)
         - 代码: [LeetCode84.java](./LeetCode/LeetCode84.java)
+    - [155. 最小栈](https://leetcode.cn/problems/min-stack/)
+        - 代码: [LeetCode155.java](./LeetCode/LeetCode155.java)
     - [225. 用队列实现栈](https://leetcode.cn/problems/implement-stack-using-queues/)
         - 代码: [LeetCode225.java](./LeetCode/LeetCode225.java)
     - [232. 用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/)
