@@ -1,8 +1,3 @@
-/*
- * 问题描述: https://leetcode.cn/problems/course-schedule/
- * 解题思路: 问题转化为有向环检测
- */
-
 import java.util.ArrayList;
 
 public class LeetCode207 {
@@ -27,28 +22,28 @@ public class LeetCode207 {
 
 class Solution207 {
     public ArrayList<ArrayList<Integer>> adjList;
-    public int[] visited;
-    public int[] onStack;
+    public boolean[] visited;
+    public boolean[] onStack;
     boolean valid = true;
 
     public boolean canFinish(int numCourses, int[][] prerequisites) {
+        // 先构建有向图
         adjList = new ArrayList<ArrayList<Integer>>();
         for (int i = 0; i < numCourses; i++) {
             adjList.add(new ArrayList<Integer>());
         }
         for (int i = 0; i < prerequisites.length; i++) {
-            int end = prerequisites[i][0];
-            int start = prerequisites[i][1];
-            adjList.get(start).add(end);
+            adjList.get(prerequisites[i][1]).add(prerequisites[i][0]);
         }
-        visited = new int[numCourses];
-        onStack = new int[numCourses];
+
+        visited = new boolean[numCourses];
+        onStack = new boolean[numCourses];
 
         for (int u = 0; u < numCourses; u++) {
             if (!valid) {
                 break;
             }
-            if (visited[u] == 0) {
+            if (visited[u] == false) {
                 dfs(u);
             }
         }
@@ -56,17 +51,17 @@ class Solution207 {
     }
 
     public void dfs(int u) {
-        visited[u] = 1;
-        onStack[u] = 1;
+        visited[u] = true;
+        onStack[u] = true;
         for (int v : adjList.get(u)) {
-            if (visited[v] == 0) {
+            if (visited[v] == false) {
                 dfs(v);
             }
-            if (onStack[v] == 1) {
+            if (onStack[v] == true) {
                 valid = false;
                 break;
             }
         }
-        onStack[u] = 0;
+        onStack[u] = false;
     }
 }
