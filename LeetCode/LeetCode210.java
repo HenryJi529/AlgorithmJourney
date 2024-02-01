@@ -1,8 +1,3 @@
-/*
- * 问题描述: https://leetcode.cn/problems/course-schedule-ii/
- * 解题思路: 问题转化为拓扑排序(要注意有向环检测)
- */
-
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -42,10 +37,11 @@ class Solution210 {
     public boolean[] visited;// NOTE: 也可以设置visited范围为0,1,2，分别代表未访问/访问中/访问完成
     public boolean[] onStack;
     public int[] order; // NOTE: 这里是用数组和指针代替栈
-    public int index;
+    public int index; // NOTE: 用来记录顺序的索引
     boolean valid = true;
 
     public int[] findOrder(int numCourses, int[][] prerequisites) {
+        // 构造有向图
         adjList = new ArrayList<ArrayList<Integer>>();
         for (int i = 0; i < numCourses; i++) {
             adjList.add(new ArrayList<Integer>());
@@ -55,6 +51,7 @@ class Solution210 {
             int start = prerequisites[i][1];
             adjList.get(start).add(end);
         }
+
         visited = new boolean[numCourses];
         onStack = new boolean[numCourses];
         order = new int[numCourses];
