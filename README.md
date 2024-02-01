@@ -29,6 +29,8 @@
         - 代码: [LeetCode69.java](./LeetCode/LeetCode69.java)
     - [704. 二分查找](https://leetcode.cn/problems/binary-search/):
         - 代码: [LeetCode704.java](./LeetCode/LeetCode704.java)
+    - [852. 山脉数组的峰顶索引](https://leetcode.cn/problems/peak-index-in-a-mountain-array/):
+        - 代码: [LeetCode852.java](./LeetCode/LeetCode852.java)
     - [875. 爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/):
         - 代码: [LeetCode875.java](./LeetCode/LeetCode875.java)
     - [1011.在D天内送达包裹的能力](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/):
