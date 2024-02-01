@@ -96,6 +96,8 @@
     - [739. 每日温度](https://leetcode.cn/problems/daily-temperatures/)
         - 思路: 存储中间结果以降低时间复杂度
         - 代码: [LeetCode739.java](./LeetCode/LeetCode739.java)
+    - [1047. 删除字符串中的所有相邻重复项](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/)
+        - 代码: [LeetCode1047.java](./LeetCode/LeetCode1047.java)
 
 - 字符串:
     - [67. 二进制求和](https://leetcode.cn/problems/add-binary/)

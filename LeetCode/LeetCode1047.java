@@ -1,7 +1,3 @@
-/*
- * 问题描述: https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/description/
- */
-
 public class LeetCode1047 {
     public static void main(String[] args) {
         String S1, S2;
