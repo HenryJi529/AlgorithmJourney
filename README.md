@@ -64,6 +64,8 @@
     - [206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/)
         - 思路: 递归思路下，注意需要保证返回值为末端元素
         - 代码: [LeetCode206.java](./LeetCode/LeetCode206.java)
+    - [234. 回文链表](https://leetcode.cn/problems/palindrome-linked-list/)
+        - 代码: [LeetCode234.java](./LeetCode/LeetCode234.java)
     - [237. 删除链表中的节点](https://leetcode.cn/problems/delete-node-in-a-linked-list/)
         - 代码: [LeetCode237.java](./LeetCode/LeetCode237.java)
     - [876. 链表的中间结点](https://leetcode.cn/problems/middle-of-the-linked-list/)
