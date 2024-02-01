@@ -96,6 +96,8 @@
         - 代码: [LeetCode739.java](./LeetCode/LeetCode739.java)
 
 - 字符串:
+    - [67. 二进制求和](https://leetcode.cn/problems/add-binary/)
+        - 代码: [LeetCode67.java](./LeetCode/LeetCode67.java)
     - [93. 复原 IP 地址](https://leetcode.cn/problems/restore-ip-addresses/)
         - 代码: [LeetCode93.java](./LeetCode/LeetCode93.java)
     - [165. 比较版本号](https://leetcode.cn/problems/compare-version-numbers/)

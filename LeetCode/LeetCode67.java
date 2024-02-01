@@ -1,7 +1,3 @@
-/* 
- * 问题描述: https://leetcode.cn/problems/add-binary/
- */
-
 import java.util.LinkedList;
 
 public class LeetCode67 {
@@ -13,7 +9,7 @@ public class LeetCode67 {
         a = "11";
         b = "1";
         System.out.println(a + " " + b);
-        System.out.println(new Solution67_3().addBinary(a, b));
+        System.out.println(new Solution67_2().addBinary(a, b));
         System.out.println("================================================");
 
         // 输入：a = "1010", b = "1011"
@@ -21,12 +17,13 @@ public class LeetCode67 {
         a = "1010";
         b = "1011";
         System.out.println(a + " " + b);
-        System.out.println(new Solution67_3().addBinary(a, b));
+        System.out.println(new Solution67_2().addBinary(a, b));
         System.out.println("================================================");
     }
 }
 
 class Solution67_1 {
+    // NOTE: 这个版本过于复杂，其实可以同时使用i和j来索引
     public String addBinary(String a, String b) {
         boolean carry = false;
         LinkedList<Character> list = new LinkedList<Character>();
@@ -35,8 +32,7 @@ class Solution67_1 {
         int length2 = b.length();
         for (int i = Math.max(length1, length2) - 1; i >= 0; i--) {
             char s1, s2;
-            // NOTE: 可以同时使用i和j来索引
-
+            // 先获得每个索引对应的字符，长度不够默认为'0'
             if (length1 == length2) {
                 s1 = a.charAt(i);
                 s2 = b.charAt(i);
@@ -97,22 +93,6 @@ class Solution67_1 {
 }
 
 class Solution67_2 {
-    public String addBinary(String a, String b) {
-        StringBuilder ans = new StringBuilder();
-        int ca = 0;
-        for (int i = a.length() - 1, j = b.length() - 1; i >= 0 || j >= 0; i--, j--) {
-            int sum = ca;
-            sum += i >= 0 ? a.charAt(i) - '0' : 0;
-            sum += j >= 0 ? b.charAt(j) - '0' : 0;
-            ans.append(sum % 2);
-            ca = sum / 2;
-        }
-        ans.append(ca == 1 ? ca : "");
-        return ans.reverse().toString();
-    }
-}
-
-class Solution67_3 {
     public String addBinary(String a, String b) {
         StringBuilder ans = new StringBuilder();
         int carry = 0;
