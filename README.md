@@ -8,6 +8,8 @@
     - [141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/)
         - 思路: 快慢指针或哈希表
         - 代码: [LeetCode141.java](./LeetCode/LeetCode141.java)
+    - [283. 移动零](https://leetcode.cn/problems/move-zeroes/)
+        - 代码: [LeetCode283.java](./LeetCode/LeetCode283.java)
     - [344. 反转字符串](https://leetcode.cn/problems/reverse-string/)
         - 代码: [LeetCode344.java](./LeetCode/LeetCode344.java)
 
