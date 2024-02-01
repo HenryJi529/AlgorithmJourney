@@ -1,7 +1,3 @@
-/* 
- * 问题描述: https://leetcode.cn/problems/search-insert-position/
- */
-
 public class LeetCode35 {
 
     public static void main(String[] args) {
@@ -22,21 +18,19 @@ public class LeetCode35 {
 
 class Solution35 {
     public int searchInsert(int[] nums, int target) {
-        int l = 0;
-        int r = nums.length - 1;
+        int left = 0;
+        int right = nums.length - 1;
         int mid;
-        while (l <= r) {
-            mid = l + (r - l) / 2;
-            System.out.println(String.format("l: %d r: %d mid: %d(%d)", l, r, mid, nums[mid]));
-            if (nums[mid] == target) {
+        while (left <= right) {
+            mid = left + (right - left) / 2;
+            if (nums[mid] > target) {
+                right = mid - 1;
+            } else if (nums[mid] < target) {
+                left = mid + 1;
+            } else {
                 return mid;
             }
-            if (nums[mid] < target) {
-                l = mid + 1;
-            } else {
-                r = mid - 1;
-            }
         }
-        return l;
+        return left;
     }
 }

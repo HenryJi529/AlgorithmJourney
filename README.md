@@ -21,6 +21,8 @@
     - [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/):
         - 思路: 两次二分查找
         - 代码: [LeetCode34.java](./LeetCode/LeetCode34.java)
+    - [35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position/):
+        - 代码: [LeetCode35.java](./LeetCode/LeetCode35.java)
     - [50. Pow(x, n)](https://leetcode.cn/problems/powx-n/):
         - 思路: 分而治之(注意边界问题)
         - 代码: [LeetCode50.java](./LeetCode/LeetCode50.java)
