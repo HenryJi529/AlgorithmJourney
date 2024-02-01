@@ -34,6 +34,14 @@ public class LeetCode31 {
         new Solution31().nextPermutation(nums);
         System.out.println(Arrays.toString(nums));
         System.out.println("================================================================");
+
+        // 输入：nums = [2,3,1]
+        // 输出：[3,1,2]
+        nums = new int[] { 2, 3, 1 };
+        System.out.println(Arrays.toString(nums));
+        new Solution31().nextPermutation(nums);
+        System.out.println(Arrays.toString(nums));
+        System.out.println("================================================================");
     }
 }
 
@@ -47,39 +55,33 @@ class Solution31 {
             return;
         }
 
-        int x = -1;
-        int y = -1;
-
-        int index;
-        for (index = nums.length - 1; index >= 1; index--) {
-            if (nums[index] > nums[index - 1]) {
+        // 找到逆序的第一位
+        int reversed_first = nums.length - 1;
+        while (reversed_first >= 1) {
+            if (nums[reversed_first] > nums[reversed_first - 1]) {
                 break;
             }
+            reversed_first--;
         }
-        if (index == 0) {
+
+        if (reversed_first == 0) {
+            // 如果第一位是0，就整体调换
             reverse(nums, 0);
         } else {
-            y = index;
-            x = y - 1;
-
-            if (y == nums.length - 1) {
-                swap(nums, y, y - 1);
+            if (reversed_first == nums.length - 1) {
+                // 如果第一位是最后一位，就需要一次简单的对掉
+                swap(nums, reversed_first, reversed_first - 1);
             } else {
-                int z = -1;
-                for (index = y; index < nums.length; index++) {
-                    if (nums[index] > nums[x]) {
-                        continue;
+                int reversed_suitable = reversed_first;
+                while (reversed_suitable < nums.length) {
+                    if (nums[reversed_suitable] > nums[reversed_first - 1]) {
+                        reversed_suitable++;
                     } else {
-                        z = index - 1;
                         break;
                     }
                 }
-                if (index == nums.length) {
-                    z = nums.length - 1;
-                }
-
-                swap(nums, x, z);
-                reverse(nums, y);
+                swap(nums, reversed_first - 1, reversed_suitable - 1);
+                reverse(nums, reversed_first);
             }
         }
     }

@@ -34,6 +34,8 @@
         - 代码: [LeetCode1011.java](./LeetCode/LeetCode1011.java)
 
 - 排序:
+    - [31. 下一个排列](https://leetcode.cn/problems/next-permutation/)
+        - 代码: [LeetCode31.java](./LeetCode/LeetCode31.java)
     - [75. 颜色分类](https://leetcode.cn/problems/sort-colors/)
         - 代码: [LeetCode75.java](./LeetCode/LeetCode75.java)
 
