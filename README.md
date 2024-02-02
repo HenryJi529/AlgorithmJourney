@@ -8,6 +8,9 @@
     - [26. 删除有序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array)
         - 思路: LinkedHashSet 或 快慢指针
         - 代码: [LeetCode26.java](./LeetCode/LeetCode26.java)
+    - [27. 移除元素](https://leetcode.cn/problems/remove-element/)
+        - 思路: 快慢指针 或 反向指针【避免重复赋值】
+        - 代码: [LeetCode27.java](./LeetCode/LeetCode27.java)
     - [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/)
         - 代码: [LeetCode42.java](./LeetCode/LeetCode42.java)
     - [80. 删除有序数组中的重复项 II](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/)
