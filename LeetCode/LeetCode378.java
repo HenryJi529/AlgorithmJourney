@@ -16,7 +16,7 @@ public class LeetCode378 {
 }
 
 class Solution378 {
-    class Cell {
+    static class Cell {
         int i;
         int j;
 
@@ -28,18 +28,12 @@ class Solution378 {
     }
 
     public int kthSmallest(int[][] matrix, int k) {
-        PriorityQueue<Cell> pq = new PriorityQueue<Cell>(new Comparator<Cell>() {
+        PriorityQueue<Cell> pq = new PriorityQueue<>(new Comparator<>() {
             @Override
             public int compare(Cell c1, Cell c2) {
                 int val1 = matrix[c1.i][c1.j];
                 int val2 = matrix[c2.i][c2.j];
-                if (val1 < val2) {
-                    return -1;
-                } else if (val1 > val2) {
-                    return 1;
-                } else {
-                    return 0;
-                }
+                return Integer.compare(val1, val2);
             }
         });
         int n = matrix.length;
