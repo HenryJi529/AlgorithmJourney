@@ -1,7 +1,3 @@
-/*
- * 问题描述: https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/
- */
-
 import java.util.Arrays;
 
 public class LeetCode80 {
@@ -13,7 +9,7 @@ public class LeetCode80 {
         nums = new int[] { 1, 1, 1, 2, 2, 3 };
         System.out.println(Arrays.toString(nums));
         k = new Solution80().removeDuplicates(nums);
-        System.out.println(Arrays.toString(nums) + " " + k);
+        System.out.println(Arrays.toString(Arrays.copyOf(nums, k)));
         System.out.println("================================================");
 
         // 输入：nums = [0,0,1,1,1,1,2,3,3]
@@ -21,7 +17,7 @@ public class LeetCode80 {
         nums = new int[] { 0, 0, 1, 1, 1, 1, 2, 3, 3 };
         System.out.println(Arrays.toString(nums));
         k = new Solution80().removeDuplicates(nums);
-        System.out.println(Arrays.toString(nums) + " " + k);
+        System.out.println(Arrays.toString(Arrays.copyOf(nums, k)));
         System.out.println("================================================");
     }
 }
@@ -31,16 +27,15 @@ class Solution80 {
         if (nums.length <= 2) {
             return nums.length;
         }
-        int i = 1;
-        int j = 2;
-        while (j < nums.length) {
-            if (nums[j] == nums[i] && nums[j] == nums[i - 1]) {
+        int next = 1;
+        int index = 2;
+        while (index < nums.length) {
+            if (nums[index] == nums[next] && nums[index] == nums[next - 1]) {
             } else {
-                nums[i + 1] = nums[j];
-                i++;
+                nums[++next] = nums[index];
             }
-            j++;
+            index++;
         }
-        return i + 1;
+        return next + 1;
     }
 }
