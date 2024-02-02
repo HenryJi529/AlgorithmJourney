@@ -5,6 +5,8 @@
 
 
 - 双指针:
+    - [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/)
+        - 代码: [LeetCode42.java](./LeetCode/LeetCode42.java)
     - [80. 删除有序数组中的重复项 II](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/)
         - 代码: [LeetCode80.java](./LeetCode/LeetCode80.java)
     - [141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/)

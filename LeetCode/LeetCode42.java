@@ -1,8 +1,3 @@
-/* 
- * 问题描述: https://leetcode.cn/problems/trapping-rain-water/
- * 解题思路: 动态规划或双指针
- */
-
 public class LeetCode42 {
     public static void main(String[] args) {
         int[] height;
