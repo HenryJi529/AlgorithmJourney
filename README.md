@@ -254,6 +254,9 @@
         - 代码: [LeetCode198.java](./LeetCode/LeetCode198.java)
     - [410. 分割数组的最大值](https://leetcode.cn/problems/split-array-largest-sum/)
         - 代码: [LeetCode410.java](./LeetCode/LeetCode410.java)
+    - [486. 预测赢家](https://leetcode.cn/problems/predict-the-winner/)
+        - 思路: Min-Max + DP
+        - 代码: [LeetCode486.java](./LeetCode/LeetCode486.java)
     - [877. 石子游戏](https://leetcode.cn/problems/stone-game/)
         - 思路: Min-Max + DP 或 脑筋急转弯 
         - 代码: [LeetCode877.java](./LeetCode/LeetCode877.java)
