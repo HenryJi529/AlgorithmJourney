@@ -24,8 +24,9 @@
     - [344. 反转字符串](https://leetcode.cn/problems/reverse-string/)
         - 代码: [LeetCode344.java](./LeetCode/LeetCode344.java)
 
-- 贪心算法:
+- 贪心:
     - [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/):
+        - 思路: 双指针 + 贪心
         - 代码: [LeetCode11.java](./LeetCode/LeetCode11.java)
 
 - 二分查找:

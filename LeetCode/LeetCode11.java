@@ -14,17 +14,15 @@ public class LeetCode11 {
 class Solution11 {
     public int maxArea(int[] height) {
         int max = 0;
-        int i = 0;
-        int j = height.length - 1;
-        while (i < j) {
-            int current = (j - i) * Math.min(height[i], height[j]);
-            if (current > max) {
-                max = current;
-            }
-            if (height[i] < height[j]) {
-                i++;
+        int left = 0;
+        int right = height.length - 1;
+        while (left < right) {
+            int current = (right - left) * Math.min(height[left], height[right]);
+            max = Math.max(max, current);
+            if (height[left] < height[right]) {
+                left++;
             } else {
-                j--;
+                right--;
             }
         }
         return max;
