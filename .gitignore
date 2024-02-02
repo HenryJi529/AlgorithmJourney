@@ -1,8 +1,14 @@
+# System
 .DS_Store
 
+## IDE
 .VSCodeCounter/
 tempCodeRunnerFile.java
+.idea/
+out/
+*.iml
 
+## Language
 **/__pycache__/
 *.class
 test.*
