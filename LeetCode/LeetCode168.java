@@ -1,50 +1,50 @@
-/* 
- * 问题描述: https://leetcode.cn/problems/excel-sheet-column-title/description/
- */
-
-import java.util.Stack;
-
 public class LeetCode168 {
     public static void main(String[] args) {
         // 输入：columnNumber = 1
         // 输出："A"
-        // System.out.println(new Solution168().convertToTitle(1));
+        System.out.println("A");
+        System.out.println(new Solution168().convertToTitle(1));
+        System.out.println("=====================================================");
 
         // 输入：columnNumber = 28
         // 输出："AB"
-        // System.out.println(new Solution168().convertToTitle(28));
+        System.out.println("AB");
+        System.out.println(new Solution168().convertToTitle(28));
+        System.out.println("=====================================================");
 
         // 输入：columnNumber = 701
         // 输出："ZY"
-        // System.out.println(new Solution168().convertToTitle(701));
+        System.out.println("ZY");
+        System.out.println(new Solution168().convertToTitle(701));
+        System.out.println("=====================================================");
 
         // 输入：columnNumber = 2147483647
         // 输出："FXSHRXW"
-        // System.out.println(new Solution168().convertToTitle(2147483647));
+        System.out.println("FXSHRXW");
+        System.out.println(new Solution168().convertToTitle(2147483647));
+        System.out.println("=====================================================");
 
         // 输入：columnNumber = 52
         // 输出："AZ"
+        System.out.println("AZ");
         System.out.println(new Solution168().convertToTitle(52));
+        System.out.println("=====================================================");
     }
 }
 
 class Solution168 {
     public String convertToTitle(int columnNumber) {
-        Stack<Character> stack = new Stack<Character>();
+        StringBuilder sb = new StringBuilder();
 
         while (true) {
             int i = columnNumber % 26 != 0 ? columnNumber % 26 : 26;
-            stack.push((char) ('A' + i - 1));
-            if (columnNumber > 26) {
-                columnNumber = (columnNumber - i) / 26;
-            } else {
+            sb.append(((char) ('A' + i - 1)));
+            if (columnNumber <= 26) {
                 break;
             }
+            columnNumber = (columnNumber - i) / 26;
         }
-        StringBuilder sb = new StringBuilder();
-        while (!stack.isEmpty()) {
-            sb.append(stack.pop());
-        }
-        return sb.toString();
+
+        return sb.reverse().toString();
     }
 }
