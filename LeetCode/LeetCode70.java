@@ -1,7 +1,3 @@
-/*
- * 问题描述: https://leetcode.cn/problems/climbing-stairs/description/
- */
-
 import java.util.HashMap;
 
 public class LeetCode70 {
