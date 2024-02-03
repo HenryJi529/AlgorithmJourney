@@ -1,8 +1,3 @@
-/* 
- * 问题描述: https://leetcode.cn/problems/longest-valid-parentheses/description/
- * 解题思路: 动态规划，考虑`(`与`)`对应关系
- */
-
 import java.util.Stack;
 
 public class LeetCode32 {
@@ -31,63 +26,62 @@ public class LeetCode32 {
 }
 
 class Solution32_1 {
-    private Stack<Character> stack = new Stack<Character>();
-
+    // NOTE: 暴力解法，部分超时
     public int longestValidParentheses(String s) {
         if (s.length() == 0) {
             return 0;
         }
-        int max = 0;
-        for (int start = 0; start < s.length() - 1; start++) {
-            for (int end = start; end < s.length(); end++) {
-                int count = longestValidParentheses(s, start, end);
-                if (count > max) {
-                    max = count;
+        for (int length = s.length() % 2 == 0 ? s.length() : s.length() - 1; length >= 2; length -= 2) {
+            for (int i = 0; i + length <= s.length(); i++) {
+                if (isValidParentheses(s, i, i + length - 1)) {
+                    return length;
                 }
             }
         }
-        return max;
+
+        return 0;
     }
 
-    private int longestValidParentheses(String s, int start, int end) {
-        stack.clear();
+    public boolean isValidParentheses(String s, int start, int end) {
+        Stack<Character> stack = new Stack<Character>();
 
         for (int i = start; i <= end; i++) {
             if (s.charAt(i) == '(') {
                 stack.push('(');
             } else {
                 if (stack.isEmpty()) {
-                    return 0;
+                    return false;
                 }
                 stack.pop();
             }
         }
-        if (stack.isEmpty()) {
-            return end - start + 1;
-        } else {
-            return 0;
-        }
+        return stack.isEmpty();
     }
 }
 
 class Solution32_2 {
     public int longestValidParentheses(String s) {
+        if (s.length() < 2) {
+            return 0;
+        }
         int max = 0;
         int[] dp = new int[s.length()];
-        for (int i = 1; i < s.length(); i++) {
-            if (s.charAt(i) == ')') {
-                if (s.charAt(i - 1) == '(') {
-                    dp[i] = (i >= 2 ? dp[i - 2] : 0) + 2;
-                } else {
-                    if (i - dp[i - 1] - 1 >= 0 && s.charAt(i - dp[i - 1] - 1) == '(') {
-                        dp[i] = dp[i - 1] + 2 + (i - dp[i - 1] - 2 >= 0 ? dp[i - dp[i - 1] - 2] : 0);
-                    }
-                }
-                if (dp[i] > max) {
-                    max = dp[i];
+        for (int end = 1; end < s.length(); end++) {
+            if (s.charAt(end) == '(') {
+                continue;
+            }
+            if (s.charAt(end - 1) == '(') {
+                dp[end] = end - 2 >= 0 ? dp[end - 2] + 2 : 2;
+            } else {
+                int ind = end - 1 - dp[end - 1];
+                if (ind >= 0 && s.charAt(ind) == '(') {
+                    dp[end] = dp[end - 1] + 2 + (ind - 1 >= 0 ? dp[ind - 1] : 0);
                 }
             }
+            // System.out.println(end + " " + dp[end]);
+            max = Math.max(max, dp[end]);
         }
         return max;
     }
+
 }
