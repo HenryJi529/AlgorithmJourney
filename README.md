@@ -28,6 +28,9 @@
     - [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/):
         - 思路: 双指针 + 贪心
         - 代码: [LeetCode11.java](./LeetCode/LeetCode11.java)
+    - [605. 种花问题](https://leetcode.cn/problems/can-place-flowers/):
+        - 思路: 找到连续的0，累计可种数
+        - 代码: [LeetCode605.java](./LeetCode/LeetCode605.java)
     - [1642. 可以到达的最远建筑](https://leetcode.cn/problems/furthest-building-you-can-reach/):
         - 思路: 全梯子逐渐换砖头/全砖头逐渐换梯子
         - 代码: [LeetCode1642.java](./LeetCode/LeetCode1642.java)
