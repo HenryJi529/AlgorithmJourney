@@ -3,6 +3,20 @@
 
 ## LeetCode刷题列表(按题型分类)
 
+- 枚举
+    - [1995. 统计特殊四元组](https://leetcode.cn/problems/count-special-quadruplets/):
+        - 代码: [LeetCode1995.java](./LeetCode/LeetCode1995.java)
+
+- 贪心:
+    - [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/):
+        - 思路: 双指针 + 贪心
+        - 代码: [LeetCode11.java](./LeetCode/LeetCode11.java)
+    - [605. 种花问题](https://leetcode.cn/problems/can-place-flowers/):
+        - 思路: 找到连续的0，累计可种数
+        - 代码: [LeetCode605.java](./LeetCode/LeetCode605.java)
+    - [1642. 可以到达的最远建筑](https://leetcode.cn/problems/furthest-building-you-can-reach/):
+        - 思路: 全梯子逐渐换砖头/全砖头逐渐换梯子
+        - 代码: [LeetCode1642.java](./LeetCode/LeetCode1642.java)
 
 - 双指针:
     - [26. 删除有序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array)
@@ -23,17 +37,6 @@
         - 代码: [LeetCode283.java](./LeetCode/LeetCode283.java)
     - [344. 反转字符串](https://leetcode.cn/problems/reverse-string/)
         - 代码: [LeetCode344.java](./LeetCode/LeetCode344.java)
-
-- 贪心:
-    - [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/):
-        - 思路: 双指针 + 贪心
-        - 代码: [LeetCode11.java](./LeetCode/LeetCode11.java)
-    - [605. 种花问题](https://leetcode.cn/problems/can-place-flowers/):
-        - 思路: 找到连续的0，累计可种数
-        - 代码: [LeetCode605.java](./LeetCode/LeetCode605.java)
-    - [1642. 可以到达的最远建筑](https://leetcode.cn/problems/furthest-building-you-can-reach/):
-        - 思路: 全梯子逐渐换砖头/全砖头逐渐换梯子
-        - 代码: [LeetCode1642.java](./LeetCode/LeetCode1642.java)
 
 - 二分查找:
     - [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/):

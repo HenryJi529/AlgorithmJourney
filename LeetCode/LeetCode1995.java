@@ -1,7 +1,3 @@
-/* 
- * 问题描述: https://leetcode.cn/problems/count-special-quadruplets/description/
- */
-
 public class LeetCode1995 {
     public static void main(String[] args) {
         // 输入：nums = [1,2,3,6]
