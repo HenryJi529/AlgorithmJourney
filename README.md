@@ -28,6 +28,9 @@
     - [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/):
         - 思路: 双指针 + 贪心
         - 代码: [LeetCode11.java](./LeetCode/LeetCode11.java)
+    - [1642. 可以到达的最远建筑](https://leetcode.cn/problems/furthest-building-you-can-reach/):
+        - 思路: 全梯子逐渐换砖头/全砖头逐渐换梯子
+        - 代码: [LeetCode1642.java](./LeetCode/LeetCode1642.java)
 
 - 二分查找:
     - [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/):

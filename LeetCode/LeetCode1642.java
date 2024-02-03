@@ -1,8 +1,3 @@
-/* 
- * 问题描述: https://leetcode.cn/problems/furthest-building-you-can-reach/description/
- * 解题思路: 贪心算法: 全梯子逐渐换砖头/全砖头逐渐换梯子
- */
-
 import java.util.PriorityQueue;
 
 public class LeetCode1642 {
@@ -57,7 +52,6 @@ class Solution1642 {
                     // 如果剩余砖块不够
                     if (leftLadders > 0) {
                         // 还有梯子
-
                         queue.add(-needBricks);
                         int maxBrickConsume = -queue.poll();
                         leftBricks += maxBrickConsume;
