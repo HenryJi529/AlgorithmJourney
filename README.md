@@ -21,6 +21,9 @@
         - 代码: [LeetCode1642.java](./LeetCode/LeetCode1642.java)
 
 - 双指针:
+    - [9. 回文数](https://leetcode.cn/problems/palindrome-number/)
+        - 思路: 双指针 或 递归
+        - 代码: [LeetCode9.java](./LeetCode/LeetCode9.java)
     - [26. 删除有序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array)
         - 思路: LinkedHashSet 或 快慢指针
         - 代码: [LeetCode26.java](./LeetCode/LeetCode26.java)
