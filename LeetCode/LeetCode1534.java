@@ -1,7 +1,3 @@
-/* 
- * 问题描述: https://leetcode.cn/problems/count-good-triplets/description/
- */
-
 public class LeetCode1534 {
     public static void main(String[] args) {
         // 输入：arr = [3,0,1,1,9,7], a = 7, b = 2, c = 3
