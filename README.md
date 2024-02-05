@@ -366,6 +366,8 @@
         - 代码: [LeetCode1141.sql](./LeetCode/sql/LeetCode1141.sql)
     - [1148. 文章浏览 I](https://leetcode.cn/problems/article-views-i/)
         - 代码: [LeetCode1148.sql](./LeetCode/sql/LeetCode1148.sql)
+    - [1179. 重新格式化部门表](https://leetcode.cn/problems/reformat-department-table/)
+        - 代码: [LeetCode1179.sql](./LeetCode/sql/LeetCode1179.sql)
 
 - Shell:
     - [194. 转置文件](https://leetcode.cn/problems/transpose-file/)
