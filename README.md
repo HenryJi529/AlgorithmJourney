@@ -362,6 +362,8 @@
     - [1084. 销售分析III](https://leetcode.cn/problems/sales-analysis-iii/)
         - 思路: 尽可能减少遍历次数
         - 代码: [LeetCode1084.sql](./LeetCode/sql/LeetCode1084.sql)
+    - [1141. 查询近30天活跃用户数](https://leetcode.cn/problems/user-activity-for-the-past-30-days-i/)
+        - 代码: [LeetCode1141.sql](./LeetCode/sql/LeetCode1141.sql)
 
 - Shell:
     - [194. 转置文件](https://leetcode.cn/problems/transpose-file/)
