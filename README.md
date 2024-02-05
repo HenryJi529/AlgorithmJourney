@@ -72,6 +72,9 @@
         - 代码: [LeetCode31.java](./LeetCode/LeetCode31.java)
     - [75. 颜色分类](https://leetcode.cn/problems/sort-colors/)
         - 代码: [LeetCode75.java](./LeetCode/LeetCode75.java)
+    - [274. H 指数](https://leetcode.cn/problems/h-index/)
+        - 思路: 选择排序并在适当时终止 或 对h值二分查找
+        - 代码: [LeetCode274.java](./LeetCode/LeetCode274.java)
 
 - 数组:
     - [118. 杨辉三角](https://leetcode.cn/problems/pascals-triangle/)
