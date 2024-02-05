@@ -35,6 +35,8 @@
     - [80. 删除有序数组中的重复项 II](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/)
         - 思路: 快慢指针
         - 代码: [LeetCode80.java](./LeetCode/LeetCode80.java)
+    - [88. 合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array/)
+        - 代码: [LeetCode88.java](./LeetCode/LeetCode88.java)
     - [141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/)
         - 思路: 快慢指针或哈希表
         - 代码: [LeetCode141.java](./LeetCode/LeetCode141.java)
