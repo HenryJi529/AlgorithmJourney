@@ -343,6 +343,8 @@
         - 代码: [LeetCode595.sql](./LeetCode/sql/LeetCode595.sql)
     - [596. 超过5名学生的课](https://leetcode.cn/problems/classes-more-than-5-students/)
         - 代码: [LeetCode596.sql](./LeetCode/sql/LeetCode596.sql)
+    - [607. 销售员](https://leetcode.cn/problems/sales-person/)
+        - 代码: [LeetCode607.sql](./LeetCode/sql/LeetCode607.sql)
     - [610. 判断三角形](https://leetcode.cn/problems/triangle-judgement/)
         - 代码: [LeetCode610.sql](./LeetCode/sql/LeetCode610.sql)
     - [619. 只出现一次的最大数字](https://leetcode.cn/problems/biggest-single-number/)
