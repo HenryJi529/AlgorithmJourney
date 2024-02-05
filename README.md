@@ -337,6 +337,8 @@
         - 代码: [LeetCode577.sql](./LeetCode/sql/LeetCode577.sql)
     - [584. 寻找用户推荐人](https://leetcode.cn/problems/find-customer-referee/)
         - 代码: [LeetCode584.sql](./LeetCode/sql/LeetCode584.sql)
+    - [586. 订单最多的客户](https://leetcode.cn/problems/customer-placing-the-largest-number-of-orders/)
+        - 代码: [LeetCode586.sql](./LeetCode/sql/LeetCode586.sql)
     - [610. 判断三角形](https://leetcode.cn/problems/triangle-judgement/)
         - 代码: [LeetCode610.sql](./LeetCode/sql/LeetCode610.sql)
     - [619. 只出现一次的最大数字](https://leetcode.cn/problems/biggest-single-number/)
