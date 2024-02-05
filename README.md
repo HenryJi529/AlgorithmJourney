@@ -113,6 +113,8 @@
         - 代码: [LeetCode84.java](./LeetCode/LeetCode84.java)
     - [155. 最小栈](https://leetcode.cn/problems/min-stack/)
         - 代码: [LeetCode155.java](./LeetCode/LeetCode155.java)
+    - [169. 多数元素](https://leetcode.cn/problems/majority-element/)
+        - 代码: [LeetCode169.java](./LeetCode/LeetCode169.java)
     - [225. 用队列实现栈](https://leetcode.cn/problems/implement-stack-using-queues/)
         - 代码: [LeetCode225.java](./LeetCode/LeetCode225.java)
     - [232. 用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/)
