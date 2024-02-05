@@ -331,6 +331,8 @@
         - 代码: [LeetCode196.sql](./LeetCode/sql/LeetCode196.sql)
     - [197. 上升的温度](https://leetcode.cn/problems/rising-temperature/)
         - 代码: [LeetCode197.sql](./LeetCode/sql/LeetCode197.sql)
+    - [511. 游戏玩法分析 I](https://leetcode.cn/problems/game-play-analysis-i/)
+        - 代码: [LeetCode511.sql](./LeetCode/sql/LeetCode511.sql)
     - [584. 寻找用户推荐人](https://leetcode.cn/problems/find-customer-referee/)
         - 代码: [LeetCode584.sql](./LeetCode/sql/LeetCode584.sql)
     - [610. 判断三角形](https://leetcode.cn/problems/triangle-judgement/)
