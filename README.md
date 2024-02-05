@@ -349,6 +349,8 @@
         - 代码: [LeetCode610.sql](./LeetCode/sql/LeetCode610.sql)
     - [619. 只出现一次的最大数字](https://leetcode.cn/problems/biggest-single-number/)
         - 代码: [LeetCode619.sql](./LeetCode/sql/LeetCode619.sql)
+    - [620. 有趣的电影](https://leetcode.cn/problems/not-boring-movies/)
+        - 代码: [LeetCode620.sql](./LeetCode/sql/LeetCode620.sql)
     - [627. 变更性别](https://leetcode.cn/problems/swap-salary/)
         - 代码: [LeetCode627.sql](./LeetCode/sql/LeetCode627.sql)
     - [1075. 项目员工 I](https://leetcode.cn/problems/project-employees-i/)
