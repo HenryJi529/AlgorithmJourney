@@ -364,6 +364,8 @@
         - 代码: [LeetCode1084.sql](./LeetCode/sql/LeetCode1084.sql)
     - [1141. 查询近30天活跃用户数](https://leetcode.cn/problems/user-activity-for-the-past-30-days-i/)
         - 代码: [LeetCode1141.sql](./LeetCode/sql/LeetCode1141.sql)
+    - [1148. 文章浏览 I](https://leetcode.cn/problems/article-views-i/)
+        - 代码: [LeetCode1148.sql](./LeetCode/sql/LeetCode1148.sql)
 
 - Shell:
     - [194. 转置文件](https://leetcode.cn/problems/transpose-file/)
