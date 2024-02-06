@@ -372,6 +372,8 @@
         - 代码: [LeetCode1211.sql](./LeetCode/sql/LeetCode1211.sql)
     - [1251. 平均售价](https://leetcode.cn/problems/average-selling-price/)
         - 代码: [LeetCode1251.sql](./LeetCode/sql/LeetCode1251.sql)
+    - [1280. 学生们参加各科测试的次数](https://leetcode.cn/problems/students-and-examinations/)
+        - 代码: [LeetCode1280.sql](./LeetCode/sql/LeetCode1280.sql)
 
 - Shell:
     - [194. 转置文件](https://leetcode.cn/problems/transpose-file/)
