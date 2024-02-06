@@ -390,6 +390,8 @@
         - 代码: [LeetCode1581.sql](./LeetCode/sql/LeetCode1581.sql)
     - [1587. 银行账户概要 II](https://leetcode.cn/problems/bank-account-summary-ii/)
         - 代码: [LeetCode1587.sql](./LeetCode/sql/LeetCode1587.sql)
+    - [1873. 计算特殊奖金](https://leetcode.cn/problems/calculate-special-bonus/)
+        - 代码: [LeetCode1873.sql](./LeetCode/sql/LeetCode1873.sql)
     - [1890. 2020年最后一次登录](https://leetcode.cn/problems/the-latest-login-in-2020/)
         - 代码: [LeetCode1890.sql](./LeetCode/sql/LeetCode1890.sql)
     - [1965. 丢失信息的雇员](https://leetcode.cn/problems/employees-with-missing-information/)
