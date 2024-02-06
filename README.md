@@ -378,6 +378,8 @@
         - 代码: [LeetCode1327.sql](./LeetCode/sql/LeetCode1327.sql)
     - [1378. 使用唯一标识码替换员工ID](https://leetcode.cn/problems/replace-employee-id-with-the-unique-identifier/)
         - 代码: [LeetCode1378.sql](./LeetCode/sql/LeetCode1378.sql)
+    - [1407. 排名靠前的旅行者](https://leetcode.cn/problems/top-travellers/)
+        - 代码: [LeetCode1407.sql](./LeetCode/sql/LeetCode1407.sql)
     - [1978. 上级经理已离职的公司员工](https://leetcode.cn/problems/employees-whose-manager-left-the-company/)
         - 代码: [LeetCode1978.sql](./LeetCode/sql/LeetCode1978.sql)
     - [2356. 每位教师所教授的科目种类的数量](https://leetcode.cn/problems/number-of-unique-subjects-taught-by-each-teacher/)
