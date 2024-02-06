@@ -390,6 +390,8 @@
         - 代码: [LeetCode1581.sql](./LeetCode/sql/LeetCode1581.sql)
     - [1587. 银行账户概要 II](https://leetcode.cn/problems/bank-account-summary-ii/)
         - 代码: [LeetCode1587.sql](./LeetCode/sql/LeetCode1587.sql)
+    - [1965. 丢失信息的雇员](https://leetcode.cn/problems/employees-with-missing-information/)
+        - 代码: [LeetCode1965.sql](./LeetCode/sql/LeetCode1965.sql)
     - [1978. 上级经理已离职的公司员工](https://leetcode.cn/problems/employees-whose-manager-left-the-company/)
         - 代码: [LeetCode1978.sql](./LeetCode/sql/LeetCode1978.sql)
     - [2356. 每位教师所教授的科目种类的数量](https://leetcode.cn/problems/number-of-unique-subjects-taught-by-each-teacher/)
