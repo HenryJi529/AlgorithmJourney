@@ -368,6 +368,8 @@
         - 代码: [LeetCode1148.sql](./LeetCode/sql/LeetCode1148.sql)
     - [1179. 重新格式化部门表](https://leetcode.cn/problems/reformat-department-table/)
         - 代码: [LeetCode1179.sql](./LeetCode/sql/LeetCode1179.sql)
+    - [1211. 查询结果的质量和占比](https://leetcode.cn/problems/queries-quality-and-percentage/)
+        - 代码: [LeetCode1211.sql](./LeetCode/sql/LeetCode1211.sql)
 
 - Shell:
     - [194. 转置文件](https://leetcode.cn/problems/transpose-file/)
