@@ -374,6 +374,8 @@
         - 代码: [LeetCode1251.sql](./LeetCode/sql/LeetCode1251.sql)
     - [1280. 学生们参加各科测试的次数](https://leetcode.cn/problems/students-and-examinations/)
         - 代码: [LeetCode1280.sql](./LeetCode/sql/LeetCode1280.sql)
+    - [2356. 每位教师所教授的科目种类的数量](https://leetcode.cn/problems/number-of-unique-subjects-taught-by-each-teacher/)
+        - 代码: [LeetCode2356.sql](./LeetCode/sql/LeetCode2356.sql)
 
 - Shell:
     - [194. 转置文件](https://leetcode.cn/problems/transpose-file/)
