@@ -392,6 +392,8 @@
         - 代码: [LeetCode1587.sql](./LeetCode/sql/LeetCode1587.sql)
     - [1683. 无效的推文](https://leetcode.cn/problems/invalid-tweets/)
         - 代码: [LeetCode1683.sql](./LeetCode/sql/LeetCode1683.sql)
+    - [1741. 查找每个员工花费的总时间](https://leetcode.cn/problems/find-total-time-spent-by-each-employee/)
+        - 代码: [LeetCode1741.sql](./LeetCode/sql/LeetCode1741.sql)
     - [1757. 可回收且低脂的产品](https://leetcode.cn/problems/recyclable-and-low-fat-products/)
         - 代码: [LeetCode1757.sql](./LeetCode/sql/LeetCode1757.sql)
     - [1789. 员工的直属部门](https://leetcode.cn/problems/primary-department-for-each-employee/)
