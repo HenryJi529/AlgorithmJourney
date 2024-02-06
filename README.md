@@ -380,6 +380,8 @@
         - 代码: [LeetCode1378.sql](./LeetCode/sql/LeetCode1378.sql)
     - [1407. 排名靠前的旅行者](https://leetcode.cn/problems/top-travellers/)
         - 代码: [LeetCode1407.sql](./LeetCode/sql/LeetCode1407.sql)
+    - [1484. 按日期分组销售产品](https://leetcode.cn/problems/group-sold-products-by-the-date/)
+        - 代码: [LeetCode1484.sql](./LeetCode/sql/LeetCode1484.sql)
     - [1978. 上级经理已离职的公司员工](https://leetcode.cn/problems/employees-whose-manager-left-the-company/)
         - 代码: [LeetCode1978.sql](./LeetCode/sql/LeetCode1978.sql)
     - [2356. 每位教师所教授的科目种类的数量](https://leetcode.cn/problems/number-of-unique-subjects-taught-by-each-teacher/)
