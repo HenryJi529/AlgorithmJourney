@@ -384,6 +384,8 @@
         - 代码: [LeetCode1484.sql](./LeetCode/sql/LeetCode1484.sql)
     - [1517. 查找拥有有效邮箱的用户](https://leetcode.cn/problems/find-users-with-valid-e-mails/)
         - 代码: [LeetCode1517.sql](./LeetCode/sql/LeetCode1517.sql)
+    - [1527. 患某种疾病的患者](https://leetcode.cn/problems/patients-with-a-condition/)
+        - 代码: [LeetCode1527.sql](./LeetCode/sql/LeetCode1527.sql)
     - [1978. 上级经理已离职的公司员工](https://leetcode.cn/problems/employees-whose-manager-left-the-company/)
         - 代码: [LeetCode1978.sql](./LeetCode/sql/LeetCode1978.sql)
     - [2356. 每位教师所教授的科目种类的数量](https://leetcode.cn/problems/number-of-unique-subjects-taught-by-each-teacher/)
