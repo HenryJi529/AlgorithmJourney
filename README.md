@@ -394,6 +394,8 @@
         - 代码: [LeetCode1633.sql](./LeetCode/sql/LeetCode1633.sql)
     - [1661. 每台机器的进程平均运行时间](https://leetcode.cn/problems/average-time-of-process-per-machine/)
         - 代码: [LeetCode1661.sql](./LeetCode/sql/LeetCode1661.sql)
+    - [1667. 修复表中的名字](https://leetcode.cn/problems/fix-names-in-a-table/)
+        - 代码: [LeetCode1667.sql](./LeetCode/sql/LeetCode1667.sql)
     - [1683. 无效的推文](https://leetcode.cn/problems/invalid-tweets/)
         - 代码: [LeetCode1683.sql](./LeetCode/sql/LeetCode1683.sql)
     - [1741. 查找每个员工花费的总时间](https://leetcode.cn/problems/find-total-time-spent-by-each-employee/)
