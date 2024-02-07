@@ -24,6 +24,11 @@
     - [9. 回文数](https://leetcode.cn/problems/palindrome-number/)
         - 思路: 双指针 或 递归
         - 代码: [LeetCode9.java](./LeetCode/LeetCode9.java)
+    - [15. 三数之和](https://leetcode.cn/problems/3sum/)
+        - 代码: [LeetCode15.java](./LeetCode/LeetCode15.java)
+    - [16. 最接近的三数之和](https://leetcode.cn/problems/3sum-closest/)
+        - 思路: 两层枚举+二分查找 -> 一层枚举+双指针
+        - 代码: [LeetCode16.java](./LeetCode/LeetCode16.java)
     - [26. 删除有序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array)
         - 思路: LinkedHashSet 或 快慢指针
         - 代码: [LeetCode26.java](./LeetCode/LeetCode26.java)
@@ -83,8 +88,6 @@
 - 链表:
     - [2. 两数相加](https://leetcode.cn/problems/add-two-numbers/)
         - 代码: [LeetCode2.java](./LeetCode/LeetCode2.java)
-    - [15. 三数之和](https://leetcode.cn/problems/3sum/)
-        - 代码: [LeetCode15.java](./LeetCode/LeetCode15.java)
     - [19. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)
         - 思路: 快慢指针(要注意边界情况)
         - 代码: [LeetCode19.java](./LeetCode/LeetCode19.java)
