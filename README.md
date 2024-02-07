@@ -326,6 +326,8 @@
         - 代码: [LeetCode177.sql](./LeetCode/sql/LeetCode177.sql)
     - [178. 分数排名](https://leetcode.cn/problems/rank-scores/)
         - 代码: [LeetCode178.sql](./LeetCode/sql/LeetCode178.sql)
+    - [180. 连续出现的数字](https://leetcode.cn/problems/consecutive-numbers/)
+        - 代码: [LeetCode180.sql](./LeetCode/sql/LeetCode180.sql)
     - [181. 超过经理收入的员工](https://leetcode.cn/problems/employees-earning-more-than-their-managers/)
         - 代码: [LeetCode181.sql](./LeetCode/sql/LeetCode181.sql)
     - [182. 查找重复的电子邮箱](https://leetcode.cn/problems/duplicate-emails/)
