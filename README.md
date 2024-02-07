@@ -77,6 +77,8 @@
         - 代码: [LeetCode31.java](./LeetCode/LeetCode31.java)
     - [75. 颜色分类](https://leetcode.cn/problems/sort-colors/)
         - 代码: [LeetCode75.java](./LeetCode/LeetCode75.java)
+    - [147. 对链表进行插入排序](https://leetcode.cn/problems/insertion-sort-list/)
+        - 代码: [LeetCode147.java](./LeetCode/LeetCode147.java)
     - [274. H 指数](https://leetcode.cn/problems/h-index/)
         - 思路: 选择排序并在适当时终止 或 对h值二分查找
         - 代码: [LeetCode274.java](./LeetCode/LeetCode274.java)
