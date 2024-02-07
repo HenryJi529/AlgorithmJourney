@@ -342,6 +342,8 @@
         - 代码: [LeetCode197.sql](./LeetCode/sql/LeetCode197.sql)
     - [511. 游戏玩法分析 I](https://leetcode.cn/problems/game-play-analysis-i/)
         - 代码: [LeetCode511.sql](./LeetCode/sql/LeetCode511.sql)
+    - [550. 游戏玩法分析 IV](https://leetcode.cn/problems/game-play-analysis-iv/)
+        - 代码: [LeetCode550.sql](./LeetCode/sql/LeetCode550.sql)
     - [577. 员工奖金](https://leetcode.cn/problems/employee-bonus/)
         - 代码: [LeetCode577.sql](./LeetCode/sql/LeetCode577.sql)
     - [584. 寻找用户推荐人](https://leetcode.cn/problems/find-customer-referee/)
