@@ -47,6 +47,7 @@ class Solution15 {
             for (int j = i + 1; j < nums.length; j++) {
                 if (seconds.contains(0 - nums[i] - nums[j])) {
                     List<Integer> list = List.of(nums[i], 0 - nums[i] - nums[j], nums[j]);
+                    // NOTE: 去重很重要
                     String s = String.format("%d|%d|%d", nums[i], 0 - nums[i] - nums[j], nums[j]);
                     if (!records.contains(s)) {
                         result.add(list);
