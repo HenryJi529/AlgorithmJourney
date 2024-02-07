@@ -334,6 +334,8 @@
         - 代码: [LeetCode182.sql](./LeetCode/sql/LeetCode182.sql)
     - [183. 从不订购的客户](https://leetcode.cn/problems/customers-who-never-order/)
         - 代码: [LeetCode183.sql](./LeetCode/sql/LeetCode183.sql)
+    - [184. 部门工资最高的员工](https://leetcode.cn/problems/department-highest-salary/)
+        - 代码: [LeetCode184.sql](./LeetCode/sql/LeetCode184.sql)
     - [196. 删除重复的电子邮箱](https://leetcode.cn/problems/delete-duplicate-emails/)
         - 代码: [LeetCode196.sql](./LeetCode/sql/LeetCode196.sql)
     - [197. 上升的温度](https://leetcode.cn/problems/rising-temperature/)
