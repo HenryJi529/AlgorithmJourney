@@ -167,6 +167,9 @@
     - [219. 存在重复元素 II](https://leetcode.cn/problems/contains-duplicate-ii/)
         - 思路: 滑动窗口
         - 代码: [LeetCode219.java](./LeetCode/LeetCode219.java)
+    - [389. 找不同](https://leetcode.cn/problems/find-the-difference/)
+        - 思路: 可以用哈希表记录，但推荐开销更小的数组
+        - 代码: [LeetCode389.java](./LeetCode/LeetCode389.java)
     - [560. 和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/)
         - 思路: 子数组的sum = sum(0-y) - sum(0-x)
         - 代码: [LeetCode560.java](./LeetCode/LeetCode560.java)
