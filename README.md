@@ -360,6 +360,8 @@
         - 代码: [LeetCode595.sql](./LeetCode/sql/LeetCode595.sql)
     - [596. 超过5名学生的课](https://leetcode.cn/problems/classes-more-than-5-students/)
         - 代码: [LeetCode596.sql](./LeetCode/sql/LeetCode596.sql)
+    - [602. 好友申请 II ：谁有最多的好友](https://leetcode.cn/problems/friend-requests-ii-who-has-the-most-friends/)
+        - 代码: [LeetCode602.sql](./LeetCode/sql/LeetCode602.sql)
     - [607. 销售员](https://leetcode.cn/problems/sales-person/)
         - 代码: [LeetCode607.sql](./LeetCode/sql/LeetCode607.sql)
     - [610. 判断三角形](https://leetcode.cn/problems/triangle-judgement/)
