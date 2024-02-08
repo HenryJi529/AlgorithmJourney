@@ -352,6 +352,8 @@
         - 代码: [LeetCode577.sql](./LeetCode/sql/LeetCode577.sql)
     - [584. 寻找用户推荐人](https://leetcode.cn/problems/find-customer-referee/)
         - 代码: [LeetCode584.sql](./LeetCode/sql/LeetCode584.sql)
+    - [585. 2016年的投资](https://leetcode.cn/problems/investments-in-2016/)
+        - 代码: [LeetCode585.sql](./LeetCode/sql/LeetCode585.sql)
     - [586. 订单最多的客户](https://leetcode.cn/problems/customer-placing-the-largest-number-of-orders/)
         - 代码: [LeetCode586.sql](./LeetCode/sql/LeetCode586.sql)
     - [595. 大的国家](https://leetcode.cn/problems/big-countries/)
