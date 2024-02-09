@@ -381,6 +381,8 @@
         - 代码: [LeetCode619.sql](./LeetCode/sql/LeetCode619.sql)
     - [620. 有趣的电影](https://leetcode.cn/problems/not-boring-movies/)
         - 代码: [LeetCode620.sql](./LeetCode/sql/LeetCode620.sql)
+    - [626. 换座位](https://leetcode.cn/problems/exchange-seats/)
+        - 代码: [LeetCode626.sql](./LeetCode/sql/LeetCode626.sql)
     - [627. 变更性别](https://leetcode.cn/problems/swap-salary/)
         - 代码: [LeetCode627.sql](./LeetCode/sql/LeetCode627.sql)
     - [1050. 合作过至少三次的演员和导演](https://leetcode.cn/problems/actors-and-directors-who-cooperated-at-least-three-times/)
