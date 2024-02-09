@@ -385,6 +385,8 @@
         - 代码: [LeetCode626.sql](./LeetCode/sql/LeetCode626.sql)
     - [627. 变更性别](https://leetcode.cn/problems/swap-salary/)
         - 代码: [LeetCode627.sql](./LeetCode/sql/LeetCode627.sql)
+    - [1045. 买下所有产品的客户](https://leetcode.cn/problems/customers-who-bought-all-products/)
+        - 代码: [LeetCode1045.sql](./LeetCode/sql/LeetCode1045.sql)
     - [1050. 合作过至少三次的演员和导演](https://leetcode.cn/problems/actors-and-directors-who-cooperated-at-least-three-times/)
         - 代码: [LeetCode1050.sql](./LeetCode/sql/LeetCode1050.sql)
     - [1068. 产品销售分析 I](https://leetcode.cn/problems/product-sales-analysis-i/description/)
