@@ -373,6 +373,8 @@
         - 代码: [LeetCode602.sql](./LeetCode/sql/LeetCode602.sql)
     - [607. 销售员](https://leetcode.cn/problems/sales-person/)
         - 代码: [LeetCode607.sql](./LeetCode/sql/LeetCode607.sql)
+    - [608. 树节点](https://leetcode.cn/problems/tree-node/)
+        - 代码: [LeetCode608.sql](./LeetCode/sql/LeetCode608.sql)
     - [610. 判断三角形](https://leetcode.cn/problems/triangle-judgement/)
         - 代码: [LeetCode610.sql](./LeetCode/sql/LeetCode610.sql)
     - [619. 只出现一次的最大数字](https://leetcode.cn/problems/biggest-single-number/)
