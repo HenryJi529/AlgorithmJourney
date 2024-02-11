@@ -351,6 +351,8 @@
         - 代码: [LeetCode196.sql](./LeetCode/sql/LeetCode196.sql)
     - [197. 上升的温度](https://leetcode.cn/problems/rising-temperature/)
         - 代码: [LeetCode197.sql](./LeetCode/sql/LeetCode197.sql)
+    - [262. 行程和用户](https://leetcode.cn/problems/trips-and-users/)
+        - 代码: [LeetCode262.sql](./LeetCode/sql/LeetCode262.sql)
     - [511. 游戏玩法分析 I](https://leetcode.cn/problems/game-play-analysis-i/)
         - 代码: [LeetCode511.sql](./LeetCode/sql/LeetCode511.sql)
     - [550. 游戏玩法分析 IV](https://leetcode.cn/problems/game-play-analysis-iv/)
