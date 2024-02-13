@@ -417,6 +417,8 @@
         - 代码: [LeetCode1174.sql](./LeetCode/sql/LeetCode1174.sql)
     - [1179. 重新格式化部门表](https://leetcode.cn/problems/reformat-department-table/)
         - 代码: [LeetCode1179.sql](./LeetCode/sql/LeetCode1179.sql)
+    - [1193. 每月交易 I](https://leetcode.cn/problems/monthly-transactions-i/)
+        - 代码: [LeetCode1193.sql](./LeetCode/sql/LeetCode1193.sql)
     - [1211. 查询结果的质量和占比](https://leetcode.cn/problems/queries-quality-and-percentage/)
         - 代码: [LeetCode1211.sql](./LeetCode/sql/LeetCode1211.sql)
     - [1251. 平均售价](https://leetcode.cn/problems/average-selling-price/)
