@@ -411,6 +411,8 @@
         - 代码: [LeetCode1148.sql](./LeetCode/sql/LeetCode1148.sql)
     - [1158. 市场分析 I](https://leetcode.cn/problems/market-analysis-i/)
         - 代码: [LeetCode1158.sql](./LeetCode/sql/LeetCode1158.sql)
+    - [1164. 指定日期的产品价格](https://leetcode.cn/problems/product-price-at-a-given-date/)
+        - 代码: [LeetCode1164.sql](./LeetCode/sql/LeetCode1164.sql)
     - [1179. 重新格式化部门表](https://leetcode.cn/problems/reformat-department-table/)
         - 代码: [LeetCode1179.sql](./LeetCode/sql/LeetCode1179.sql)
     - [1211. 查询结果的质量和占比](https://leetcode.cn/problems/queries-quality-and-percentage/)
