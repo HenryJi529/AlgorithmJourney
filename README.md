@@ -477,6 +477,8 @@
         - 代码: [LeetCode1890.sql](./LeetCode/sql/LeetCode1890.sql)
     - [1907. 按分类统计薪水](https://leetcode.cn/problems/count-salary-categories/)
         - 代码: [LeetCode1907.sql](./LeetCode/sql/LeetCode1907.sql)
+    - [1934. 确认率](https://leetcode.cn/problems/confirmation-rate/)
+        - 代码: [LeetCode1934.sql](./LeetCode/sql/LeetCode1934.sql)
     - [1965. 丢失信息的雇员](https://leetcode.cn/problems/employees-with-missing-information/)
         - 代码: [LeetCode1965.sql](./LeetCode/sql/LeetCode1965.sql)
     - [1978. 上级经理已离职的公司员工](https://leetcode.cn/problems/employees-whose-manager-left-the-company/)
