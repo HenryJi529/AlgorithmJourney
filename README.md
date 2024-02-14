@@ -475,6 +475,8 @@
         - 代码: [LeetCode1873.sql](./LeetCode/sql/LeetCode1873.sql)
     - [1890. 2020年最后一次登录](https://leetcode.cn/problems/the-latest-login-in-2020/)
         - 代码: [LeetCode1890.sql](./LeetCode/sql/LeetCode1890.sql)
+    - [1907. 按分类统计薪水](https://leetcode.cn/problems/count-salary-categories/)
+        - 代码: [LeetCode1907.sql](./LeetCode/sql/LeetCode1907.sql)
     - [1965. 丢失信息的雇员](https://leetcode.cn/problems/employees-with-missing-information/)
         - 代码: [LeetCode1965.sql](./LeetCode/sql/LeetCode1965.sql)
     - [1978. 上级经理已离职的公司员工](https://leetcode.cn/problems/employees-whose-manager-left-the-company/)
