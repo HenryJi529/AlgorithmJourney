@@ -435,6 +435,8 @@
         - 代码: [LeetCode1341.sql](./LeetCode/sql/LeetCode1341.sql)
     - [1378. 使用唯一标识码替换员工ID](https://leetcode.cn/problems/replace-employee-id-with-the-unique-identifier/)
         - 代码: [LeetCode1378.sql](./LeetCode/sql/LeetCode1378.sql)
+    - [1393. 股票的资本损益](https://leetcode.cn/problems/capital-gainloss/)
+        - 代码: [LeetCode1393.sql](./LeetCode/sql/LeetCode1393.sql)
     - [1407. 排名靠前的旅行者](https://leetcode.cn/problems/top-travellers/)
         - 代码: [LeetCode1407.sql](./LeetCode/sql/LeetCode1407.sql)
     - [1484. 按日期分组销售产品](https://leetcode.cn/problems/group-sold-products-by-the-date/)
