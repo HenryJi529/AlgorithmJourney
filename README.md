@@ -427,6 +427,8 @@
         - 代码: [LeetCode1251.sql](./LeetCode/sql/LeetCode1251.sql)
     - [1280. 学生们参加各科测试的次数](https://leetcode.cn/problems/students-and-examinations/)
         - 代码: [LeetCode1280.sql](./LeetCode/sql/LeetCode1280.sql)
+    - [1321. 餐馆营业额变化增长](https://leetcode.cn/problems/restaurant-growth/)
+        - 代码: [LeetCode1321.sql](./LeetCode/sql/LeetCode1321.sql)
     - [1327. 列出指定时间段内所有的下单产品](https://leetcode.cn/problems/list-the-products-ordered-in-a-period/)
         - 代码: [LeetCode1327.sql](./LeetCode/sql/LeetCode1327.sql)
     - [1378. 使用唯一标识码替换员工ID](https://leetcode.cn/problems/replace-employee-id-with-the-unique-identifier/)
