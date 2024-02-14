@@ -3,6 +3,10 @@
 
 ## LeetCode刷题列表(按题型分类)
 
+- 模拟
+    - [258. 各位相加](https://leetcode.cn/problems/add-digits/):
+        - 代码: [LeetCode258.java](./LeetCode/LeetCode258.java)
+
 - 枚举
     - [1534. 统计好三元组](https://leetcode.cn/problems/count-good-triplets/):
         - 代码: [LeetCode1534.java](./LeetCode/LeetCode1534.java)
