@@ -431,6 +431,8 @@
         - 代码: [LeetCode1321.sql](./LeetCode/sql/LeetCode1321.sql)
     - [1327. 列出指定时间段内所有的下单产品](https://leetcode.cn/problems/list-the-products-ordered-in-a-period/)
         - 代码: [LeetCode1327.sql](./LeetCode/sql/LeetCode1327.sql)
+    - [1341. 电影评分](https://leetcode.cn/problems/movie-rating/)
+        - 代码: [LeetCode1341.sql](./LeetCode/sql/LeetCode1341.sql)
     - [1378. 使用唯一标识码替换员工ID](https://leetcode.cn/problems/replace-employee-id-with-the-unique-identifier/)
         - 代码: [LeetCode1378.sql](./LeetCode/sql/LeetCode1378.sql)
     - [1407. 排名靠前的旅行者](https://leetcode.cn/problems/top-travellers/)
