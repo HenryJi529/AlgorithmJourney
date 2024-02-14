@@ -350,6 +350,8 @@
         - 代码: [LeetCode183.sql](./LeetCode/sql/LeetCode183.sql)
     - [184. 部门工资最高的员工](https://leetcode.cn/problems/department-highest-salary/)
         - 代码: [LeetCode184.sql](./LeetCode/sql/LeetCode184.sql)
+    - [185. 部门工资前三高的所有员工](https://leetcode.cn/problems/department-top-three-salaries/)
+        - 代码: [LeetCode185.sql](./LeetCode/sql/LeetCode185.sql)
     - [196. 删除重复的电子邮箱](https://leetcode.cn/problems/delete-duplicate-emails/)
         - 代码: [LeetCode196.sql](./LeetCode/sql/LeetCode196.sql)
     - [197. 上升的温度](https://leetcode.cn/problems/rising-temperature/)
