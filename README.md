@@ -159,6 +159,8 @@
         - 代码: [LeetCode165.java](./LeetCode/LeetCode165.java)
     - [168. Excel表列名称](https://leetcode.cn/problems/excel-sheet-column-title/)
         - 代码: [LeetCode168.java](./LeetCode/LeetCode168.java)
+    - [1422. 分割字符串的最大得分](https://leetcode.cn/problems/maximum-score-after-splitting-a-string/)
+        - 代码: [LeetCode1422.java](./LeetCode/LeetCode1422.java)
 
 - 哈希:
     - [1. 两数之和](https://leetcode.cn/problems/two-sum/)
