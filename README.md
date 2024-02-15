@@ -183,8 +183,10 @@
     - [560. 和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/)
         - 思路: 子数组的sum = sum(0-y) - sum(0-x)
         - 代码: [LeetCode560.java](./LeetCode/LeetCode560.java)
-    - [706. 设计哈希映射](https://leetcode.cn/problems/design-hashmap/):
+    - [706. 设计哈希映射](https://leetcode.cn/problems/design-hashmap/)
         - 代码: [LeetCode706.java](./LeetCode/LeetCode706.java)
+    - [1512. 好数对的数目](https://leetcode.cn/problems/number-of-good-pairs/)
+        - 代码: [LeetCode1512.java](./LeetCode/LeetCode1512.java)
 
 - 堆:
     - [23. 合并 K 个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/)
