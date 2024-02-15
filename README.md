@@ -53,6 +53,8 @@
         - 代码: [LeetCode283.java](./LeetCode/LeetCode283.java)
     - [344. 反转字符串](https://leetcode.cn/problems/reverse-string/)
         - 代码: [LeetCode344.java](./LeetCode/LeetCode344.java)
+    - [1470. 重新排列数组](https://leetcode.cn/problems/shuffle-the-array/)
+        - 代码: [LeetCode1470.java](./LeetCode/LeetCode1470.java)
 
 - 二分查找:
     - [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/):
