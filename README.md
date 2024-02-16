@@ -81,6 +81,9 @@
 - 排序:
     - [31. 下一个排列](https://leetcode.cn/problems/next-permutation/)
         - 代码: [LeetCode31.java](./LeetCode/LeetCode31.java)
+    - [56. 合并区间](https://leetcode.cn/problems/merge-intervals/)
+        - 思路: 排序 + 双指针
+        - 代码: [LeetCode56.java](./LeetCode/LeetCode56.java)
     - [75. 颜色分类](https://leetcode.cn/problems/sort-colors/)
         - 代码: [LeetCode75.java](./LeetCode/LeetCode75.java)
     - [147. 对链表进行插入排序](https://leetcode.cn/problems/insertion-sort-list/)
