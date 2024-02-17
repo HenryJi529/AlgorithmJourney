@@ -91,6 +91,9 @@
     - [148. 排序链表](https://leetcode.cn/problems/sort-list/)
         - 思路: 归并排序(Top Down空间复杂度高一些，但编写比Bottom Up简单)
         - 代码: [LeetCode148.java](./LeetCode/LeetCode148.java)
+    - [164. 最大间距](https://leetcode.cn/problems/maximum-gap/)
+        - 思路: 推荐使用基数排序【内置sort也能通过】
+        - 代码: [LeetCode164.java](./LeetCode/LeetCode164.java)
     - [274. H 指数](https://leetcode.cn/problems/h-index/)
         - 思路: 选择排序并在适当时终止 或 对h值二分查找
         - 代码: [LeetCode274.java](./LeetCode/LeetCode274.java)
