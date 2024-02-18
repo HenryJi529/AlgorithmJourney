@@ -142,8 +142,6 @@
         - 代码: [LeetCode84.java](./LeetCode/LeetCode84.java)
     - [155. 最小栈](https://leetcode.cn/problems/min-stack/)
         - 代码: [LeetCode155.java](./LeetCode/LeetCode155.java)
-    - [169. 多数元素](https://leetcode.cn/problems/majority-element/)
-        - 代码: [LeetCode169.java](./LeetCode/LeetCode169.java)
     - [225. 用队列实现栈](https://leetcode.cn/problems/implement-stack-using-queues/)
         - 代码: [LeetCode225.java](./LeetCode/LeetCode225.java)
     - [232. 用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/)
@@ -181,6 +179,9 @@
     - [136. 只出现一次的数字](https://leetcode.cn/problems/single-number/description/)
         - 思路: HashSet不断增删，维持常数复杂度 或 位异或
         - 代码: [LeetCode136.java](./LeetCode/LeetCode136.java)
+    - [169. 多数元素](https://leetcode.cn/problems/majority-element/)
+        - 思路: 摩尔投票法 或 哈希表计数
+        - 代码: [LeetCode169.java](./LeetCode/LeetCode169.java)
     - [217. 存在重复元素](https://leetcode.cn/problems/contains-duplicate/)
         - 思路: 遍历元素存入HashSet 或 先排序后遍历
         - 代码: [LeetCode217.java](./LeetCode/LeetCode217.java)
