@@ -188,6 +188,9 @@
     - [219. 存在重复元素 II](https://leetcode.cn/problems/contains-duplicate-ii/)
         - 思路: 滑动窗口
         - 代码: [LeetCode219.java](./LeetCode/LeetCode219.java)
+    - [229. 多数元素 II](https://leetcode.cn/problems/majority-element-ii/)
+        - 思路: 类似LeetCode169
+        - 代码: [LeetCode229.java](./LeetCode/LeetCode229.java)
     - [389. 找不同](https://leetcode.cn/problems/find-the-difference/)
         - 思路: 可以用哈希表记录，但推荐开销更小的数组
         - 代码: [LeetCode389.java](./LeetCode/LeetCode389.java)
