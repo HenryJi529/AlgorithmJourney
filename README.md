@@ -311,7 +311,7 @@
 
 - 动态规划:
     - [5. 最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/)
-        - 思路: 遍历节点(中心展开) 或 2维的DP
+        - 思路: 遍历节点(中心展开) 或 2维的DP【思路很直接，但空间复杂度略高】
         - 代码: [LeetCode5.java](./LeetCode/LeetCode5.java)
     - [32. 最长有效括号](https://leetcode.cn/problems/longest-valid-parentheses/)
         - 思路: 考虑`(`与`)`对应关系【输入尺度太大，不能用2维DP】

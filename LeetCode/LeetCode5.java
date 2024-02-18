@@ -136,8 +136,6 @@ class Solution5_3 {
             } else {
                 if (dp(start + 1, end - 1, s)) {
                     res = true;
-                } else {
-
                 }
             }
         }
