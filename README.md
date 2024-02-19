@@ -70,6 +70,9 @@
     - [69. x 的平方根](https://leetcode.cn/problems/sqrtx/):
         - 思路: 二分查找、数学公式替换、牛顿法
         - 代码: [LeetCode69.java](./LeetCode/LeetCode69.java)
+    - [475. 供暖器](https://leetcode.cn/problems/heaters/):
+        - 思路: 排序 + 二分查找
+        - 代码: [LeetCode475.java](./LeetCode/LeetCode475.java)
     - [704. 二分查找](https://leetcode.cn/problems/binary-search/):
         - 代码: [LeetCode704.java](./LeetCode/LeetCode704.java)
     - [852. 山脉数组的峰顶索引](https://leetcode.cn/problems/peak-index-in-a-mountain-array/):
