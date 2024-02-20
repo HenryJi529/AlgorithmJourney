@@ -3,11 +3,15 @@
 
 ## LeetCode刷题列表(按题型分类)
 
-- 模拟
+- 数学:
+    - [268. 丢失的数字](https://leetcode.cn/problems/missing-number/):
+        - 代码: [LeetCode268.java](./LeetCode/LeetCode268.java)
+
+- 模拟:
     - [258. 各位相加](https://leetcode.cn/problems/add-digits/):
         - 代码: [LeetCode258.java](./LeetCode/LeetCode258.java)
 
-- 枚举
+- 枚举:
     - [1534. 统计好三元组](https://leetcode.cn/problems/count-good-triplets/):
         - 代码: [LeetCode1534.java](./LeetCode/LeetCode1534.java)
     - [1995. 统计特殊四元组](https://leetcode.cn/problems/count-special-quadruplets/):
