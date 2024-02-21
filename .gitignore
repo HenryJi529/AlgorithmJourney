@@ -11,4 +11,7 @@ out/
 ## Language
 **/__pycache__/
 *.class
+
+## Others
 test.*
+temp/
