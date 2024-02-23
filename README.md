@@ -231,6 +231,9 @@
         - 代码: [LeetCode378.java](./LeetCode/LeetCode378.java)
     - [703. 数据流中的第 K 大元素](https://leetcode.cn/problems/kth-largest-element-in-a-stream/)
         - 代码: [LeetCode703.java](./LeetCode/LeetCode703.java)
+    - [2583. 二叉树中的第 K 大层和](https://leetcode.cn/problems/kth-largest-sum-in-a-binary-tree/)
+        - 思路: 堆【需要注意数据类型，避免溢出】
+        - 代码: [LeetCode2583.java](./LeetCode/LeetCode2583.java)
 
 - 树:
     - [94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)
