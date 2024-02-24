@@ -273,6 +273,9 @@
     - [1123. 最深叶节点的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-deepest-leaves/)
         - 思路: 深度优先遍历(处理好子树高度、节点深度的关系)
         - 代码: [LeetCode1123.java](./LeetCode/LeetCode1123.java)
+    - [2476. 二叉搜索树最近节点查询](https://leetcode.cn/problems/closest-nodes-queries-in-a-binary-search-tree/)
+        - 思路: 要注意二叉查找树并不能真的二分查找，需要考虑极端情况
+        - 代码: [LeetCode2476.java](./LeetCode/LeetCode2476.java)
 
 - 图:
     - [126. 单词接龙 II](https://leetcode.cn/problems/word-ladder-ii/)
