@@ -31,7 +31,7 @@ class Solution1123 {
     int resChildDepth = -1;
 
     public TreeNode lcaDeepestLeaves(TreeNode root) {
-        resNode = root;
+        resNode = null;
         preorder(root, 0);
         return resNode;
     }
