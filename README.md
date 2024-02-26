@@ -4,8 +4,12 @@
 
 ### 数学
 
+
 - [268. 丢失的数字](https://leetcode.cn/problems/missing-number/)
     - 代码: [LeetCode268.java](./LeetCode/LeetCode268.java)
+- [蓝桥97. k倍区间](https://www.lanqiao.cn/problems/97/learning/)
+    - 思路: 两个序列模K余数相同则差模K为0
+    - 代码: [LanQiao97.java](./LanQiao/LanQiao97.java)
 
 ### 模拟
 
