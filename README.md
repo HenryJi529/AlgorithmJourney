@@ -393,6 +393,7 @@
     - 思路: Min-Max + DP 或 脑筋急转弯 
     - 代码: [LeetCode877.java](./LeetCode/LeetCode877.java)
 - [1143. 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/)
+    - 思路: 二维DP + 正向填表
     - 代码: [LeetCode1143.java](./LeetCode/LeetCode1143.java)
 
 ### 回溯
