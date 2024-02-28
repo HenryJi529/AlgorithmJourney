@@ -19,7 +19,7 @@ public class LeetCode94 {
 }
 
 class Solution94_1 {
-    // NOTE: 迭代版本
+    // NOTE: 递归版本
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> numbers = new ArrayList<Integer>();
         inorderTraversal(root, numbers);
