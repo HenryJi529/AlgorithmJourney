@@ -1,5 +1,6 @@
 import java.util.List;
 import java.util.ArrayList;
+// import java.util.Arrays;
 
 import util.PrintUtil;
 
@@ -37,6 +38,7 @@ class Solution46 {
             current.add(nums[start]);
             dfs(start + 1, current, nums);
 
+            // 返回之前的状态
             exch(start, i, nums);
             current.remove(current.size() - 1);
             // System.out.println(Arrays.toString(current.toArray()));
