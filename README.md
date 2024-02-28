@@ -44,6 +44,7 @@
     - 思路: 双指针 或 递归
     - 代码: [LeetCode9.java](./LeetCode/LeetCode9.java)
 - [15. 三数之和](https://leetcode.cn/problems/3sum/)
+    - 思路: 排序 + 双指针【注意去重】
     - 代码: [LeetCode15.java](./LeetCode/LeetCode15.java)
 - [16. 最接近的三数之和](https://leetcode.cn/problems/3sum-closest/)
     - 思路: 两层枚举+二分查找 -> 一层枚举+双指针
