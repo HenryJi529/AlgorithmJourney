@@ -120,6 +120,8 @@
 - [164. 最大间距](https://leetcode.cn/problems/maximum-gap/)
     - 思路: 推荐使用基数排序【内置sort也能通过】
     - 代码: [LeetCode164.java](./LeetCode/LeetCode164.java)
+- [242. 有效的字母异位词](https://leetcode.cn/problems/valid-anagram/)
+    - 代码: [LeetCode242.java](./LeetCode/LeetCode242.java)
 - [274. H 指数](https://leetcode.cn/problems/h-index/)
     - 思路: 选择排序并在适当时终止 或 对h值二分查找
     - 代码: [LeetCode274.java](./LeetCode/LeetCode274.java)
