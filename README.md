@@ -107,6 +107,9 @@
     - 代码: [LeetCode4.java](./LeetCode/LeetCode4.java)
 - [31. 下一个排列](https://leetcode.cn/problems/next-permutation/)
     - 代码: [LeetCode31.java](./LeetCode/LeetCode31.java)
+- [49. 字母异位词分组](https://leetcode.cn/problems/group-anagrams/)
+    - 代码: 推荐先对元素内部排序
+    - 代码: [LeetCode49.java](./LeetCode/LeetCode49.java)
 - [56. 合并区间](https://leetcode.cn/problems/merge-intervals/)
     - 思路: 排序 + 双指针
     - 代码: [LeetCode56.java](./LeetCode/LeetCode56.java)
