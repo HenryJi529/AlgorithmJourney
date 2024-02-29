@@ -130,6 +130,9 @@
     - 代码: [LeetCode274.java](./LeetCode/LeetCode274.java)
 - [349. 两个数组的交集](https://leetcode.cn/problems/intersection-of-two-arrays/)
     - 代码: [LeetCode349.java](./LeetCode/LeetCode349.java)
+- [350. 两个数组的交集 II](https://leetcode.cn/problems/intersection-of-two-arrays-ii/)
+    - 思路: 比349多记录一个重复数
+    - 代码: [LeetCode350.java](./LeetCode/LeetCode350.java)
 - [414. 第三大的数](https://leetcode.cn/problems/third-maximum-number/)
     - 思路: HashSet+PQ 或 TreeSet
     - 代码: [LeetCode414.java](./LeetCode/LeetCode414.java)
