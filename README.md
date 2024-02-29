@@ -128,6 +128,8 @@
 - [274. H 指数](https://leetcode.cn/problems/h-index/)
     - 思路: 选择排序并在适当时终止 或 对h值二分查找
     - 代码: [LeetCode274.java](./LeetCode/LeetCode274.java)
+- [349. 两个数组的交集](https://leetcode.cn/problems/intersection-of-two-arrays/)
+    - 代码: [LeetCode349.java](./LeetCode/LeetCode349.java)
 - [414. 第三大的数](https://leetcode.cn/problems/third-maximum-number/)
     - 思路: HashSet+PQ 或 TreeSet
     - 代码: [LeetCode414.java](./LeetCode/LeetCode414.java)
