@@ -141,6 +141,8 @@
 - [502. IPO](https://leetcode.cn/problems/ipo/)
     - 思路: 最好采用两种思路的排序【查询最优元素 + 整体排序】
     - 代码: [LeetCode502.java](./LeetCode/LeetCode502.java)
+- [506. 相对名次](https://leetcode.cn/problems/relative-ranks/)
+    - 代码: [LeetCode506.java](./LeetCode/LeetCode506.java)
 
 ### 字符串
 
