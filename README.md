@@ -145,6 +145,9 @@
     - 代码: [LeetCode506.java](./LeetCode/LeetCode506.java)
 - [561. 数组拆分](https://leetcode.cn/problems/array-partition/)
     - 代码: [LeetCode561.java](./LeetCode/LeetCode561.java)
+- [594. 最长和谐子序列](https://leetcode.cn/problems/longest-harmonious-subsequence/)
+    - 思路: 哈希表+记数 或 排序+滑动窗口
+    - 代码: [LeetCode594.java](./LeetCode/LeetCode594.java)
 
 ### 字符串
 
