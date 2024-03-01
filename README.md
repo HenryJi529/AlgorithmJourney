@@ -143,6 +143,8 @@
     - 代码: [LeetCode502.java](./LeetCode/LeetCode502.java)
 - [506. 相对名次](https://leetcode.cn/problems/relative-ranks/)
     - 代码: [LeetCode506.java](./LeetCode/LeetCode506.java)
+- [561. 数组拆分](https://leetcode.cn/problems/array-partition/)
+    - 代码: [LeetCode561.java](./LeetCode/LeetCode561.java)
 
 ### 字符串
 
