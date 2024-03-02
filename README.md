@@ -123,6 +123,9 @@
 - [164. 最大间距](https://leetcode.cn/problems/maximum-gap/)
     - 思路: 推荐使用基数排序【内置sort也能通过】
     - 代码: [LeetCode164.java](./LeetCode/LeetCode164.java)
+- [179. 最大数](https://leetcode.cn/problems/largest-number/)
+    - 思路: 修改基于比较的Comparator定义
+    - 代码: [LeetCode179.java](./LeetCode/LeetCode179.java)
 - [242. 有效的字母异位词](https://leetcode.cn/problems/valid-anagram/)
     - 代码: [LeetCode242.java](./LeetCode/LeetCode242.java)
 - [274. H 指数](https://leetcode.cn/problems/h-index/)
