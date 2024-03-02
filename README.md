@@ -154,6 +154,8 @@
 - [628. 三个数的最大乘积](https://leetcode.cn/problems/maximum-product-of-three-numbers/)
     - 思路: 实际上只是比较两个可能的值
     - 代码: [LeetCode628.java](./LeetCode/LeetCode628.java)
+- [645. 错误的集合](https://leetcode.cn/problems/set-mismatch/)
+    - 代码: [LeetCode645.java](./LeetCode/LeetCode645.java)
 
 ### 字符串
 
