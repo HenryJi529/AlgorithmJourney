@@ -158,6 +158,8 @@
     - 代码: [LeetCode645.java](./LeetCode/LeetCode645.java)
 - [747. 至少是其他数字两倍的最大数](https://leetcode.cn/problems/largest-number-at-least-twice-of-others/)
     - 代码: [LeetCode747.java](./LeetCode/LeetCode747.java)
+- [888. 公平的糖果交换](https://leetcode.cn/problems/fair-candy-swap/)
+    - 代码: [LeetCode888.java](./LeetCode/LeetCode888.java)
 
 ### 字符串
 
