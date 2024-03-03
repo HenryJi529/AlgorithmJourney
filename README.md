@@ -162,6 +162,8 @@
     - 代码: [LeetCode888.java](./LeetCode/LeetCode888.java)
 - [922. 按奇偶排序数组 II](https://leetcode.cn/problems/sort-array-by-parity-ii/)
     - 代码: [LeetCode922.java](./LeetCode/LeetCode922.java)
+- [976. 三角形的最大周长](https://leetcode.cn/problems/largest-perimeter-triangle/)
+    - 代码: [LeetCode976.java](./LeetCode/LeetCode976.java)
 
 ### 字符串
 
