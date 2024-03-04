@@ -164,6 +164,8 @@
     - 代码: [LeetCode922.java](./LeetCode/LeetCode922.java)
 - [976. 三角形的最大周长](https://leetcode.cn/problems/largest-perimeter-triangle/)
     - 代码: [LeetCode976.java](./LeetCode/LeetCode976.java)
+- [977. 有序数组的平方](https://leetcode.cn/problems/squares-of-a-sorted-array/)
+    - 代码: [LeetCode977.java](./LeetCode/LeetCode977.java)
 
 ### 字符串
 
