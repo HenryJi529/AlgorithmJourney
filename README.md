@@ -171,6 +171,8 @@
 - [1030. 距离顺序排列矩阵单元格](https://leetcode.cn/problems/matrix-cells-in-distance-order/)
     - 思路: BFS 或 桶排序
     - 代码: [LeetCode1030.java](./LeetCode/LeetCode1030.java)
+- [1051. 高度检查器](https://leetcode.cn/problems/height-checker/)
+    - 代码: [LeetCode1051.java](./LeetCode/LeetCode1051.java)
 
 ### 字符串
 
