@@ -166,6 +166,8 @@
     - 代码: [LeetCode976.java](./LeetCode/LeetCode976.java)
 - [977. 有序数组的平方](https://leetcode.cn/problems/squares-of-a-sorted-array/)
     - 代码: [LeetCode977.java](./LeetCode/LeetCode977.java)
+- [1005. K 次取反后最大化的数组和](https://leetcode.cn/problems/maximize-sum-of-array-after-k-negations/)
+    - 代码: [LeetCode1005.java](./LeetCode/LeetCode1005.java)
 
 ### 字符串
 
