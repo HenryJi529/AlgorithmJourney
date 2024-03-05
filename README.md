@@ -178,6 +178,8 @@
     - 代码: [LeetCode1122.java](./LeetCode/LeetCode1122.java)
 - [1200. 最小绝对差](https://leetcode.cn/problems/minimum-absolute-difference/)
     - 代码: [LeetCode1200.java](./LeetCode/LeetCode1200.java)
+- [1331. 数组序号转换](https://leetcode.cn/problems/rank-transform-of-an-array/)
+    - 代码: [LeetCode1331.java](./LeetCode/LeetCode1331.java)
 
 ### 字符串
 
