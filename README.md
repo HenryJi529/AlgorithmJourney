@@ -173,6 +173,9 @@
     - 代码: [LeetCode1030.java](./LeetCode/LeetCode1030.java)
 - [1051. 高度检查器](https://leetcode.cn/problems/height-checker/)
     - 代码: [LeetCode1051.java](./LeetCode/LeetCode1051.java)
+- [1122. 数组的相对排序](https://leetcode.cn/problems/relative-sort-array/)
+    - 思路: 自定义排序 或 计数排序【观察到数值范围较小】
+    - 代码: [LeetCode1122.java](./LeetCode/LeetCode1122.java)
 
 ### 字符串
 
