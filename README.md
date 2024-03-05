@@ -176,6 +176,8 @@
 - [1122. 数组的相对排序](https://leetcode.cn/problems/relative-sort-array/)
     - 思路: 自定义排序 或 计数排序【观察到数值范围较小】
     - 代码: [LeetCode1122.java](./LeetCode/LeetCode1122.java)
+- [1200. 最小绝对差](https://leetcode.cn/problems/minimum-absolute-difference/)
+    - 代码: [LeetCode1200.java](./LeetCode/LeetCode1200.java)
 
 ### 字符串
 
