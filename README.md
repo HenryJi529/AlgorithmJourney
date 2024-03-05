@@ -168,6 +168,9 @@
     - 代码: [LeetCode977.java](./LeetCode/LeetCode977.java)
 - [1005. K 次取反后最大化的数组和](https://leetcode.cn/problems/maximize-sum-of-array-after-k-negations/)
     - 代码: [LeetCode1005.java](./LeetCode/LeetCode1005.java)
+- [1030. 距离顺序排列矩阵单元格](https://leetcode.cn/problems/matrix-cells-in-distance-order/)
+    - 思路: BFS 或 桶排序
+    - 代码: [LeetCode1030.java](./LeetCode/LeetCode1030.java)
 
 ### 字符串
 
