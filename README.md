@@ -180,6 +180,8 @@
     - 代码: [LeetCode1200.java](./LeetCode/LeetCode1200.java)
 - [1331. 数组序号转换](https://leetcode.cn/problems/rank-transform-of-an-array/)
     - 代码: [LeetCode1331.java](./LeetCode/LeetCode1331.java)
+- [1337. 矩阵中战斗力最弱的 K 行](https://leetcode.cn/problems/the-k-weakest-rows-in-a-matrix/)
+    - 代码: [LeetCode1337.java](./LeetCode/LeetCode1337.java)
 
 ### 字符串
 
