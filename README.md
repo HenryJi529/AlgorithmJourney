@@ -184,6 +184,8 @@
     - 代码: [LeetCode1337.java](./LeetCode/LeetCode1337.java)
 - [1346. 检查整数及其两倍数是否存在](https://leetcode.cn/problems/check-if-n-and-its-double-exist/)
     - 代码: [LeetCode1346.java](./LeetCode/LeetCode1346.java)
+- [1356. 根据数字二进制下 1 的数目排序](https://leetcode.cn/problems/sort-integers-by-the-number-of-1-bits/)
+    - 代码: [LeetCode1356.java](./LeetCode/LeetCode1356.java)
 
 ### 字符串
 
