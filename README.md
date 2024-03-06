@@ -186,6 +186,8 @@
     - 代码: [LeetCode1346.java](./LeetCode/LeetCode1346.java)
 - [1356. 根据数字二进制下 1 的数目排序](https://leetcode.cn/problems/sort-integers-by-the-number-of-1-bits/)
     - 代码: [LeetCode1356.java](./LeetCode/LeetCode1356.java)
+- [1365. 有多少小于当前数字的数字](https://leetcode.cn/problems/how-many-numbers-are-smaller-than-the-current-number/)
+    - 代码: [LeetCode1365.java](./LeetCode/LeetCode1365.java)
 
 ### 字符串
 
