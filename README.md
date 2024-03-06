@@ -182,6 +182,8 @@
     - 代码: [LeetCode1331.java](./LeetCode/LeetCode1331.java)
 - [1337. 矩阵中战斗力最弱的 K 行](https://leetcode.cn/problems/the-k-weakest-rows-in-a-matrix/)
     - 代码: [LeetCode1337.java](./LeetCode/LeetCode1337.java)
+- [1346. 检查整数及其两倍数是否存在](https://leetcode.cn/problems/check-if-n-and-its-double-exist/)
+    - 代码: [LeetCode1346.java](./LeetCode/LeetCode1346.java)
 
 ### 字符串
 
