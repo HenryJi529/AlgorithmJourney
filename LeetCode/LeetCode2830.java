@@ -40,12 +40,10 @@ class Solution2830_1 {
             List<Integer> offer = null;
             for (int i = startIndex; i < offers.size(); i++) {
                 offer = offers.get(i);
-                if (offer.get(1) == end - 1) {
-                    max = Math.max(max, dp[offer.get(0)] + offer.get(2));
-                }
                 if (offer.get(1) > end - 1) {
                     break;
                 }
+                max = Math.max(max, dp[offer.get(0)] + offer.get(2));
             }
             dp[end] = max;
             // System.out.println(String.format("dp[%d] = %d", end, max));
