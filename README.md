@@ -193,6 +193,9 @@
 - [2008. 出租车的最大盈利](https://leetcode.cn/problems/maximum-earnings-from-taxi/)
     - 思路: 类似2830，但需要注意边界条件
     - 代码: [LeetCode2008.java](./LeetCode/LeetCode2008.java)
+- [2054. 两个最好的不重叠活动](https://leetcode.cn/problems/two-best-non-overlapping-events/)
+    - 思路: 关键在于形成一个类似滑动窗口的结构来降低复杂度
+    - 代码: [LeetCode2054.java](./LeetCode/LeetCode2054.java)
 - [2830. 销售利润最大化](https://leetcode.cn/problems/maximize-the-profit-as-the-salesman/)
     - 思路: 按照end动态规划【对于end的初始位置，可以排序，也可以空间换时间】
     - 代码: [LeetCode2830.java](./LeetCode/LeetCode2830.java)
