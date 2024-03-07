@@ -191,7 +191,7 @@
 - [1385. 两个数组间的距离值](https://leetcode.cn/problems/find-the-distance-value-between-two-arrays/)
     - 代码: [LeetCode1385.java](./LeetCode/LeetCode1385.java)
 - [2830. 销售利润最大化](https://leetcode.cn/problems/maximize-the-profit-as-the-salesman/)
-    - 思路: 按照end动态规划【对于end的初始位置查找，可以先排序后二分，也可以空间换时间】
+    - 思路: 按照end动态规划【对于end的初始位置，可以排序，也可以空间换时间】
     - 代码: [LeetCode2830.java](./LeetCode/LeetCode2830.java)
 
 ### 字符串

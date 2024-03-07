@@ -34,8 +34,8 @@ class Solution2830_1 {
         dp[0] = 0;
         for (int end = 1; end < dp.length; end++) {
             // 找到所有结尾为end-1的offer，且开价最高【根据start不同，可能有多个】
-            // 如果根据end排序，就可以获得密集的一段，先二分查找end为目标值的开始位置
             int max = dp[end - 1];
+            // NOTE: 实际上可以不通过二分，而是直接记录上一次end对应的索引的位置
             int startIndex = binarySearch(offers, end - 1);
             List<Integer> offer = null;
             for (int i = startIndex; i < offers.size(); i++) {
