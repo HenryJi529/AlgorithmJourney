@@ -178,6 +178,9 @@
     - 代码: [LeetCode1122.java](./LeetCode/LeetCode1122.java)
 - [1200. 最小绝对差](https://leetcode.cn/problems/minimum-absolute-difference/)
     - 代码: [LeetCode1200.java](./LeetCode/LeetCode1200.java)
+- [1235. 规划兼职工作](https://leetcode.cn/problems/maximum-profit-in-job-scheduling/)
+    - 思路: 类似LeetCode2008，但是数据范围变化，需要使用另一个dp角度
+    - 代码: [LeetCode1235.java](./LeetCode/LeetCode1235.java)
 - [1331. 数组序号转换](https://leetcode.cn/problems/rank-transform-of-an-array/)
     - 代码: [LeetCode1331.java](./LeetCode/LeetCode1331.java)
 - [1337. 矩阵中战斗力最弱的 K 行](https://leetcode.cn/problems/the-k-weakest-rows-in-a-matrix/)
