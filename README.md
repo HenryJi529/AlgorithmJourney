@@ -107,6 +107,9 @@
     - 代码: [LeetCode4.java](./LeetCode/LeetCode4.java)
 - [31. 下一个排列](https://leetcode.cn/problems/next-permutation/)
     - 代码: [LeetCode31.java](./LeetCode/LeetCode31.java)
+- [41. 缺失的第一个正数](https://leetcode.cn/problems/first-missing-positive/)
+    - 思路: 最佳解法是indexing sort的变体
+    - 代码: [LeetCode41.java](./LeetCode/LeetCode41.java)
 - [49. 字母异位词分组](https://leetcode.cn/problems/group-anagrams/)
     - 代码: 推荐先对元素内部排序
     - 代码: [LeetCode49.java](./LeetCode/LeetCode49.java)
