@@ -445,6 +445,9 @@
     - 代码: [LeetCode62.java](./LeetCode/LeetCode62.java)
 - [63. 不同路径 II](https://leetcode.cn/problems/unique-paths-ii/)
     - 代码: [LeetCode63.java](./LeetCode/LeetCode63.java)
+- [64. 最小路径和](https://leetcode.cn/problems/minimum-path-sum/)
+    - 思路: 正向DP【需要注意填表的顺序】
+    - 代码: [LeetCode64.java](./LeetCode/LeetCode64.java)
 - [70. 爬楼梯](https://leetcode.cn/problems/climbing-stairs/)
     - 代码: [LeetCode70.java](./LeetCode/LeetCode70.java)
 - [78. 子集](https://leetcode.cn/problems/subsets/)
