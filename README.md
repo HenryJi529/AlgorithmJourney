@@ -207,6 +207,8 @@
 - [2830. 销售利润最大化](https://leetcode.cn/problems/maximize-the-profit-as-the-salesman/)
     - 思路: 按照end动态规划【对于end的初始位置，可以排序，也可以空间换时间】
     - 代码: [LeetCode2830.java](./LeetCode/LeetCode2830.java)
+- [3010. 将数组分成最小总代价的子数组 I](https://leetcode.cn/problems/divide-an-array-into-subarrays-with-minimum-cost-i/)
+    - 代码: [LeetCode3010.java](./LeetCode/LeetCode3010.java)
 
 ### 字符串
 
