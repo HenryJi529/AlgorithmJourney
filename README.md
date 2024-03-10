@@ -198,6 +198,8 @@
     - 代码: [LeetCode1385.java](./LeetCode/LeetCode1385.java)
 - [1619. 删除某些元素后的数组均值](https://leetcode.cn/problems/mean-of-array-after-removing-some-elements/)
     - 代码: [LeetCode1619.java](./LeetCode/LeetCode1619.java)
+- [1637. 两点之间不包含任何点的最宽垂直区域](https://leetcode.cn/problems/widest-vertical-area-between-two-points-containing-no-points/)
+    - 代码: [LeetCode1637.java](./LeetCode/LeetCode1637.java)
 - [1710. 卡车上的最大单元数](https://leetcode.cn/problems/maximum-units-on-a-truck/)
     - 代码: [LeetCode1710.java](./LeetCode/LeetCode1710.java)
 - [2008. 出租车的最大盈利](https://leetcode.cn/problems/maximum-earnings-from-taxi/)
