@@ -344,6 +344,9 @@
 - [100. 相同的树](https://leetcode.cn/problems/same-tree/)
     - 思路: DFS角度实现起来更方便
     - 代码: [LeetCode100.java](./LeetCode/LeetCode100.java)
+- [101. 对称二叉树](https://leetcode.cn/problems/symmetric-tree/)
+    - 思路: 递归选择left和right
+    - 代码: [LeetCode101.java](./LeetCode/LeetCode101.java)
 - [102. 二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal/)
     - 思路: 用BFS实现
     - 代码: [LeetCode102.java](./LeetCode/LeetCode102.java)
