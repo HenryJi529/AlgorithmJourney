@@ -198,6 +198,8 @@
     - 代码: [LeetCode1385.java](./LeetCode/LeetCode1385.java)
 - [1403. 非递增顺序的最小子序列](https://leetcode.cn/problems/minimum-subsequence-in-non-increasing-order/)
     - 代码: [LeetCode1403.java](./LeetCode/LeetCode1403.java)
+- [1465. 切割后面积最大的蛋糕](https://leetcode.cn/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)
+    - 代码: [LeetCode1465.java](./LeetCode/LeetCode1465.java)
 - [1619. 删除某些元素后的数组均值](https://leetcode.cn/problems/mean-of-array-after-removing-some-elements/)
     - 代码: [LeetCode1619.java](./LeetCode/LeetCode1619.java)
 - [1637. 两点之间不包含任何点的最宽垂直区域](https://leetcode.cn/problems/widest-vertical-area-between-two-points-containing-no-points/)
