@@ -201,6 +201,8 @@
 - [1460. 通过翻转子数组使两个数组相等](https://leetcode.cn/problems/make-two-arrays-equal-by-reversing-subarrays/)
     - 思路: 先排序后对比 或 哈希表统计元素
     - 代码: [LeetCode1460.java](./LeetCode/LeetCode1460.java)
+- [1464. 数组中两元素的最大乘积](https://leetcode.cn/problems/maximum-product-of-two-elements-in-an-array/)
+    - 代码: [LeetCode1464.java](./LeetCode/LeetCode1464.java)
 - [1465. 切割后面积最大的蛋糕](https://leetcode.cn/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)
     - 代码: [LeetCode1465.java](./LeetCode/LeetCode1465.java)
 - [1619. 删除某些元素后的数组均值](https://leetcode.cn/problems/mean-of-array-after-removing-some-elements/)
