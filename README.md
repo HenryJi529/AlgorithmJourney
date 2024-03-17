@@ -63,7 +63,7 @@
 - [88. 合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array/)
     - 代码: [LeetCode88.java](./LeetCode/LeetCode88.java)
 - [141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/)
-    - 思路: 快慢指针或哈希表
+    - 思路: 快慢指针 或 哈希表
     - 代码: [LeetCode141.java](./LeetCode/LeetCode141.java)
 - [283. 移动零](https://leetcode.cn/problems/move-zeroes/)
     - 代码: [LeetCode283.java](./LeetCode/LeetCode283.java)
@@ -198,6 +198,9 @@
     - 代码: [LeetCode1385.java](./LeetCode/LeetCode1385.java)
 - [1403. 非递增顺序的最小子序列](https://leetcode.cn/problems/minimum-subsequence-in-non-increasing-order/)
     - 代码: [LeetCode1403.java](./LeetCode/LeetCode1403.java)
+- [1460. 通过翻转子数组使两个数组相等](https://leetcode.cn/problems/make-two-arrays-equal-by-reversing-subarrays/)
+    - 思路: 先排序后对比 或 哈希表统计元素
+    - 代码: [LeetCode1460.java](./LeetCode/LeetCode1460.java)
 - [1465. 切割后面积最大的蛋糕](https://leetcode.cn/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)
     - 代码: [LeetCode1465.java](./LeetCode/LeetCode1465.java)
 - [1619. 删除某些元素后的数组均值](https://leetcode.cn/problems/mean-of-array-after-removing-some-elements/)
