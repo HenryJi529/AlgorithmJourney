@@ -353,6 +353,8 @@
 
 - [94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)
     - 代码: [LeetCode94.java](./LeetCode/LeetCode94.java)
+- [98. 验证二叉搜索树](https://leetcode.cn/problems/validate-binary-search-tree/)
+    - 代码: [LeetCode98.java](./LeetCode/LeetCode98.java)
 - [100. 相同的树](https://leetcode.cn/problems/same-tree/)
     - 思路: DFS角度实现起来更方便
     - 代码: [LeetCode100.java](./LeetCode/LeetCode100.java)
