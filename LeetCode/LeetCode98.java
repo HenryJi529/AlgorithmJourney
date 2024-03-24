@@ -23,9 +23,10 @@ public class LeetCode98 {
 class Solution98_1 {
     // NOTE: 假定左右子树均为二叉查找树，那么判断左/右子树的最大/最小节点是否满足要求
     public boolean isValidBST(TreeNode root) {
-        if ((root.left == null || (root.left != null && root.left.val < root.val && isValidBST(root.left)))
-                && (root.right == null
-                        || (root.right != null && root.right.val > root.val && isValidBST(root.right)))) {
+        if (root == null) {
+            return true;
+        }
+        if (isValidBST(root.left) && isValidBST(root.right)) {
             TreeNode leftSubTreeMax = root.left;
             while (leftSubTreeMax != null && leftSubTreeMax.right != null) {
                 leftSubTreeMax = leftSubTreeMax.right;
