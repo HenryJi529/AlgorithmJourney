@@ -73,7 +73,7 @@ class Solution100_1 {
     }
 }
 
-class Solution101_2 {
+class Solution100_2 {
     // NOTE: DFS角度
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null) {
