@@ -228,6 +228,9 @@
 
 ### 字符串
 
+- [28. 找出字符串中第一个匹配项的下标](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/)
+    - 思路: [KMP算法](https://www.bilibili.com/video/BV1AY4y157yL/)，核心是找到最大相等前缀后缀长度
+    - 代码: [LeetCode28.java](./LeetCode/LeetCode28.java)
 - [67. 二进制求和](https://leetcode.cn/problems/add-binary/)
     - 代码: [LeetCode67.java](./LeetCode/LeetCode67.java)
 - [93. 复原 IP 地址](https://leetcode.cn/problems/restore-ip-addresses/)
