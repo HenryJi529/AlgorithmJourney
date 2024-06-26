@@ -329,6 +329,9 @@
     - 代码: [LeetCode706.java](./LeetCode/LeetCode706.java)
 - [1512. 好数对的数目](https://leetcode.cn/problems/number-of-good-pairs/)
     - 代码: [LeetCode1512.java](./LeetCode/LeetCode1512.java)
+- [1941. 检查是否所有字符出现次数相同](https://leetcode.cn/problems/check-if-all-characters-have-equal-number-of-occurrences/)
+    - 代码: [LeetCode1941.java](./LeetCode/LeetCode1941.java)
+
 
 ### 堆
 
