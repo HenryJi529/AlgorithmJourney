@@ -542,6 +542,8 @@
     - 代码: [LeetCode262.sql](./LeetCode/sql/LeetCode262.sql)
 - [511. 游戏玩法分析 I](https://leetcode.cn/problems/game-play-analysis-i/)
     - 代码: [LeetCode511.sql](./LeetCode/sql/LeetCode511.sql)
+- [534. 游戏玩法分析 III](https://leetcode.cn/problems/game-play-analysis-iii/)
+    - 代码: [LeetCode534.sql](./LeetCode/sql/LeetCode534.sql)
 - [550. 游戏玩法分析 IV](https://leetcode.cn/problems/game-play-analysis-iv/)
     - 代码: [LeetCode550.sql](./LeetCode/sql/LeetCode550.sql)
 - [570. 至少有5名直接下属的经理](https://leetcode.cn/problems/managers-with-at-least-5-direct-reports/)
