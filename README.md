@@ -542,6 +542,8 @@
     - 代码: [LeetCode262.sql](./LeetCode/sql/LeetCode262.sql)
 - [511. 游戏玩法分析 I](https://leetcode.cn/problems/game-play-analysis-i/)
     - 代码: [LeetCode511.sql](./LeetCode/sql/LeetCode511.sql)
+- [512. 游戏玩法分析 II](https://leetcode.cn/problems/game-play-analysis-ii/)
+    - 代码: [LeetCode512.sql](./LeetCode/sql/LeetCode512.sql)
 - [534. 游戏玩法分析 III](https://leetcode.cn/problems/game-play-analysis-iii/)
     - 代码: [LeetCode534.sql](./LeetCode/sql/LeetCode534.sql)
 - [550. 游戏玩法分析 IV](https://leetcode.cn/problems/game-play-analysis-iv/)
