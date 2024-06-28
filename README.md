@@ -274,6 +274,7 @@
     - 思路: 快慢指针
     - 代码: [LeetCode876.java](./LeetCode/LeetCode876.java)
 
+
 ### 栈
 
 - [20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/)
@@ -411,6 +412,7 @@
     - 思路: 要注意二叉查找树并不能真的二分查找，需要考虑极端情况
     - 代码: [LeetCode2476.java](./LeetCode/LeetCode2476.java)
 
+
 ### 图
 
 - [126. 单词接龙 II](https://leetcode.cn/problems/word-ladder-ii/)
@@ -463,6 +465,7 @@
 - [1971. 寻找图中是否存在路径](https://leetcode.cn/problems/find-if-path-exists-in-graph/)
     - 代码: [LeetCode1971.java](./LeetCode/LeetCode1971.java)
 
+
 ### 动态规划
 
 - [5. 最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/)
@@ -499,6 +502,9 @@
 - [198. 打家劫舍](https://leetcode.cn/problems/house-robber/)
     - 思路: 先找出最小的问题，再想想怎样扩大问题规模
     - 代码: [LeetCode198.java](./LeetCode/LeetCode198.java)
+- [322. 零钱兑换](https://leetcode.cn/problems/coin-change/)
+    - 思路: F(S) = min{F(S-C(1)), F(S-C(2)), ...} + 1 【正向填表】
+    - 代码: [LeetCode322.java](./LeetCode/LeetCode322.java)
 - [410. 分割数组的最大值](https://leetcode.cn/problems/split-array-largest-sum/)
     - 代码: [LeetCode410.java](./LeetCode/LeetCode410.java)
 - [486. 预测赢家](https://leetcode.cn/problems/predict-the-winner/)
