@@ -415,6 +415,9 @@
 
 ### 图
 
+- [79. 单词搜索](https://leetcode.cn/problems/word-search/)
+    - 思路: 二维图的DFS + 回溯
+    - 代码: [LeetCode79.java](./LeetCode/LeetCode79.java)
 - [126. 单词接龙 II](https://leetcode.cn/problems/word-ladder-ii/)
     - 思路: 按照要求先构图，用started跟ended降低复杂度
     - 代码: [LeetCode127.java](./LeetCode/LeetCode127.java)
