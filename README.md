@@ -494,6 +494,9 @@
 - [96. 不同的二叉搜索树](https://leetcode.cn/problems/unique-binary-search-trees/)
     - 思路: 子问题的划分是根据连续的节点数量，与节点大小无关
     - 代码: [LeetCode96.java](./LeetCode/LeetCode96.java)
+- [114. 二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/)
+    - 思路: DFS + 状态保存 
+    - 代码: [LeetCode114.java](./LeetCode/LeetCode114.java)
 - [115. 不同的子序列](https://leetcode.cn/problems/distinct-subsequences/)
     - 思路: 二维动态规划
     - 代码: [LeetCode115.java](./LeetCode/LeetCode115.java)
