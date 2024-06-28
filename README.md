@@ -634,6 +634,8 @@
     - 代码: [LeetCode1327.sql](./LeetCode/sql/LeetCode1327.sql)
 - [1341. 电影评分](https://leetcode.cn/problems/movie-rating/)
     - 代码: [LeetCode1341.sql](./LeetCode/sql/LeetCode1341.sql)
+- [1350. 院系无效的学生](https://leetcode.cn/problems/students-with-invalid-departments/)
+    - 代码: [LeetCode1350.sql](./LeetCode/sql/LeetCode1350.sql)
 - [1378. 使用唯一标识码替换员工ID](https://leetcode.cn/problems/replace-employee-id-with-the-unique-identifier/)
     - 代码: [LeetCode1378.sql](./LeetCode/sql/LeetCode1378.sql)
 - [1393. 股票的资本损益](https://leetcode.cn/problems/capital-gainloss/)
