@@ -508,6 +508,7 @@
     - 思路: 二维动态规划
     - 代码: [LeetCode115.java](./LeetCode/LeetCode115.java)
 - [121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/)
+    - 思路: 可以记住某个最值状态(最低/最高)，类似动态规划
     - 代码: [LeetCode121.java](./LeetCode/LeetCode121.java)
 - [139. 单词拆分](https://leetcode.cn/problems/word-break/)
     - 代码: [LeetCode139.java](./LeetCode/LeetCode139.java)
@@ -522,6 +523,9 @@
 - [486. 预测赢家](https://leetcode.cn/problems/predict-the-winner/)
     - 思路: Min-Max + DP
     - 代码: [LeetCode486.java](./LeetCode/LeetCode486.java)
+- [509. 斐波那契数](https://leetcode.cn/problems/fibonacci-number/)
+    - 思路: 递归填表，但只需保存两个状态
+    - 代码: [LeetCode509.java](./LeetCode/LeetCode509.java)
 - [877. 石子游戏](https://leetcode.cn/problems/stone-game/)
     - 思路: Min-Max + DP 或 脑筋急转弯 
     - 代码: [LeetCode877.java](./LeetCode/LeetCode877.java)
