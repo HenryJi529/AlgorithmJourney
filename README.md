@@ -563,6 +563,8 @@
     - 代码: [LeetCode550.sql](./LeetCode/sql/LeetCode550.sql)
 - [570. 至少有5名直接下属的经理](https://leetcode.cn/problems/managers-with-at-least-5-direct-reports/)
     - 代码: [LeetCode570.sql](./LeetCode/sql/LeetCode570.sql)
+- [574. 当选者](https://leetcode.cn/problems/winning-candidate/)
+    - 代码: [LeetCode574.sql](./LeetCode/sql/LeetCode574.sql)
 - [577. 员工奖金](https://leetcode.cn/problems/employee-bonus/)
     - 代码: [LeetCode577.sql](./LeetCode/sql/LeetCode577.sql)
 - [584. 寻找用户推荐人](https://leetcode.cn/problems/find-customer-referee/)
