@@ -360,6 +360,7 @@
     - 思路: 堆【需要注意数据类型，避免溢出】
     - 代码: [LeetCode2583.java](./LeetCode/LeetCode2583.java)
 
+
 ### 树
 
 - [39. 组合总和](https://leetcode.cn/problems/combination-sum/)
@@ -506,6 +507,8 @@
 - [115. 不同的子序列](https://leetcode.cn/problems/distinct-subsequences/)
     - 思路: 二维动态规划
     - 代码: [LeetCode115.java](./LeetCode/LeetCode115.java)
+- [121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/)
+    - 代码: [LeetCode121.java](./LeetCode/LeetCode121.java)
 - [139. 单词拆分](https://leetcode.cn/problems/word-break/)
     - 代码: [LeetCode139.java](./LeetCode/LeetCode139.java)
 - [198. 打家劫舍](https://leetcode.cn/problems/house-robber/)
