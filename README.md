@@ -362,6 +362,9 @@
 
 ### 树
 
+- [39. 组合总和](https://leetcode.cn/problems/combination-sum/)
+    - 思路: 转换为状态树(按每个字母分层) -> DFS + 回溯
+    - 代码: [LeetCode39.java](./LeetCode/LeetCode39.java)
 - [94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)
     - 代码: [LeetCode94.java](./LeetCode/LeetCode94.java)
 - [98. 验证二叉搜索树](https://leetcode.cn/problems/validate-binary-search-tree/)
