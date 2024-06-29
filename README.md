@@ -478,6 +478,9 @@
 - [5. 最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/)
     - 思路: 遍历节点(中心展开) 或 2维的DP【思路很直接，但空间复杂度略高】
     - 代码: [LeetCode5.java](./LeetCode/LeetCode5.java)
+- [22. 括号生成](https://leetcode.cn/problems/generate-parentheses/)
+    - 思路: (a)b 或 a[0:i]()a[i:-1] 或 ab/(a)/a()/()a
+    - 代码: [LeetCode22.java](./LeetCode/LeetCode22.java)
 - [32. 最长有效括号](https://leetcode.cn/problems/longest-valid-parentheses/)
     - 思路: 考虑`(`与`)`对应关系【输入尺度太大，不能用2维DP】
     - 代码: [LeetCode32.java](./LeetCode/LeetCode32.java)
