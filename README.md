@@ -648,6 +648,8 @@
     - 代码: [LeetCode1280.sql](./LeetCode/sql/LeetCode1280.sql)
 - [1321. 餐馆营业额变化增长](https://leetcode.cn/problems/restaurant-growth/)
     - 代码: [LeetCode1321.sql](./LeetCode/sql/LeetCode1321.sql)
+- [1322. 广告效果](https://leetcode.cn/problems/ads-performance/)
+    - 代码: [LeetCode1322.sql](./LeetCode/sql/LeetCode1322.sql)
 - [1327. 列出指定时间段内所有的下单产品](https://leetcode.cn/problems/list-the-products-ordered-in-a-period/)
     - 代码: [LeetCode1327.sql](./LeetCode/sql/LeetCode1327.sql)
 - [1341. 电影评分](https://leetcode.cn/problems/movie-rating/)
