@@ -496,6 +496,9 @@
     - 代码: [LeetCode64.java](./LeetCode/LeetCode64.java)
 - [70. 爬楼梯](https://leetcode.cn/problems/climbing-stairs/)
     - 代码: [LeetCode70.java](./LeetCode/LeetCode70.java)
+- [72. 编辑距离](https://leetcode.cn/problems/edit-distance/)
+    - 思路: 2维DP填表【关键是确定dp[i][j]与dp[i-1][j-1], dp[i][j-1], dp[i-1][j]的关系】
+    - 代码: [LeetCode72.java](./LeetCode/LeetCode72.java)
 - [78. 子集](https://leetcode.cn/problems/subsets/)
     - 代码: [LeetCode78.java](./LeetCode/LeetCode78.java)
 - [91. 解码方法](https://leetcode.cn/problems/decode-ways/)
