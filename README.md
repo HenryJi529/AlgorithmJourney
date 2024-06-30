@@ -166,6 +166,9 @@
     - 代码: [LeetCode747.java](./LeetCode/LeetCode747.java)
 - [888. 公平的糖果交换](https://leetcode.cn/problems/fair-candy-swap/)
     - 代码: [LeetCode888.java](./LeetCode/LeetCode888.java)
+- [912. 排序数组](https://leetcode.cn/problems/sort-an-array/)
+    - 思路: 基本的排序练习
+    - 代码: [LeetCode912.java](./LeetCode/LeetCode912.java)
 - [922. 按奇偶排序数组 II](https://leetcode.cn/problems/sort-array-by-parity-ii/)
     - 代码: [LeetCode922.java](./LeetCode/LeetCode922.java)
 - [976. 三角形的最大周长](https://leetcode.cn/problems/largest-perimeter-triangle/)
