@@ -4,6 +4,8 @@
 
 ### 数学
 
+- [238. 除自身以外数组的乘积](https://leetcode.cn/problems/product-of-array-except-self/)
+    - 代码: [LeetCode238.java](./LeetCode/LeetCode238.java)
 - [268. 丢失的数字](https://leetcode.cn/problems/missing-number/)
     - 代码: [LeetCode268.java](./LeetCode/LeetCode268.java)
 - [287. 寻找重复数](https://leetcode.cn/problems/find-the-duplicate-number/)
@@ -231,13 +233,6 @@
     - 代码: [LeetCode3010.java](./LeetCode/LeetCode3010.java)
 
 
-### 数组
-
-- [238. 除自身以外数组的乘积](https://leetcode.cn/problems/product-of-array-except-self/)
-    - 代码: [LeetCode238.java](./LeetCode/LeetCode238.java)
-
-
-
 ### 字符串
 
 - [28. 找出字符串中第一个匹配项的下标](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/)
@@ -255,6 +250,7 @@
     - 代码: [LeetCode1422.java](./LeetCode/LeetCode1422.java)
 - [蓝桥504. 单词分析](https://www.lanqiao.cn/problems/504/learning/)
     - 代码: [LanQiao504](./LanQiao/LanQiao504.java)
+
 
 ### 链表
 
