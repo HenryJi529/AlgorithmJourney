@@ -602,6 +602,9 @@
     - 代码: [LeetCode534.sql](./LeetCode/sql/LeetCode534.sql)
 - [550. 游戏玩法分析 IV](https://leetcode.cn/problems/game-play-analysis-iv/)
     - 代码: [LeetCode550.sql](./LeetCode/sql/LeetCode550.sql)
+- [569. 员工薪水中位数](https://leetcode.cn/problems/median-employee-salary/)
+    - 思路: 需要整合额外的信息，形成筛选条件
+    - 代码: [LeetCode569.sql](./LeetCode/sql/LeetCode569.sql)
 - [570. 至少有5名直接下属的经理](https://leetcode.cn/problems/managers-with-at-least-5-direct-reports/)
     - 代码: [LeetCode570.sql](./LeetCode/sql/LeetCode570.sql)
 - [574. 当选者](https://leetcode.cn/problems/winning-candidate/)
