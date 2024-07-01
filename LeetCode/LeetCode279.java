@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class LeetCode279 {
 
     public static void main(String[] args) {
