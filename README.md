@@ -618,6 +618,8 @@
     - 代码: [LeetCode595.sql](./LeetCode/sql/LeetCode595.sql)
 - [596. 超过5名学生的课](https://leetcode.cn/problems/classes-more-than-5-students/)
     - 代码: [LeetCode596.sql](./LeetCode/sql/LeetCode596.sql)
+- [597. 好友申请 I：总体通过率](https://leetcode.cn/problems/friend-requests-i-overall-acceptance-rate/)
+    - 代码: [LeetCode597.sql](./LeetCode/sql/LeetCode597.sql)
 - [601. 体育馆的人流量](https://leetcode.cn/problems/human-traffic-of-stadium/)
     - 代码: [LeetCode601.sql](./LeetCode/sql/LeetCode601.sql)
 - [602. 好友申请 II ：谁有最多的好友](https://leetcode.cn/problems/friend-requests-ii-who-has-the-most-friends/)
