@@ -12,6 +12,7 @@
     - 思路: 两个序列模K余数相同则差模K为0
     - 代码: [LanQiao97.java](./LanQiao/LanQiao97.java)
 
+
 ### 模拟
 
 - [118. 杨辉三角](https://leetcode.cn/problems/pascals-triangle/)
@@ -228,6 +229,14 @@
     - 代码: [LeetCode2830.java](./LeetCode/LeetCode2830.java)
 - [3010. 将数组分成最小总代价的子数组 I](https://leetcode.cn/problems/divide-an-array-into-subarrays-with-minimum-cost-i/)
     - 代码: [LeetCode3010.java](./LeetCode/LeetCode3010.java)
+
+
+### 数组
+
+- [238. 除自身以外数组的乘积](https://leetcode.cn/problems/product-of-array-except-self/)
+    - 代码: [LeetCode238.java](./LeetCode/LeetCode238.java)
+
+
 
 ### 字符串
 
