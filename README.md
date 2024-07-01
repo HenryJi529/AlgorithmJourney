@@ -524,6 +524,9 @@
 - [198. 打家劫舍](https://leetcode.cn/problems/house-robber/)
     - 思路: 先找出最小的问题，再想想怎样扩大问题规模
     - 代码: [LeetCode198.java](./LeetCode/LeetCode198.java)
+- [279. 完全平方数](https://leetcode.cn/problems/perfect-squares/)
+    - 思路: 正向填表【需要注意到"平方"】
+    - 代码: [LeetCode279.java](./LeetCode/LeetCode279.java)
 - [322. 零钱兑换](https://leetcode.cn/problems/coin-change/)
     - 思路: F(S) = min{F(S-C(1)), F(S-C(2)), ...} + 1 【正向填表】
     - 代码: [LeetCode322.java](./LeetCode/LeetCode322.java)
