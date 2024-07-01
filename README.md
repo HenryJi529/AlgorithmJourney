@@ -624,6 +624,8 @@
     - 代码: [LeetCode601.sql](./LeetCode/sql/LeetCode601.sql)
 - [602. 好友申请 II ：谁有最多的好友](https://leetcode.cn/problems/friend-requests-ii-who-has-the-most-friends/)
     - 代码: [LeetCode602.sql](./LeetCode/sql/LeetCode602.sql)
+- [603. 连续空余座位](https://leetcode.cn/problems/consecutive-available-seats/)
+    - 代码: [LeetCode603.sql](./LeetCode/sql/LeetCode603.sql)
 - [607. 销售员](https://leetcode.cn/problems/sales-person/)
     - 代码: [LeetCode607.sql](./LeetCode/sql/LeetCode607.sql)
 - [608. 树节点](https://leetcode.cn/problems/tree-node/)
