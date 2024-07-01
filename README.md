@@ -412,6 +412,8 @@
     - 代码: [LeetCode145.java](./LeetCode/LeetCode145.java)
 - [199. 二叉树的右视图](https://leetcode.cn/problems/binary-tree-right-side-view/)
     - 代码: [LeetCode199.java](./LeetCode/LeetCode199.java)
+- [226. 翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/)
+    - 代码: [LeetCode226.java](./LeetCode/LeetCode226.java)
 - [235. 二叉搜索树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/)
     - 代码: [LeetCode235.java](./LeetCode/LeetCode235.java)
 - [450. 删除二叉搜索树中的节点](https://leetcode.cn/problems/delete-node-in-a-bst/)
