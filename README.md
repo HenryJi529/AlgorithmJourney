@@ -496,6 +496,9 @@
 - [32. 最长有效括号](https://leetcode.cn/problems/longest-valid-parentheses/)
     - 思路: 考虑`(`与`)`对应关系【输入尺度太大，不能用2维DP】
     - 代码: [LeetCode32.java](./LeetCode/LeetCode32.java)
+- [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/)
+    - 思路: 状态f(i)为以i结尾的最大子数组和
+    - 代码: [LeetCode53.java](./LeetCode/LeetCode53.java)
 - [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/)
     - 思路: 其实不用动态规划，直接使用贪心算法更新最远位置就行
     - 代码: [LeetCode55.java](./LeetCode/LeetCode55.java)
