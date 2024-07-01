@@ -137,6 +137,9 @@
 - [274. H 指数](https://leetcode.cn/problems/h-index/)
     - 思路: 选择排序并在适当时终止 或 对h值二分查找
     - 代码: [LeetCode274.java](./LeetCode/LeetCode274.java)
+- [280. 摆动排序](https://leetcode.cn/problems/wiggle-sort/)
+    - 思路: 排序后实现交替 或 贪心算法(直接交换元素)
+    - 代码: [LeetCode280.java](./LeetCode/LeetCode280.java)
 - [349. 两个数组的交集](https://leetcode.cn/problems/intersection-of-two-arrays/)
     - 代码: [LeetCode349.java](./LeetCode/LeetCode349.java)
 - [350. 两个数组的交集 II](https://leetcode.cn/problems/intersection-of-two-arrays-ii/)
