@@ -140,6 +140,9 @@
 - [280. 摆动排序](https://leetcode.cn/problems/wiggle-sort/)
     - 思路: 排序后实现交替 或 贪心算法(直接交换元素)
     - 代码: [LeetCode280.java](./LeetCode/LeetCode280.java)
+- [324. 摆动排序 II](https://leetcode.cn/problems/wiggle-sort-ii/)
+    - 思路: 可以通过让中间的点出现在边上，来避免相等的值靠近
+    - 代码: [LeetCode324.java](./LeetCode/LeetCode324.java)
 - [349. 两个数组的交集](https://leetcode.cn/problems/intersection-of-two-arrays/)
     - 代码: [LeetCode349.java](./LeetCode/LeetCode349.java)
 - [350. 两个数组的交集 II](https://leetcode.cn/problems/intersection-of-two-arrays-ii/)
