@@ -664,6 +664,8 @@
     - 代码: [LeetCode1050.sql](./LeetCode/sql/LeetCode1050.sql)
 - [1068. 产品销售分析 I](https://leetcode.cn/problems/product-sales-analysis-i/)
     - 代码: [LeetCode1068.sql](./LeetCode/sql/LeetCode1068.sql)
+- [1069. 产品销售分析 II](https://leetcode.cn/problems/product-sales-analysis-ii/)
+    - 代码: [LeetCode1069.sql](./LeetCode/sql/LeetCode1069.sql)
 - [1070. 产品销售分析 III](https://leetcode.cn/problems/product-sales-analysis-iii/)
     - 代码: [LeetCode1070.sql](./LeetCode/sql/LeetCode1070.sql)
 - [1075. 项目员工 I](https://leetcode.cn/problems/project-employees-i/)
