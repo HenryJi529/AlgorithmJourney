@@ -609,6 +609,9 @@
     - 代码: [LeetCode569.sql](./LeetCode/sql/LeetCode569.sql)
 - [570. 至少有5名直接下属的经理](https://leetcode.cn/problems/managers-with-at-least-5-direct-reports/)
     - 代码: [LeetCode570.sql](./LeetCode/sql/LeetCode570.sql)
+- [571. 给定数字的频率查询中位数](https://leetcode.cn/problems/find-median-given-frequency-of-numbers/)
+    - 思路: 求出频率所在的区间【通过窗口函数的SUM】
+    - 代码: [LeetCode571.sql](./LeetCode/sql/LeetCode571.sql)
 - [574. 当选者](https://leetcode.cn/problems/winning-candidate/)
     - 代码: [LeetCode574.sql](./LeetCode/sql/LeetCode574.sql)
 - [577. 员工奖金](https://leetcode.cn/problems/employee-bonus/)
