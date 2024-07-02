@@ -670,6 +670,8 @@
     - 代码: [LeetCode1070.sql](./LeetCode/sql/LeetCode1070.sql)
 - [1075. 项目员工 I](https://leetcode.cn/problems/project-employees-i/)
     - 代码: [LeetCode1075.sql](./LeetCode/sql/LeetCode1075.sql)
+- [1076. 项目员工II](https://leetcode.cn/problems/project-employees-ii/)
+    - 代码: [LeetCode1076.sql](./LeetCode/sql/LeetCode1076.sql)
 - [1084. 销售分析III](https://leetcode.cn/problems/sales-analysis-iii/)
     - 思路: 尽可能减少遍历次数
     - 代码: [LeetCode1084.sql](./LeetCode/sql/LeetCode1084.sql)
