@@ -684,6 +684,9 @@
 - [1084. 销售分析III](https://leetcode.cn/problems/sales-analysis-iii/)
     - 思路: 尽可能减少遍历次数
     - 代码: [LeetCode1084.sql](./LeetCode/sql/LeetCode1084.sql)
+- [1113. 报告的记录](https://leetcode.cn/problems/reported-posts/)
+    - 思路: 注意distinct的使用位置【处理单列的速度明显高于双列】
+    - 代码: [LeetCode1113.sql](./LeetCode/sql/LeetCode1113.sql)
 - [1141. 查询近30天活跃用户数](https://leetcode.cn/problems/user-activity-for-the-past-30-days-i/)
     - 代码: [LeetCode1141.sql](./LeetCode/sql/LeetCode1141.sql)
 - [1148. 文章浏览 I](https://leetcode.cn/problems/article-views-i/)
