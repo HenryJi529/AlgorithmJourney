@@ -77,6 +77,22 @@
 - [1470. 重新排列数组](https://leetcode.cn/problems/shuffle-the-array/)
     - 代码: [LeetCode1470.java](./LeetCode/LeetCode1470.java)
 
+
+### 滑动窗口
+
+- [1. 两数之和](https://leetcode.cn/problems/two-sum/)
+    - 代码: [LeetCode1.java](./LeetCode/LeetCode1.java)
+- [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
+    - 思路: 遇到重复元素则滑动窗口
+    - 代码: [LeetCode3.java](./LeetCode/LeetCode3.java)
+- [219. 存在重复元素 II](https://leetcode.cn/problems/contains-duplicate-ii/)
+    - 思路: 构造长度为k的滑动窗口
+    - 代码: [LeetCode219.java](./LeetCode/LeetCode219.java)
+- [438. 找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/)
+    - 思路: 滑动窗口记录各字符存在的数量【数组更方便】
+    - 代码: [LeetCode438.java](./LeetCode/LeetCode438.java)
+
+
 ### 二分查找
 
 - [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/)
@@ -316,11 +332,6 @@
 
 ### 哈希
 
-- [1. 两数之和](https://leetcode.cn/problems/two-sum/)
-    - 代码: [LeetCode1.java](./LeetCode/LeetCode1.java)
-- [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
-    - 思路: 滑动窗口
-    - 代码: [LeetCode3.java](./LeetCode/LeetCode3.java)
 - [128. 最长连续序列](https://leetcode.cn/problems/longest-consecutive-sequence/)
     - 代码: [LeetCode128.java](./LeetCode/LeetCode128.java)
 - [136. 只出现一次的数字](https://leetcode.cn/problems/single-number/description/)
@@ -332,9 +343,6 @@
 - [217. 存在重复元素](https://leetcode.cn/problems/contains-duplicate/)
     - 思路: 遍历元素存入HashSet 或 先排序后遍历
     - 代码: [LeetCode217.java](./LeetCode/LeetCode217.java)
-- [219. 存在重复元素 II](https://leetcode.cn/problems/contains-duplicate-ii/)
-    - 思路: 滑动窗口
-    - 代码: [LeetCode219.java](./LeetCode/LeetCode219.java)
 - [229. 多数元素 II](https://leetcode.cn/problems/majority-element-ii/)
     - 思路: 类似LeetCode169
     - 代码: [LeetCode229.java](./LeetCode/LeetCode229.java)
