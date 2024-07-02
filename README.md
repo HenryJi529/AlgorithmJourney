@@ -648,6 +648,8 @@
     - 代码: [LeetCode608.sql](./LeetCode/sql/LeetCode608.sql)
 - [610. 判断三角形](https://leetcode.cn/problems/triangle-judgement/)
     - 代码: [LeetCode610.sql](./LeetCode/sql/LeetCode610.sql)
+- [613. 直线上的最近距离](https://leetcode.cn/problems/shortest-distance-in-a-line/)
+    - 代码: [LeetCode613.sql](./LeetCode/sql/LeetCode613.sql)
 - [619. 只出现一次的最大数字](https://leetcode.cn/problems/biggest-single-number/)
     - 代码: [LeetCode619.sql](./LeetCode/sql/LeetCode619.sql)
 - [620. 有趣的电影](https://leetcode.cn/problems/not-boring-movies/)
