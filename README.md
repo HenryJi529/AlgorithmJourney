@@ -727,6 +727,8 @@
     - 代码: [LeetCode1407.sql](./LeetCode/sql/LeetCode1407.sql)
 - [1484. 按日期分组销售产品](https://leetcode.cn/problems/group-sold-products-by-the-date/)
     - 代码: [LeetCode1484.sql](./LeetCode/sql/LeetCode1484.sql)
+- [1495. 上月播放的儿童适宜电影](https://leetcode.cn/problems/friendly-movies-streamed-last-month/)
+    - 代码: [LeetCode1495.sql](./LeetCode/sql/LeetCode1495.sql)
 - [1517. 查找拥有有效邮箱的用户](https://leetcode.cn/problems/find-users-with-valid-e-mails/)
     - 代码: [LeetCode1517.sql](./LeetCode/sql/LeetCode1517.sql)
 - [1527. 患某种疾病的患者](https://leetcode.cn/problems/patients-with-a-condition/)
