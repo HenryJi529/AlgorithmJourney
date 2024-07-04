@@ -8,20 +8,28 @@ public class LeetCode49 {
     public static void main(String[] args) {
         // 输入: strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
         // 输出: [["bat"],["nat","tan"],["ate","eat","tea"]]
-        System.out.println(new Solution49_2().groupAnagrams(new String[] { "eat", "tea", "tan", "ate", "nat", "bat" }));
+        System.out.println(new Solution49_3().groupAnagrams(new String[] { "eat",
+                "tea", "tan", "ate", "nat", "bat" }));
 
         // 输入: strs = [""]
         // 输出: [[""]]
-        System.out.println(new Solution49_2().groupAnagrams(new String[] { "" }));
+        System.out.println(new Solution49_3().groupAnagrams(new String[] { "" }));
 
         // 输入: strs = ["a"]
         // 输出: [["a"]]
-        System.out.println(new Solution49_2().groupAnagrams(new String[] { "a" }));
+        System.out.println(new Solution49_3().groupAnagrams(new String[] { "a" }));
+
+        // 输入: strs = ["bdddddddddd","bbbbbbbbbbc"]
+        // 输出: [["bbbbbbbbbbc"],["bdddddddddd"]]
+        System.out.println(new Solution49_3().groupAnagrams(new String[] {
+                "bdddddddddd", "bbbbbbbbbbc" }));
     }
 }
 
+/**
+ * // 暴力求解，也能通过
+ */
 class Solution49_1 {
-    // 暴力计算，也能PASS
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> result = new ArrayList<List<String>>();
         for (String str : strs) {
@@ -58,14 +66,16 @@ class Solution49_1 {
     }
 }
 
+/**
+ * 对string构成的char[]排序
+ */
 class Solution49_2 {
-    // 对string构成的char[]排序
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> map = new HashMap<String, List<String>>();
         for (String str : strs) {
             char[] array = str.toCharArray();
             Arrays.sort(array);
-            String key = new String(array);
+            String key = String.valueOf(array);
             List<String> list = map.getOrDefault(key, new ArrayList<String>());
             list.add(str);
             map.put(key, list);
@@ -74,29 +84,31 @@ class Solution49_2 {
     }
 }
 
+/**
+ * 直接用字母的数量作为HashMap的Key
+ */
 class Solution49_3 {
-    // 用counts作为HashMap的Key
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> map = new HashMap<String, List<String>>();
         for (String str : strs) {
-            int[] counts = new int[26];
-            int length = str.length();
-            for (int i = 0; i < length; i++) {
-                counts[str.charAt(i) - 'a']++;
-            }
-            // 将每个出现次数大于 0 的字母和出现次数按顺序拼接成字符串，作为哈希表的键
-            StringBuffer sb = new StringBuffer();
-            for (int i = 0; i < 26; i++) {
-                if (counts[i] != 0) {
-                    sb.append((char) ('a' + i));
-                    sb.append(counts[i]);
-                }
-            }
-            String key = sb.toString();
+            String key = getKey(str);
             List<String> list = map.getOrDefault(key, new ArrayList<String>());
             list.add(str);
             map.put(key, list);
         }
         return new ArrayList<List<String>>(map.values());
+    }
+
+    public String getKey(String str) {
+        int[] counts = new int[26];
+        for (int i = 0; i < str.length(); i++) {
+            counts[str.charAt(i) - 'a']++;
+        }
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < 26; i++) {
+            sb.append(counts[i]);
+            sb.append('-');
+        }
+        return sb.toString();
     }
 }

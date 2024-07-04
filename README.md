@@ -133,7 +133,7 @@
     - 思路: 最佳解法是indexing sort的变体
     - 代码: [LeetCode41.java](./LeetCode/LeetCode41.java)
 - [49. 字母异位词分组](https://leetcode.cn/problems/group-anagrams/)
-    - 代码: 推荐先对元素内部排序
+    - 代码: 推荐先对元素内部排序【使用统计数量这一直观方式反而效率不高】
     - 代码: [LeetCode49.java](./LeetCode/LeetCode49.java)
 - [56. 合并区间](https://leetcode.cn/problems/merge-intervals/)
     - 思路: 排序 + 双指针
