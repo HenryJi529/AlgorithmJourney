@@ -63,6 +63,9 @@
     - 代码: [LeetCode27.java](./LeetCode/LeetCode27.java)
 - [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/)
     - 代码: [LeetCode42.java](./LeetCode/LeetCode42.java)
+- [76. 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/)
+    - 思路: 同向双指针，满足条件左指针右移动，不满足右指针右移
+    - 代码: [LeetCode76.java](./LeetCode/LeetCode76.java)
 - [80. 删除有序数组中的重复项 II](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/)
     - 思路: 快慢指针
     - 代码: [LeetCode80.java](./LeetCode/LeetCode80.java)
