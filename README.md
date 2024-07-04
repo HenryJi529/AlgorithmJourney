@@ -40,6 +40,9 @@
 - [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/)
     - 思路: 双指针 + 贪心
     - 代码: [LeetCode11.java](./LeetCode/LeetCode11.java)
+- [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/)
+    - 思路: 不需要繁复的DP，推荐直接使用贪心算法更新最远位置
+    - 代码: [LeetCode55.java](./LeetCode/LeetCode55.java)
 - [605. 种花问题](https://leetcode.cn/problems/can-place-flowers/)
     - 思路: 找到连续的0，累计可种数
     - 代码: [LeetCode605.java](./LeetCode/LeetCode605.java)
@@ -525,9 +528,6 @@
 - [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/)
     - 思路: 状态f(i)为以i结尾的最大子数组和
     - 代码: [LeetCode53.java](./LeetCode/LeetCode53.java)
-- [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/)
-    - 思路: 其实不用动态规划，直接使用贪心算法更新最远位置就行
-    - 代码: [LeetCode55.java](./LeetCode/LeetCode55.java)
 - [62. 不同路径](https://leetcode.cn/problems/unique-paths/)
     - 代码: [LeetCode62.java](./LeetCode/LeetCode62.java)
 - [63. 不同路径 II](https://leetcode.cn/problems/unique-paths-ii/)
