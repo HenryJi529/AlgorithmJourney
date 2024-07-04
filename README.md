@@ -372,6 +372,9 @@
 - [215. 数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/)
     - 思路: 直接原地排序 | 原地maxHeap | 长度为k的maxHeap
     - 代码: [LeetCode215.java](./LeetCode/LeetCode215.java)
+- [239. 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/)
+    - 思路: 一般用不到手写索引优先队列，而是考虑存取(value, index)【窗口长度为k，不代表堆长为k】
+    - 代码: [LeetCode239.java](./LeetCode/LeetCode239.java)
 - [347. 前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/)
     - 代码: [LeetCode347.java](./LeetCode/LeetCode347.java)
 - [373. 查找和最小的 K 对数字](https://leetcode.cn/problems/find-k-pairs-with-smallest-sums/)
