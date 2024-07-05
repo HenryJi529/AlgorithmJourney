@@ -590,6 +590,9 @@
 
 - [46. 全排列](https://leetcode.cn/problems/permutations/)
     - 代码: [LeetCode46.java](./LeetCode/LeetCode46.java)
+- [51. N 皇后](https://leetcode.cn/problems/n-queens/)
+    - 思路: 分离模型与视图 && 用abs(x1 - x2)!=abs(y1 - y2)判断是否在对角线上
+    - 代码: [LeetCode51.java](./LeetCode/LeetCode51.java)
 
 ### 数据库
 
