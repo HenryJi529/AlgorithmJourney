@@ -580,6 +580,9 @@
 - [322. 零钱兑换](https://leetcode.cn/problems/coin-change/)
     - 思路: F(S) = min{F(S-C(1)), F(S-C(2)), ...} + 1 【正向填表】
     - 代码: [LeetCode322.java](./LeetCode/LeetCode322.java)
+- [354. 俄罗斯套娃信封问题](https://leetcode.cn/problems/russian-doll-envelopes/)
+    - 思路: 将问题转换为LIS，并通过排序避免宽度对高度的干扰
+    - 代码: [LeetCode354.java](./LeetCode/LeetCode354.java)
 - [410. 分割数组的最大值](https://leetcode.cn/problems/split-array-largest-sum/)
     - 代码: [LeetCode410.java](./LeetCode/LeetCode410.java)
 - [486. 预测赢家](https://leetcode.cn/problems/predict-the-winner/)
