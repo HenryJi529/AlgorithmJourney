@@ -369,6 +369,9 @@
     - 代码: [LeetCode560.java](./LeetCode/LeetCode560.java)
 - [706. 设计哈希映射](https://leetcode.cn/problems/design-hashmap/)
     - 代码: [LeetCode706.java](./LeetCode/LeetCode706.java)
+- [1002. 查找共用字符](https://leetcode.cn/problems/find-common-characters/)
+    - 思路: 用 哈希表/小写字母数组 统计字符
+    - 代码: [LeetCode1002.java](./LeetCode/LeetCode1002.java)
 - [1512. 好数对的数目](https://leetcode.cn/problems/number-of-good-pairs/)
     - 代码: [LeetCode1512.java](./LeetCode/LeetCode1512.java)
 - [1941. 检查是否所有字符出现次数相同](https://leetcode.cn/problems/check-if-all-characters-have-equal-number-of-occurrences/)
