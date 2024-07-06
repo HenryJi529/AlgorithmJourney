@@ -61,10 +61,6 @@ class Solution300_2 {
                 } else {
                     dp.set(-index - 1, nums[i]);
                 }
-            } else {
-                if (dp.get(index) > nums[i]) {
-                    dp.set(index, nums[i]);
-                }
             }
         }
         return dp.size();
