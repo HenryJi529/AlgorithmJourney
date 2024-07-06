@@ -7,6 +7,9 @@
 - [189. 轮转数组](https://leetcode.cn/problems/rotate-array/)
     - 思路: 辅助数组 或 三次反转
     - 代码: [LeetCode189.java](./LeetCode/LeetCode189.java)
+- [204. 计数质数](https://leetcode.cn/problems/count-primes/)
+    - 思路: 埃拉托斯特尼筛法
+    - 代码: [LeetCode204.java](./LeetCode/LeetCode204.java)
 - [238. 除自身以外数组的乘积](https://leetcode.cn/problems/product-of-array-except-self/)
     - 代码: [LeetCode238.java](./LeetCode/LeetCode238.java)
 - [268. 丢失的数字](https://leetcode.cn/problems/missing-number/)
