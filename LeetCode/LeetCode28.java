@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class LeetCode28 {
     public static void main(String[] args) {
         // 输入：haystack = "sadbutsad", needle = "sad"
@@ -24,7 +22,7 @@ public class LeetCode28 {
 class Solution28 {
     public int strStr(String haystack, String needle) {
         int[] nextArray = getNextArray(needle);
-        System.out.println(Arrays.toString(nextArray));
+        // System.out.println(Arrays.toString(nextArray));
         int index = 0;
         int j = 0;
         while (index < haystack.length()) {
