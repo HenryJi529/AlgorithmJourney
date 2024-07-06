@@ -575,7 +575,7 @@
     - 思路: 正向填表【需要注意到"平方"】
     - 代码: [LeetCode279.java](./LeetCode/LeetCode279.java)
 - [300. 最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/)
-    - 思路: 正向填表，状态设置为"以i结尾的最长子序列长度"
+    - 思路: 正向填表，状态设置为"以i结尾的最长子序列长度" 或 "长度为i+1时LIS结尾的元素值"
     - 代码: [LeetCode300.java](./LeetCode/LeetCode300.java)
 - [322. 零钱兑换](https://leetcode.cn/problems/coin-change/)
     - 思路: F(S) = min{F(S-C(1)), F(S-C(2)), ...} + 1 【正向填表】
