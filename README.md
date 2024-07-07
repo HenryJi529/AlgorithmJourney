@@ -521,6 +521,9 @@
     - 代码: [LeetCode1584.java](./LeetCode/LeetCode1584.java)
 - [1971. 寻找图中是否存在路径](https://leetcode.cn/problems/find-if-path-exists-in-graph/)
     - 代码: [LeetCode1971.java](./LeetCode/LeetCode1971.java)
+- [2867. 统计树中的合法路径数目](https://leetcode.cn/problems/count-valid-paths-in-a-tree/)
+    - 思路: 以合数为中心，搜素所有质数数量为0的路径 -> 求质数周围合数集团的节点数(DFS) -> 并查集优化
+    - 代码: [LeetCode2867.java](./LeetCode/LeetCode2867.java)
 
 
 ### 动态规划
