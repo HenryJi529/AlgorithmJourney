@@ -94,6 +94,9 @@
     - 代码: [LeetCode905.java](./LeetCode/LeetCode905.java)
 - [1470. 重新排列数组](https://leetcode.cn/problems/shuffle-the-array/)
     - 代码: [LeetCode1470.java](./LeetCode/LeetCode1470.java)
+- [2122. 还原原数组](https://leetcode.cn/problems/recover-the-original-array/)
+    - 思路: 针对可能的k，依次用双指针法找到对应的元素
+    - 代码: [LeetCode2122.java](./LeetCode/LeetCode2122.java)
 
 
 ### 滑动窗口
