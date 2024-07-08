@@ -576,6 +576,7 @@
     - 思路: 可以记住某个最值状态(最低/最高)，类似动态规划
     - 代码: [LeetCode121.java](./LeetCode/LeetCode121.java)
 - [139. 单词拆分](https://leetcode.cn/problems/word-break/)
+    - 思路: 先匹配一部分，在此基础上匹配剩余的部分【可以对单词长度排序从而优先匹配长单词】
     - 代码: [LeetCode139.java](./LeetCode/LeetCode139.java)
 - [198. 打家劫舍](https://leetcode.cn/problems/house-robber/)
     - 思路: 先找出最小的问题，再想想怎样扩大问题规模
