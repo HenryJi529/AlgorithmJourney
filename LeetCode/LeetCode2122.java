@@ -65,6 +65,7 @@ class Solution2122 {
                 // if (left == N - 1) {
                 // break;
                 // }
+                // NOTE: 应当让right自增，而不能依赖left
                 right = left + 1;
                 while (right != N && (visited[right] || nums[right] - nums[left] != 2 * k)) {
                     right++;
