@@ -4,6 +4,9 @@
 
 ### 数学
 
+- [73. 矩阵置零](https://leetcode.cn/problems/set-matrix-zeroes/)
+    - 思路: 用第一行与第一列标记除了他们自身所有行和列是否有0元素，再用两个变量记录第一行和第一列的情况
+    - 代码: [LeetCode73.java](./LeetCode/LeetCode73.java)
 - [189. 轮转数组](https://leetcode.cn/problems/rotate-array/)
     - 思路: 辅助数组 或 三次反转
     - 代码: [LeetCode189.java](./LeetCode/LeetCode189.java)
