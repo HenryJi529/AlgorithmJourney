@@ -1,17 +1,9 @@
 import java.util.Queue;
 import java.util.LinkedList;
 
-public class PracticeTree {
+public class ImplementBinaryTree {
     public static void main(String[] args) {
-        System.out.println("Test BinarySearchTree...");
-        BinarySearchTree.test();
-        System.out.println("================================================");
-    }
-}
-
-class BinarySearchTree<Key extends Comparable<Key>, Value> {
-
-    public static void test() {
+        System.out.println("Test BinaryTree...");
         BinarySearchTree<Integer, String> t1 = new BinarySearchTree<Integer, String>();
         t1.put(1, "1");
         t1.put(2, "2");
@@ -40,7 +32,9 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
         System.out.println("层序遍历: " + t2.layerErgodic());
         System.out.println("最大深度: " + t2.maxDepth());
     }
+}
 
+abstract class BinaryTree<Key extends Comparable<Key>, Value> {
     class Node {
         protected Node left;
         protected Node right;
@@ -56,133 +50,35 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
     }
 
     protected Node root;
-    private int N;
-
-    public BinarySearchTree() {
-        this.root = null;
-        this.N = 0;
-    }
-
-    public void put(Key key, Value value) {
-        root = this.put(root, key, value);
-    }
-
-    protected Node put(Node x, Key key, Value value) {
-        if (x == null) {
-            this.N++;
-            return new Node(key, value, null, null);
-        }
-        int cmp = key.compareTo(x.key);
-
-        if (cmp > 0) {
-            // key > x.key
-            x.right = this.put(x.right, key, value);
-        } else if (cmp < 0) {
-            // key < x.key
-            x.left = this.put(x.left, key, value);
-        } else {
-            // key == x.key
-            x.value = value;
-        }
-
-        return x;
-    }
-
-    public Value get(Key key) {
-        return this.get(this.root, key);
-    }
-
-    protected Value get(Node x, Key key) {
-        if (x == null) {
-            return null;
-        }
-
-        int cmp = key.compareTo(x.key);
-        if (cmp > 0) {
-            // key > x.key
-            return this.get(x.right, key);
-        } else if (cmp < 0) {
-            // key < x.key
-            return this.get(x.left, key);
-        } else {
-            // key == x.key
-            return x.value;
-        }
-    }
-
-    public void delete(Key key) {
-        this.delete(this.root, key);
-    }
-
-    protected Node delete(Node x, Key key) {
-        if (x == null) {
-            return null;
-        }
-
-        int cmp = key.compareTo(x.key);
-        if (cmp > 0) {
-            // key > x.key
-            x.right = delete(x.right, key);
-        } else if (cmp < 0) {
-            // key < x.key
-            x.left = delete(x.left, key);
-        } else {
-            // key == x.key
-            if (x.right == null) {
-                this.N--;
-                return x.left;
-            }
-            if (x.left == null) {
-                this.N--;
-                return x.right;
-            }
-            Node minNode = x.right;
-            while (minNode.left != null) {
-                minNode = minNode.left;
-            }
-
-            Node node = x.right;
-            while (node.left != null) {
-                if (node.left.left == null) {
-                    node.left = null;
-                } else {
-                    node = node.left;
-                }
-            }
-            x.key = minNode.key;
-            x.value = minNode.value;
-            this.N--;
-        }
-
-        return x;
-    }
+    protected int N;
 
     public int size() {
         return this.N;
     }
 
-    public Key min() {
-        return min(root).key;
+    abstract public void put(Key key, Value value);
+
+    abstract public Value get(Key key);
+
+    abstract public void delete(Key key);
+
+    public int maxDepth() {
+        return maxDepth(root);
     }
 
-    protected Node min(Node x) {
-        Node node = x;
-        while (node.left != null) {
-            node = node.left;
+    protected int maxDepth(Node x) {
+        int leftMaxDepth = 0;
+        int rightMaxDepth = 0;
+
+        if (x.left != null) {
+            leftMaxDepth = maxDepth(x.left);
         }
-        return node;
-    }
 
-    public Key max() {
-        return max(root).key;
-    }
-
-    protected Node max(Node x) {
-        if (x.right == null) {
-            return x;
-        } else {
-            return max(x.right);
+        if (x.right != null) {
+            rightMaxDepth = maxDepth(x.right);
         }
+
+        return Math.max(leftMaxDepth, rightMaxDepth) + 1;
     }
 
     public Queue<Key> preErgodic() {
@@ -272,22 +168,132 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
         }
     }
 
-    public int maxDepth() {
-        return maxDepth(root);
+}
+
+class BinarySearchTree<Key extends Comparable<Key>, Value> extends BinaryTree<Key, Value> {
+    public BinarySearchTree() {
+        this.root = null;
+        this.N = 0;
     }
 
-    protected int maxDepth(Node x) {
-        int leftMaxDepth = 0;
-        int rightMaxDepth = 0;
+    @Override
+    public void put(Key key, Value value) {
+        root = this.put(root, key, value);
+    }
 
-        if (x.left != null) {
-            leftMaxDepth = maxDepth(x.left);
+    protected Node put(Node x, Key key, Value value) {
+        if (x == null) {
+            this.N++;
+            return new Node(key, value, null, null);
+        }
+        int cmp = key.compareTo(x.key);
+
+        if (cmp > 0) {
+            // key > x.key
+            x.right = this.put(x.right, key, value);
+        } else if (cmp < 0) {
+            // key < x.key
+            x.left = this.put(x.left, key, value);
+        } else {
+            // key == x.key
+            x.value = value;
         }
 
-        if (x.right != null) {
-            rightMaxDepth = maxDepth(x.right);
+        return x;
+    }
+
+    @Override
+    public Value get(Key key) {
+        return this.get(this.root, key);
+    }
+
+    protected Value get(Node x, Key key) {
+        if (x == null) {
+            return null;
         }
 
-        return Math.max(leftMaxDepth, rightMaxDepth) + 1;
+        int cmp = key.compareTo(x.key);
+        if (cmp > 0) {
+            // key > x.key
+            return this.get(x.right, key);
+        } else if (cmp < 0) {
+            // key < x.key
+            return this.get(x.left, key);
+        } else {
+            // key == x.key
+            return x.value;
+        }
+    }
+
+    @Override
+    public void delete(Key key) {
+        this.delete(this.root, key);
+    }
+
+    protected Node delete(Node x, Key key) {
+        if (x == null) {
+            return null;
+        }
+
+        int cmp = key.compareTo(x.key);
+        if (cmp > 0) {
+            // key > x.key
+            x.right = delete(x.right, key);
+        } else if (cmp < 0) {
+            // key < x.key
+            x.left = delete(x.left, key);
+        } else {
+            // key == x.key
+            if (x.right == null) {
+                this.N--;
+                return x.left;
+            }
+            if (x.left == null) {
+                this.N--;
+                return x.right;
+            }
+            Node minNode = x.right;
+            while (minNode.left != null) {
+                minNode = minNode.left;
+            }
+
+            Node node = x.right;
+            while (node.left != null) {
+                if (node.left.left == null) {
+                    node.left = null;
+                } else {
+                    node = node.left;
+                }
+            }
+            x.key = minNode.key;
+            x.value = minNode.value;
+            this.N--;
+        }
+
+        return x;
+    }
+
+    public Key min() {
+        return min(root).key;
+    }
+
+    protected Node min(Node x) {
+        Node node = x;
+        while (node.left != null) {
+            node = node.left;
+        }
+        return node;
+    }
+
+    public Key max() {
+        return max(root).key;
+    }
+
+    protected Node max(Node x) {
+        if (x.right == null) {
+            return x;
+        } else {
+            return max(x.right);
+        }
     }
 }

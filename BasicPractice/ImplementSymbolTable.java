@@ -1,4 +1,4 @@
-public class PracticeSymbolTable {
+public class ImplementSymbolTable {
     public static void main(String[] args) {
         System.out.println("Test SimpleSymbolTable...");
         SimpleSymbolTable.test();

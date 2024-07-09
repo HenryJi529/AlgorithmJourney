@@ -1,7 +1,5 @@
-public class PracticePriorityQueue {
-
+public class ImplementPriorityQueue {
     public static void main(String[] args) {
-
         MaxPriorityQueue<String> q_max = new MaxPriorityQueue<String>(10);
         MinPriorityQueue<String> q_min = new MinPriorityQueue<String>(10);
 

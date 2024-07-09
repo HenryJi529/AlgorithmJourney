@@ -1,6 +1,6 @@
 import java.util.Iterator;
 
-public class PracticeLinearList {
+public class ImplementLinearList {
     public static void main(String[] args) {
         System.out.println("Test SequentialList...");
         SequentialList.test();

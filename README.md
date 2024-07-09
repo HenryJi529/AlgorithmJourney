@@ -1,15 +1,32 @@
 # Algorithm Journey
 
+## 基础练习
+
+- [数据类型默认值](./BasicPractice/ExperimentDefaultValue.java)
+- [程序标识符](./BasicPractice/ExperimentIdentifier.java)
+- [数组的内容与哈希码](./BasicPractice/ExperimentIntArrayHashCode.java)
+- [原生LinkedList方法](./BasicPractice/ExperimentLinkedList.java)
+- [Math库诡异特性](./BasicPractice/ExperimentMath.java)
+- [StreamAPI语法](./BasicPractice/ExperimentStream.java)
+- [对比String的内容、地址与哈希码](./BasicPractice/ExperimentStringCompare.java)
+- [实现二叉树](./BasicPractice/ImplementBinaryTree.java)
+- [实现并查集](./BasicPractice/ImplementDisjointSet.java)
+- [实现图结构](./BasicPractice/ImplementGraph.java)
+- 实现线性表
+    - [Java版](./BasicPractice/ImplementLinearList.java)
+    - [Python版](./BasicPractice/ImplementLinearList.py)
+- [实现优先队列](./BasicPractice/ImplementPriorityQueue.java)
+- [实现红黑树](./BasicPractice/ImplementRedBlackTree.java)
+- 实现排序
+    - [Java版](./BasicPractice/ImplementSort.java)
+    - [Python版](./BasicPractice/ImplementSort.py)
+- [实现符号表](./BasicPractice/ImplementSymbolTable.java)
+
+
 ## 刷题列表(按题型分类)
 
 ### 数学
 
-- [54. 螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/description/?envType=study-plan-v2&envId=top-100-liked)
-    - 思路: 分层处理(推荐) 或 分边处理
-    - 代码: [LeetCode54.java](./LeetCode/LeetCode54.java)
-- [73. 矩阵置零](https://leetcode.cn/problems/set-matrix-zeroes/)
-    - 思路: 用第一行与第一列标记除了他们自身所有行和列是否有0元素，再用两个变量记录第一行和第一列的情况
-    - 代码: [LeetCode73.java](./LeetCode/LeetCode73.java)
 - [189. 轮转数组](https://leetcode.cn/problems/rotate-array/)
     - 思路: 辅助数组 或 三次反转
     - 代码: [LeetCode189.java](./LeetCode/LeetCode189.java)
@@ -283,6 +300,16 @@
     - 代码: [LeetCode2830.java](./LeetCode/LeetCode2830.java)
 - [3010. 将数组分成最小总代价的子数组 I](https://leetcode.cn/problems/divide-an-array-into-subarrays-with-minimum-cost-i/)
     - 代码: [LeetCode3010.java](./LeetCode/LeetCode3010.java)
+
+
+### 数组
+
+- [54. 螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/description/?envType=study-plan-v2&envId=top-100-liked)
+    - 思路: 分层处理(推荐) 或 分边处理
+    - 代码: [LeetCode54.java](./LeetCode/LeetCode54.java)
+- [73. 矩阵置零](https://leetcode.cn/problems/set-matrix-zeroes/)
+    - 思路: 用第一行与第一列标记除了他们自身所有行和列是否有0元素，再用两个变量记录第一行和第一列的情况
+    - 代码: [LeetCode73.java](./LeetCode/LeetCode73.java)
 
 
 ### 字符串

@@ -2,7 +2,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class PracticeStream {
+public class ExperimentStream {
     public static void main(String[] args) {
         List<Integer> hearList = new ArrayList<>();
         hearList.add(15);

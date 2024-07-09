@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PracticeDisjointSet {
+public class ImplementDisjointSet {
     public static void main(String[] args) {
         // 创建并查集附象
         DisjointSet uf = new DisjointSet(5);

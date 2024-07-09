@@ -1,5 +1,4 @@
-public class PracticeRedBlackTree {
-
+public class ImplementRedBlackTree {
     public static void main(String[] args) {
         System.out.println("Test RedBlackTree...");
         RedBlackTree<Integer, String> tree = new RedBlackTree<>();

@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 import java.util.HashMap;
 import java.util.Map;
 
-public class PracticeGraph {
+public class ImplementGraph {
     public static void main(String[] args) {
         System.out.println("测试图的基本功能...");
         Graph.test();

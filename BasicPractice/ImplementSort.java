@@ -1,8 +1,7 @@
 import java.util.Arrays;
 import java.util.Random;
 
-public class PracticeSort {
-
+public class ImplementSort {
     private static int[] assist;
 
     public static void main(String[] args) {
@@ -30,10 +29,8 @@ public class PracticeSort {
         System.out.println("归并排序后的数组：");
         printArray(arr5);
 
-        // int[] longArr = new int[100000];
-        // for (int i = 0; i < longArr.length; i++) {
-        // longArr[i] = 10000 - i;
-        // }
+        System.out.println("================================================================");
+        System.out.println("大数据量下的测试:");
         int[] longArr = generateRandomNumbers(10000);
         int[] sortedLongArr = longArr.clone();
         Arrays.sort(sortedLongArr);
@@ -135,7 +132,7 @@ public class PracticeSort {
         return array;
     }
 
-    public static void mergeSort_sort(int[] array, int low, int high) {
+    private static void mergeSort_sort(int[] array, int low, int high) {
         if (low > high) {
             return;
         }
@@ -149,7 +146,7 @@ public class PracticeSort {
         mergeSort_merge(array, low, mid, high);
     }
 
-    public static void mergeSort_merge(int[] array, int low, int mid, int high) {
+    private static void mergeSort_merge(int[] array, int low, int mid, int high) {
         int array1_low = low, array1_high = mid;
         int array2_low = mid + 1, array2_high = high;
 
