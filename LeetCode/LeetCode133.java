@@ -2,6 +2,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 import util.Node;
+import util.PrintUtil;
 import util.GraphTool;
 
 public class LeetCode133 {
@@ -17,7 +18,7 @@ public class LeetCode133 {
         System.out.println(Arrays.toString(nodes2));
         System.out.println(Arrays.deepToString(GraphTool
                 .getAdjListFromNodes(nodes2)));
-        System.out.println("================================================");
+        PrintUtil.printDivider();
 
         // 输入：adjList = [[]]
         // 输出：[[]]
@@ -28,7 +29,7 @@ public class LeetCode133 {
         System.out.println(Arrays.toString(nodes2));
         System.out.println(Arrays.deepToString(GraphTool
                 .getAdjListFromNodes(nodes2)));
-        System.out.println("================================================");
+        PrintUtil.printDivider();
 
         // 输入：adjList = []
         // 输出：[]
@@ -39,7 +40,7 @@ public class LeetCode133 {
         System.out.println(Arrays.toString(nodes2));
         System.out.println(Arrays.deepToString(GraphTool
                 .getAdjListFromNodes(nodes2)));
-        System.out.println("================================================");
+        PrintUtil.printDivider();
 
         // 输入：adjList = [[2],[1]]
         // 输出：[[2],[1]]
@@ -50,8 +51,7 @@ public class LeetCode133 {
         System.out.println(Arrays.toString(nodes2));
         System.out.println(Arrays.deepToString(GraphTool
                 .getAdjListFromNodes(nodes2)));
-        System.out.println("================================================");
-
+        PrintUtil.printDivider();
     }
 }
 

@@ -1,23 +1,24 @@
 import util.ListNode;
+import util.PrintUtil;
 
 public class LeetCode83 {
     public static void main(String[] args) {
         // 输入：head = [1,1,2]
         // 输出：[1,2]
         System.out.println(new Solution83().deleteDuplicates(ListNode.buildLinkedList(new Integer[] { 1, 1, 2 })));
-        System.out.println("================================================");
+        PrintUtil.printDivider();
 
         // 输入：head = [1,1,2,3,3]
         // 输出：[1,2,3]
         System.out
                 .println(new Solution83().deleteDuplicates(ListNode.buildLinkedList(new Integer[] { 1, 1, 2, 3, 3 })));
-        System.out.println("================================================");
+        PrintUtil.printDivider();
 
         // 输入：head = [1,1,1]
         // 输出：[1]
         System.out
                 .println(new Solution83().deleteDuplicates(ListNode.buildLinkedList(new Integer[] { 1, 1, 1 })));
-        System.out.println("================================================");
+        PrintUtil.printDivider();
     }
 }
 

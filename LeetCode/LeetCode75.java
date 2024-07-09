@@ -1,5 +1,7 @@
 import java.util.Arrays;
 
+import util.PrintUtil;
+
 public class LeetCode75 {
     public static void main(String[] args) {
         int[] nums;
@@ -9,7 +11,7 @@ public class LeetCode75 {
         System.out.println(Arrays.toString(nums));
         new Solution75().sortColors(nums);
         System.out.println(Arrays.toString(nums));
-        System.out.println("================================================================");
+        PrintUtil.printDivider();
 
         // 输入：nums = [2,0,1]
         // 输出：[0,1,2]
@@ -17,7 +19,7 @@ public class LeetCode75 {
         System.out.println(Arrays.toString(nums));
         new Solution75().sortColors(nums);
         System.out.println(Arrays.toString(nums));
-        System.out.println("================================================================");
+        PrintUtil.printDivider();
 
         // 输入：nums = [1,2,0]
         // 输出：[0,1,2]
@@ -25,7 +27,7 @@ public class LeetCode75 {
         System.out.println(Arrays.toString(nums));
         new Solution75().sortColors(nums);
         System.out.println(Arrays.toString(nums));
-        System.out.println("================================================================");
+        PrintUtil.printDivider();
     }
 }
 

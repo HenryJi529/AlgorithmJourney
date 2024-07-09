@@ -1,5 +1,7 @@
 import java.util.Arrays;
 
+import util.PrintUtil;
+
 public class LeetCode283 {
     public static void main(String[] args) {
         int[] nums;
@@ -9,7 +11,7 @@ public class LeetCode283 {
         System.out.println(Arrays.toString(nums));
         new Solution283().moveZeroes(nums);
         System.out.println(Arrays.toString(nums));
-        System.out.println("================================================================");
+        PrintUtil.printDivider();
 
         // 输入: nums = [0]
         // 输出: [0]
@@ -17,8 +19,7 @@ public class LeetCode283 {
         System.out.println(Arrays.toString(nums));
         new Solution283().moveZeroes(nums);
         System.out.println(Arrays.toString(nums));
-        System.out.println("================================================================");
-
+        PrintUtil.printDivider();
     }
 }
 

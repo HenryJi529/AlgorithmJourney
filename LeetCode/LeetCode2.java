@@ -1,4 +1,5 @@
 import util.ListNode;
+import util.PrintUtil;
 
 public class LeetCode2 {
     public static void main(String[] args) {
@@ -7,20 +8,20 @@ public class LeetCode2 {
         // 解释：342 + 465 = 807.
         System.out.println(new Solution2().addTwoNumbers(ListNode.buildLinkedList(new Integer[] { 2, 4, 3 }),
                 ListNode.buildLinkedList(new Integer[] { 5, 6, 4 })));
-        System.out.println("================================================");
+        PrintUtil.printDivider();
 
         // 输入：l1 = [0], l2 = [0]
         // 输出：[0]
         System.out.println(new Solution2().addTwoNumbers(ListNode.buildLinkedList(new Integer[] { 0 }),
                 ListNode.buildLinkedList(new Integer[] { 0 })));
-        System.out.println("================================================");
+        PrintUtil.printDivider();
 
         // 输入：l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
         // 输出：[8,9,9,9,0,0,0,1]
         System.out
                 .println(new Solution2().addTwoNumbers(ListNode.buildLinkedList(new Integer[] { 9, 9, 9, 9, 9, 9, 9 }),
                         ListNode.buildLinkedList(new Integer[] { 9, 9, 9, 9 })));
-        System.out.println("================================================");
+        PrintUtil.printDivider();
     }
 }
 

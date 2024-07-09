@@ -1,5 +1,7 @@
 import java.util.Arrays;
 
+import util.PrintUtil;
+
 public class LeetCode344 {
     public static void main(String[] args) {
         char[] s;
@@ -9,7 +11,7 @@ public class LeetCode344 {
         System.out.println(Arrays.toString(s));
         new Solution344().reverseString(s);
         System.out.println(Arrays.toString(s));
-        System.out.println("================================================================");
+        PrintUtil.printDivider();
 
         // 输入：s = ["H","a","n","n","a","h"]
         // 输出：["h","a","n","n","a","H"]
@@ -17,7 +19,7 @@ public class LeetCode344 {
         System.out.println(Arrays.toString(s));
         new Solution344().reverseString(s);
         System.out.println(Arrays.toString(s));
-        System.out.println("================================================================");
+        PrintUtil.printDivider();
     }
 }
 

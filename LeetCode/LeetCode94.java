@@ -3,18 +3,19 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Deque;
 
+import util.PrintUtil;
 import util.TreeNode;
 
 public class LeetCode94 {
     public static void main(String[] args) {
         System.out.println(new Solution94_2().inorderTraversal(TreeNode.buildTree(new Integer[] { 1, null, 2, 3 })));
-        System.out.println("================================================");
+        PrintUtil.printDivider();
 
         System.out.println(new Solution94_2().inorderTraversal(TreeNode.buildTree(new Integer[] {})));
-        System.out.println("================================================");
+        PrintUtil.printDivider();
 
         System.out.println(new Solution94_2().inorderTraversal(TreeNode.buildTree(new Integer[] { 1 })));
-        System.out.println("================================================");
+        PrintUtil.printDivider();
     }
 }
 

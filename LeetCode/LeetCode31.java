@@ -1,5 +1,7 @@
 import java.util.Arrays;
 
+import util.PrintUtil;
+
 public class LeetCode31 {
     public static void main(String[] args) {
         int[] nums;
@@ -9,7 +11,7 @@ public class LeetCode31 {
         System.out.println(Arrays.toString(nums));
         new Solution31().nextPermutation(nums);
         System.out.println(Arrays.toString(nums));
-        System.out.println("================================================================");
+        PrintUtil.printDivider();
 
         // 输入：nums = [1,3,2]
         // 输出：[2,1,3]
@@ -17,7 +19,7 @@ public class LeetCode31 {
         System.out.println(Arrays.toString(nums));
         new Solution31().nextPermutation(nums);
         System.out.println(Arrays.toString(nums));
-        System.out.println("================================================================");
+        PrintUtil.printDivider();
 
         // 输入：nums = [3,2,1]
         // 输出：[1,2,3]
@@ -25,7 +27,7 @@ public class LeetCode31 {
         System.out.println(Arrays.toString(nums));
         new Solution31().nextPermutation(nums);
         System.out.println(Arrays.toString(nums));
-        System.out.println("================================================================");
+        PrintUtil.printDivider();
 
         // 输入：nums = [1,1,5]
         // 输出：[1,5,1]
@@ -33,7 +35,7 @@ public class LeetCode31 {
         System.out.println(Arrays.toString(nums));
         new Solution31().nextPermutation(nums);
         System.out.println(Arrays.toString(nums));
-        System.out.println("================================================================");
+        PrintUtil.printDivider();
 
         // 输入：nums = [2,3,1]
         // 输出：[3,1,2]
@@ -41,7 +43,7 @@ public class LeetCode31 {
         System.out.println(Arrays.toString(nums));
         new Solution31().nextPermutation(nums);
         System.out.println(Arrays.toString(nums));
-        System.out.println("================================================================");
+        PrintUtil.printDivider();
     }
 }
 

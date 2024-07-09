@@ -1,4 +1,5 @@
 import util.ListNode;
+import util.PrintUtil;
 
 public record LeetCode92() {
     public static void main(String[] args) {
@@ -12,7 +13,7 @@ public record LeetCode92() {
         System.out.println(head + " left: " + left + " right: " + right);
         head = new Solution92().reverseBetween(head, left, right);
         System.out.println(head);
-        System.out.println("================================================");
+        PrintUtil.printDivider();
 
         // 输入：head = [5], left = 1, right = 1
         // 输出：[5]
@@ -22,7 +23,7 @@ public record LeetCode92() {
         System.out.println(head + " left: " + left + " right: " + right);
         head = new Solution92().reverseBetween(head, left, right);
         System.out.println(head);
-        System.out.println("================================================");
+        PrintUtil.printDivider();
 
         // 输入：head = [3, 5], left = 1, right = 2
         // 输出：[5, 3]
@@ -32,7 +33,7 @@ public record LeetCode92() {
         System.out.println(head + " left: " + left + " right: " + right);
         head = new Solution92().reverseBetween(head, left, right);
         System.out.println(head);
-        System.out.println("================================================");
+        PrintUtil.printDivider();
     }
 }
 

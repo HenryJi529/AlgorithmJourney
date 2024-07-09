@@ -1,5 +1,7 @@
 import java.util.LinkedList;
 
+import util.PrintUtil;
+
 public class LeetCode67 {
     public static void main(String[] args) {
         String a;
@@ -10,7 +12,7 @@ public class LeetCode67 {
         b = "1";
         System.out.println(a + " " + b);
         System.out.println(new Solution67_2().addBinary(a, b));
-        System.out.println("================================================");
+        PrintUtil.printDivider();
 
         // 输入：a = "1010", b = "1011"
         // 输出："10101"
@@ -18,7 +20,7 @@ public class LeetCode67 {
         b = "1011";
         System.out.println(a + " " + b);
         System.out.println(new Solution67_2().addBinary(a, b));
-        System.out.println("================================================");
+        PrintUtil.printDivider();
     }
 }
 

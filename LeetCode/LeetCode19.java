@@ -1,4 +1,5 @@
 import util.ListNode;
+import util.PrintUtil;
 
 public class LeetCode19 {
     public static void main(String[] args) {
@@ -9,7 +10,7 @@ public class LeetCode19 {
         System.out.println(head);
         head = new Solution19().removeNthFromEnd(head, 2);
         System.out.println(head);
-        System.out.println("================================================");
+        PrintUtil.printDivider();
 
         // 输入：head = [1], n = 1
         // 输出：[]
@@ -17,7 +18,7 @@ public class LeetCode19 {
         System.out.println(head);
         head = new Solution19().removeNthFromEnd(head, 1);
         System.out.println(head);
-        System.out.println("================================================");
+        PrintUtil.printDivider();
 
         // 输入：head = [1,2], n = 1
         // 输出：[1]
@@ -25,7 +26,7 @@ public class LeetCode19 {
         System.out.println(head);
         head = new Solution19().removeNthFromEnd(head, 1);
         System.out.println(head);
-        System.out.println("================================================");
+        PrintUtil.printDivider();
 
         // 输入：head = [1,2], n = 2
         // 输出：[2]
@@ -33,7 +34,7 @@ public class LeetCode19 {
         System.out.println(head);
         head = new Solution19().removeNthFromEnd(head, 2);
         System.out.println(head);
-        System.out.println("================================================");
+        PrintUtil.printDivider();
     }
 }
 

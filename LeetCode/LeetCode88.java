@@ -1,5 +1,7 @@
 import java.util.Arrays;
 
+import util.PrintUtil;
+
 public class LeetCode88 {
     public static void main(String[] args) {
         int[] nums1, nums2;
@@ -14,7 +16,7 @@ public class LeetCode88 {
         System.out.println("nums2: " + Arrays.toString(nums2));
         new Solution88().merge(nums1, m, nums2, n);
         System.out.println("nums1: " + Arrays.toString(nums1));
-        System.out.println("==========================================================");
+        PrintUtil.printDivider();
 
         // 输入：nums1 = [1], m = 1, nums2 = [], n = 0
         // 输出：[1]
@@ -26,7 +28,7 @@ public class LeetCode88 {
         System.out.println("nums2: " + Arrays.toString(nums2));
         new Solution88().merge(nums1, m, nums2, n);
         System.out.println("nums1: " + Arrays.toString(nums1));
-        System.out.println("==========================================================");
+        PrintUtil.printDivider();
 
         // 输入：nums1 = [0], m = 0, nums2 = [1], n = 1
         // 输出：[1]
@@ -38,7 +40,7 @@ public class LeetCode88 {
         System.out.println("nums2: " + Arrays.toString(nums2));
         new Solution88().merge(nums1, m, nums2, n);
         System.out.println("nums1: " + Arrays.toString(nums1));
-        System.out.println("==========================================================");
+        PrintUtil.printDivider();
     }
 }
 

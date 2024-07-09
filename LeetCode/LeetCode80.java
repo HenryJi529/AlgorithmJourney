@@ -1,5 +1,7 @@
 import java.util.Arrays;
 
+import util.PrintUtil;
+
 public class LeetCode80 {
     public static void main(String[] args) {
         int[] nums;
@@ -10,7 +12,7 @@ public class LeetCode80 {
         System.out.println(Arrays.toString(nums));
         k = new Solution80().removeDuplicates(nums);
         System.out.println(Arrays.toString(Arrays.copyOf(nums, k)));
-        System.out.println("================================================");
+        PrintUtil.printDivider();
 
         // 输入：nums = [0,0,1,1,1,1,2,3,3]
         // 输出：7, nums = [0,0,1,1,2,3,3]
@@ -18,7 +20,7 @@ public class LeetCode80 {
         System.out.println(Arrays.toString(nums));
         k = new Solution80().removeDuplicates(nums);
         System.out.println(Arrays.toString(Arrays.copyOf(nums, k)));
-        System.out.println("================================================");
+        PrintUtil.printDivider();
     }
 }
 

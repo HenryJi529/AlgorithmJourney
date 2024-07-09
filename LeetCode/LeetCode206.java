@@ -1,4 +1,5 @@
 import util.ListNode;
+import util.PrintUtil;
 
 public class LeetCode206 {
     public static void main(String[] args) {
@@ -9,7 +10,7 @@ public class LeetCode206 {
         System.out.println(head);
         head = new Solution206_3().reverseList(head);
         System.out.println(head);
-        System.out.println("================================================");
+        PrintUtil.printDivider();
 
         // 输入：head = [1,2]
         // 输出：[2,1]
@@ -17,7 +18,7 @@ public class LeetCode206 {
         System.out.println(head);
         head = new Solution206_3().reverseList(head);
         System.out.println(head);
-        System.out.println("================================================");
+        PrintUtil.printDivider();
 
         // 输入：head = []
         // 输出：[]
@@ -25,7 +26,7 @@ public class LeetCode206 {
         System.out.println(head);
         head = new Solution206_3().reverseList(head);
         System.out.println(head);
-        System.out.println("================================================");
+        PrintUtil.printDivider();
     }
 }
 

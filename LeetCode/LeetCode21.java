@@ -1,4 +1,5 @@
 import util.ListNode;
+import util.PrintUtil;
 
 public class LeetCode21 {
     public static void main(String[] args) {
@@ -6,19 +7,19 @@ public class LeetCode21 {
         // 输出：[1,1,2,3,4,4]
         System.out.println(new Solution21().mergeTwoLists(ListNode.buildLinkedList(new Integer[] { 1, 2, 4 }),
                 ListNode.buildLinkedList(new Integer[] { 1, 3, 4 })));
-        System.out.println("================================================");
+        PrintUtil.printDivider();
 
         // 输入：l1 = [], l2 = []
         // 输出：[]
         System.out.println(new Solution21().mergeTwoLists(ListNode.buildLinkedList(new Integer[] {}),
                 ListNode.buildLinkedList(new Integer[] {})));
-        System.out.println("================================================");
+        PrintUtil.printDivider();
 
         // 输入：l1 = [], l2 = [0]
         // 输出：[0]
         System.out.println(new Solution21().mergeTwoLists(ListNode.buildLinkedList(new Integer[] {}),
                 ListNode.buildLinkedList(new Integer[] { 0 })));
-        System.out.println("================================================");
+        PrintUtil.printDivider();
     }
 }
 

@@ -1,3 +1,5 @@
+import util.PrintUtil;
+
 import java.util.HashMap;
 
 public class LeetCode5 {
@@ -9,7 +11,7 @@ public class LeetCode5 {
         System.out.println(S1);
         S2 = new Solution5_3().longestPalindrome(S1);
         System.out.println(S2);
-        System.out.println("================================================================");
+        PrintUtil.printDivider();
 
         // 输入：s = "cbbd"
         // 输出："bb"
@@ -17,7 +19,7 @@ public class LeetCode5 {
         System.out.println(S1);
         S2 = new Solution5_3().longestPalindrome(S1);
         System.out.println(S2);
-        System.out.println("================================================================");
+        PrintUtil.printDivider();
 
         // 输入：s = "a"
         // 输出："a"
@@ -25,7 +27,7 @@ public class LeetCode5 {
         System.out.println(S1);
         S2 = new Solution5_3().longestPalindrome(S1);
         System.out.println(S2);
-        System.out.println("================================================================");
+        PrintUtil.printDivider();
 
         // 输入：s =
         // 输出：
@@ -33,7 +35,7 @@ public class LeetCode5 {
         System.out.println(S1);
         S2 = new Solution5_3().longestPalindrome(S1);
         System.out.println(S2);
-        System.out.println("================================================================");
+        PrintUtil.printDivider();
     }
 }
 

@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import util.PrintUtil;
+
 public class LeetCode210 {
     public static void main(String[] args) {
         int numCourses;
@@ -12,7 +14,7 @@ public class LeetCode210 {
         prerequisites = new int[][] { { 1, 0 } };
         System.out.println(Arrays.deepToString(prerequisites));
         System.out.println(Arrays.toString(new Solution210().findOrder(numCourses, prerequisites)));
-        System.out.println("================================================================");
+        PrintUtil.printDivider();
 
         // 输入：numCourses = 4, prerequisites = [[1,0],[2,0],[3,1],[3,2]]
         // 输出：[0,2,1,3]
@@ -20,7 +22,7 @@ public class LeetCode210 {
         prerequisites = new int[][] { { 1, 0 }, { 2, 0 }, { 3, 1 }, { 3, 2 } };
         System.out.println(Arrays.deepToString(prerequisites));
         System.out.println(Arrays.toString(new Solution210().findOrder(numCourses, prerequisites)));
-        System.out.println("================================================================");
+        PrintUtil.printDivider();
 
         // 输入：numCourses = 1, prerequisites = []
         // 输出：[0]
@@ -28,7 +30,7 @@ public class LeetCode210 {
         prerequisites = new int[][] {};
         System.out.println(Arrays.deepToString(prerequisites));
         System.out.println(Arrays.toString(new Solution210().findOrder(numCourses, prerequisites)));
-        System.out.println("================================================================");
+        PrintUtil.printDivider();
     }
 }
 

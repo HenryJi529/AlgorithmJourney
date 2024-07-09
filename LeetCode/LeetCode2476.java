@@ -57,7 +57,6 @@ class Solution2476_1 {
                 }
             } while (true);
             result.add(List.of(min, max));
-            System.out.println("================================");
         }
         return result;
     }

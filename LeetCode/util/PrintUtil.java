@@ -27,4 +27,8 @@ public class PrintUtil {
         sb.append("]");
         System.out.println(sb.toString());
     }
+
+    public static void printDivider() {
+        System.out.println("=================================================");
+    }
 }

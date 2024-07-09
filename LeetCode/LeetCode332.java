@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.PriorityQueue;
 
+import util.PrintUtil;
+
 public class LeetCode332 {
     public static void main(String[] args) {
         List<List<String>> tickets;
@@ -17,7 +19,7 @@ public class LeetCode332 {
         }
         System.out.println(Arrays.deepToString(tickets.toArray()));
         System.out.println(new Solution332().findItinerary(tickets));
-        System.out.println("================================================================");
+        PrintUtil.printDivider();
 
         // 输入：tickets =
         // [["JFK","SFO"],["JFK","ATL"],["SFO","ATL"],["ATL","JFK"],["ATL","SFO"]]
@@ -29,8 +31,7 @@ public class LeetCode332 {
         }
         System.out.println(Arrays.deepToString(tickets.toArray()));
         System.out.println(new Solution332().findItinerary(tickets));
-        System.out.println("================================================================");
-
+        PrintUtil.printDivider();
     }
 }
 

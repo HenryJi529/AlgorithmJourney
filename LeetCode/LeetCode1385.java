@@ -1,5 +1,7 @@
 import java.util.Arrays;
 
+import util.PrintUtil;
+
 public class LeetCode1385 {
     public static void main(String[] args) {
         // 输入：arr1 = [4,5,8], arr2 = [10,9,1,8], d = 2
@@ -7,7 +9,7 @@ public class LeetCode1385 {
         System.out
                 .println(
                         new Solution1385_2().findTheDistanceValue(new int[] { 4, 5, 8 }, new int[] { 10, 9, 1, 8 }, 2));
-        System.out.println("==================================");
+        PrintUtil.printDivider();
 
         // 输入：arr1 = [1,4,2,3], arr2 = [-4,-3,6,10,20,30], d = 3
         // 输出：2
@@ -15,7 +17,7 @@ public class LeetCode1385 {
                 .println(new Solution1385_2().findTheDistanceValue(new int[] { 1, 4, 2, 3 },
                         new int[] { -4, -3, 6, 10, 20, 30 },
                         3));
-        System.out.println("==================================");
+        PrintUtil.printDivider();
 
         // 输入：arr1 = [2,1,100,3], arr2 = [-5,-2,10,-3,7], d = 6
         // 输出：1
@@ -23,7 +25,7 @@ public class LeetCode1385 {
                 .println(new Solution1385_2().findTheDistanceValue(new int[] { 2, 1, 100, 3 },
                         new int[] { -5, -2, 10, -3, 7 },
                         6));
-        System.out.println("==================================");
+        PrintUtil.printDivider();
     }
 }
 
