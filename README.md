@@ -4,6 +4,9 @@
 
 ### 数学
 
+- [54. 螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/description/?envType=study-plan-v2&envId=top-100-liked)
+    - 思路: 分层处理(推荐) 或 分边处理
+    - 代码: [LeetCode54.java](./LeetCode/LeetCode54.java)
 - [73. 矩阵置零](https://leetcode.cn/problems/set-matrix-zeroes/)
     - 思路: 用第一行与第一列标记除了他们自身所有行和列是否有0元素，再用两个变量记录第一行和第一列的情况
     - 代码: [LeetCode73.java](./LeetCode/LeetCode73.java)
