@@ -109,6 +109,9 @@
 - [141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/)
     - 思路: 快慢指针 或 哈希表
     - 代码: [LeetCode141.java](./LeetCode/LeetCode141.java)
+- [142. 环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/)
+    - 思路: 快慢指针 或 哈希表
+    - 代码: [LeetCode142.java](./LeetCode/LeetCode142.java)
 - [283. 移动零](https://leetcode.cn/problems/move-zeroes/)
     - 代码: [LeetCode283.java](./LeetCode/LeetCode283.java)
 - [344. 反转字符串](https://leetcode.cn/problems/reverse-string/)
