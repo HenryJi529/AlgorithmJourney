@@ -157,6 +157,9 @@
 - [69. x 的平方根](https://leetcode.cn/problems/sqrtx/)
     - 思路: 二分查找、数学公式替换、牛顿法
     - 代码: [LeetCode69.java](./LeetCode/LeetCode69.java)
+- [74. 搜索二维矩阵](https://leetcode.cn/problems/search-a-2d-matrix/)
+    - 思路: 一次整体二分查找 或 先对行再对列做二分查找
+    - 代码: [LeetCode74.java](./LeetCode/LeetCode74.java)
 - [475. 供暖器](https://leetcode.cn/problems/heaters/)
     - 思路: 排序 + 二分查找
     - 代码: [LeetCode475.java](./LeetCode/LeetCode475.java)
