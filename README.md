@@ -79,6 +79,7 @@
     - 思路: 全梯子逐渐换砖头/全砖头逐渐换梯子
     - 代码: [LeetCode1642.java](./LeetCode/LeetCode1642.java)
 
+
 ### 双指针
 
 - [9. 回文数](https://leetcode.cn/problems/palindrome-number/)
@@ -381,6 +382,7 @@
 - [71. 简化路径](https://leetcode.cn/problems/simplify-path/)
     - 代码: [LeetCode71.java](./LeetCode/LeetCode71.java)
 - [84. 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/)
+    - 思路: 从中心(确定高度)向两边扩散(确定宽度) -> 通过递增栈来确定
     - 代码: [LeetCode84.java](./LeetCode/LeetCode84.java)
 - [155. 最小栈](https://leetcode.cn/problems/min-stack/)
     - 代码: [LeetCode155.java](./LeetCode/LeetCode155.java)
@@ -389,11 +391,12 @@
 - [232. 用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/)
     - 代码: [LeetCode232.java](./LeetCode/LeetCode232.java)
 - [394. 字符串解码](https://leetcode.cn/problems/decode-string/)
+    - 思路: 可以多分出一个栈用来存放乘数
     - 代码: [LeetCode394.java](./LeetCode/LeetCode394.java)
 - [735. 小行星碰撞](https://leetcode.cn/problems/asteroid-collision/)
     - 代码: [LeetCode735.java](./LeetCode/LeetCode735.java)
 - [739. 每日温度](https://leetcode.cn/problems/daily-temperatures/)
-    - 思路: 存储中间结果以降低时间复杂度
+    - 思路: 递减栈【存储中间结果以降低时间复杂度】
     - 代码: [LeetCode739.java](./LeetCode/LeetCode739.java)
 - [1047. 删除字符串中的所有相邻重复项](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/)
     - 代码: [LeetCode1047.java](./LeetCode/LeetCode1047.java)
@@ -439,7 +442,7 @@
 - [150. 逆波兰表达式求值](https://leetcode.cn/problems/evaluate-reverse-polish-notation/)
     - 代码: [LeetCode150.java](./LeetCode/LeetCode150.java)
 - [215. 数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/)
-    - 思路: 直接原地排序 | 原地maxHeap | 长度为k的maxHeap
+    - 思路: 快速排序(不考虑前K个元素顺序) | 原地maxHeap | 长度为k的maxHeap
     - 代码: [LeetCode215.java](./LeetCode/LeetCode215.java)
 - [239. 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/)
     - 思路: 一般用不到手写索引优先队列，而是考虑存取(value, index)【窗口长度为k，不代表堆长为k】
@@ -501,6 +504,7 @@
 - [145. 二叉树的后序遍历](https://leetcode.cn/problems/binary-tree-postorder-traversal/)
     - 代码: [LeetCode145.java](./LeetCode/LeetCode145.java)
 - [199. 二叉树的右视图](https://leetcode.cn/problems/binary-tree-right-side-view/)
+    - 思路: 访问每一层最右边的节点(层序遍历)
     - 代码: [LeetCode199.java](./LeetCode/LeetCode199.java)
 - [226. 翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/)
     - 代码: [LeetCode226.java](./LeetCode/LeetCode226.java)

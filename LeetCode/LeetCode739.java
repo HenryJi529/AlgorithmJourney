@@ -34,7 +34,6 @@ public class LeetCode739 {
 
 class Solution739_1 {
     public int[] dailyTemperatures(int[] temperatures) {
-        // NOTE: 有助于解决相等元素多的情况
         int[] res = new int[temperatures.length];
         if (res.length == 1) {
             return res;
@@ -42,6 +41,7 @@ class Solution739_1 {
 
         for (int i = 0; i < res.length; i++) {
             if (i < res.length - 1 && temperatures[i] == temperatures[i + 1]) {
+                // NOTE: 有助于解决相等元素多的情况
                 res[i] = -1;
                 continue;
             }
@@ -67,6 +67,9 @@ class Solution739_1 {
     }
 }
 
+/**
+ * 递减栈
+ */
 class Solution739_2 {
     public int[] dailyTemperatures(int[] temperatures) {
         int[] res = new int[temperatures.length];
