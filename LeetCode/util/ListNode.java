@@ -16,6 +16,10 @@ public class ListNode {
         this.next = next;
     }
 
+    public static String printNode(ListNode node) {
+        return node == null ? "null" : String.valueOf(node.val);
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
