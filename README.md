@@ -316,6 +316,12 @@
 - [73. 矩阵置零](https://leetcode.cn/problems/set-matrix-zeroes/)
     - 思路: 用第一行与第一列标记除了他们自身所有行和列是否有0元素，再用两个变量记录第一行和第一列的情况
     - 代码: [LeetCode73.java](./LeetCode/LeetCode73.java)
+- [240. 搜索二维矩阵 II](https://leetcode.cn/problems/search-a-2d-matrix-ii/)
+    - 思路: 
+        - 逐行做二分查找，小于i行的j元素代表下一行可以只搜索0-(j-1)
+        - 矩阵化的二分(通过递归)
+        - 从右上角搜索，将矩阵看成二叉查找树
+    - 代码: [LeetCode240.java](./LeetCode/LeetCode240.java)
 
 
 ### 字符串
