@@ -6,16 +6,16 @@ public class LeetCode142 {
         // 输入：head = [3,2,0,-4], pos = 1
         head = ListNode.buildLinkedList(new Integer[] { 3, 2, 0, -4 });
         head.next.next.next.next = head.next;
-        System.out.println(ListNode.printNode(new Solution142().detectCycle(head)));
+        ListNode.printNode(new Solution142().detectCycle(head));
 
         // 输入：head = [1,2], pos = 0
         head = ListNode.buildLinkedList(new Integer[] { 1, 2 });
         head.next.next = head;
-        System.out.println(ListNode.printNode(new Solution142().detectCycle(head)));
+        ListNode.printNode(new Solution142().detectCycle(head));
 
         // 输入：head = [1], pos = -1
         head = new ListNode(1);
-        System.out.println(ListNode.printNode(new Solution142().detectCycle(head)));
+        ListNode.printNode(new Solution142().detectCycle(head));
     }
 }
 
