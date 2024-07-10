@@ -307,7 +307,10 @@
 
 ### 数组
 
-- [54. 螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/description/?envType=study-plan-v2&envId=top-100-liked)
+- [48. 旋转图像](https://leetcode.cn/problems/rotate-image/)
+    - 思路: 先转置后翻转 或 分四区轮转赋值 或 逐层轮转赋值
+    - 代码: [LeetCode48.java](./LeetCode/LeetCode48.java)
+- [54. 螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/)
     - 思路: 分层处理(推荐) 或 分边处理
     - 代码: [LeetCode54.java](./LeetCode/LeetCode54.java)
 - [73. 矩阵置零](https://leetcode.cn/problems/set-matrix-zeroes/)
