@@ -48,4 +48,21 @@ public class ListNode {
         }
         return head;
     }
+
+    /**
+     * 将headB放在headA所在链的末尾
+     * 
+     * @param headA
+     * @param headB
+     */
+    public static void concat(ListNode headA, ListNode headB) {
+        if (headA == null) {
+            headA = headB;
+            return;
+        }
+        while (headA.next != null) {
+            headA = headA.next;
+        }
+        headA.next = headB;
+    }
 }

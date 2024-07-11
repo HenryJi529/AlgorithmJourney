@@ -13,10 +13,10 @@ public class LeetCode160 {
         headA = ListNode.buildLinkedList(new Integer[] { 4, 1 });
         headB = ListNode.buildLinkedList(new Integer[] { 5, 6, 1 });
         headC = ListNode.buildLinkedList(new Integer[] { 8, 4, 5 });
-        headA.next.next = headC;
-        headB.next.next.next = headC;
-        // ListNode.printNode(new Solution160().getIntersectionNode(headA, headB));
-        // PrintUtil.printDivider();
+        ListNode.concat(headA, headC);
+        ListNode.concat(headB, headC);
+        ListNode.printNode(new Solution160().getIntersectionNode(headA, headB));
+        PrintUtil.printDivider();
 
         // 输入：intersectVal = 2, listA = [1,9,1,2,4], listB = [3,2,4], skipA = 3, skipB =
         // 1
@@ -24,18 +24,20 @@ public class LeetCode160 {
         headA = ListNode.buildLinkedList(new Integer[] { 1, 9, 1 });
         headB = ListNode.buildLinkedList(new Integer[] { 3 });
         headC = ListNode.buildLinkedList(new Integer[] { 2, 4 });
-        headA.next.next.next = headC;
-        headB.next = headC;
-        // ListNode.printNode(new Solution160().getIntersectionNode(headA, headB));
-        // PrintUtil.printDivider();
+        ListNode.concat(headA, headC);
+        ListNode.concat(headB, headC);
+        ListNode.printNode(new Solution160().getIntersectionNode(headA, headB));
+        PrintUtil.printDivider();
 
         // 输入：intersectVal = 0, listA = [2,6,4], listB = [1,5], skipA = 3, skipB = 2
         // 输出：null
         headA = ListNode.buildLinkedList(new Integer[] { 2, 6, 4 });
         headB = ListNode.buildLinkedList(new Integer[] { 1, 5 });
         headC = ListNode.buildLinkedList(new Integer[] {});
-        // ListNode.printNode(new Solution160().getIntersectionNode(headA, headB));
-        // PrintUtil.printDivider();
+        ListNode.concat(headA, headC);
+        ListNode.concat(headB, headC);
+        ListNode.printNode(new Solution160().getIntersectionNode(headA, headB));
+        PrintUtil.printDivider();
 
         // 输入：intersectVal = 51, listA = [2,6,4,51], listB = [1,5,51], skipA = 3, skipB
         // = 51
@@ -43,8 +45,8 @@ public class LeetCode160 {
         headA = ListNode.buildLinkedList(new Integer[] { 2, 6, 4 });
         headB = ListNode.buildLinkedList(new Integer[] { 1, 5 });
         headC = ListNode.buildLinkedList(new Integer[] { 51 });
-        headA.next.next.next = headC;
-        headB.next.next = headC;
+        ListNode.concat(headA, headC);
+        ListNode.concat(headB, headC);
         ListNode.printNode(new Solution160().getIntersectionNode(headA, headB));
         PrintUtil.printDivider();
     }
