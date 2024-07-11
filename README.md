@@ -359,6 +359,9 @@
     - 代码: [LeetCode21.java](./LeetCode/LeetCode21.java)
 - [24. 两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/)
     - 代码: [LeetCode24.java](./LeetCode/LeetCode24.java)
+- [25. K 个一组翻转链表](https://leetcode.cn/problems/reverse-nodes-in-k-group/)
+    - 思路: 先分段后翻转再拼接 或 分段时直接翻转并借助dummyNode获取最后的head
+    - 代码: [LeetCode25.java](./LeetCode/LeetCode25.java)
 - [83. 删除排序链表中的重复元素](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/)
     - 代码: [LeetCode83.java](./LeetCode/LeetCode83.java)
 - [92. 反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii/)
