@@ -571,6 +571,7 @@
         - 逆向思维: 对于所有的0，利用BFS填充到每一个1的距离[O(mn)]
     - 代码: [LeetCode542.java](./LeetCode/LeetCode542.java)
 - [743. 网络延迟时间](https://leetcode.cn/problems/network-delay-time/)
+    - 思路: 求的是从点k开始的最短路径的最大值
     - 代码: [LeetCode743.java](./LeetCode/LeetCode743.java)
 - [787. K 站中转内最便宜的航班](https://leetcode.cn/problems/cheapest-flights-within-k-stops/)
     - 思路: 要确定节点是否真的算完全访问过，必要时留下记录

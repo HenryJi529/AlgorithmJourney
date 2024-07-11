@@ -1,6 +1,6 @@
 import java.util.List;
 import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.Arrays;
 import java.util.PriorityQueue;
 
 public class LeetCode743 {
@@ -22,38 +22,43 @@ public class LeetCode743 {
     }
 }
 
+/**
+ * 找寻从起点到其他所有点最短路径的最大值
+ */
 class Solution743 {
     public int networkDelayTime(int[][] times, int n, int k) {
         List<Item>[] graph = buildGraph(times, n);
-        HashSet<Integer> set = new HashSet<Integer>();
-        PriorityQueue<Item> dists = new PriorityQueue<Item>();
-        int ans = Integer.MAX_VALUE;
-        dists.offer(new Item(k, 0));
-        while (dists.size() > 0) {
-            if (set.size() == n) {
-                // NOTE: 忽略不需要的
+        boolean[] visited = new boolean[n + 1];
+        int countVisted = 0;
+        int[] dists = new int[n + 1];
+        Arrays.fill(dists, Integer.MAX_VALUE);
+        PriorityQueue<Item> pq = new PriorityQueue<Item>();
+
+        int ans = 0;
+        pq.offer(new Item(k, 0));
+        while (pq.size() > 0) {
+            if (countVisted == n) {
                 return ans;
             }
-            Item curItem = dists.poll();
-            int curNode = curItem.v;
-            int curCost = curItem.cost;
-            if (set.contains(curNode)) {
+            Item curItem = pq.poll();
+            if (visited[curItem.v]) {
                 continue;
-            } else {
-                set.add(curNode);
-                ans = curCost;
-                for (Item neighbor : graph[curNode]) {
-                    if (!set.contains(neighbor.v)) {
-                        dists.offer(new Item(neighbor.v, curCost + neighbor.cost));
+            }
+            visited[curItem.v] = true;
+            countVisted++;
+            ans = curItem.cost;
+            for (Item neighborItem : graph[curItem.v]) {
+                if (!visited[neighborItem.v]) {
+                    // NOTE: 这里会重复添加许多条不同上一跳的路径，需要通过dists排除
+                    if (curItem.cost + neighborItem.cost < dists[neighborItem.v]) {
+                        pq.offer(new Item(neighborItem.v, curItem.cost + neighborItem.cost));
+                        dists[neighborItem.v] = curItem.cost + neighborItem.cost;
                     }
                 }
             }
+
         }
-        if (set.size() == n) {
-            return ans;
-        } else {
-            return -1;
-        }
+        return countVisted == n ? ans : -1;
     }
 
     class Item implements Comparable<Item> {
@@ -65,14 +70,8 @@ class Solution743 {
             this.cost = cost;
         }
 
-        public int compareTo(Item other) {
-            if (this.cost > other.cost) {
-                return 1;
-            } else if (this.cost < other.cost) {
-                return -1;
-            } else {
-                return 0;
-            }
+        public int compareTo(Item that) {
+            return this.cost - that.cost;
         }
 
         public String toString() {
