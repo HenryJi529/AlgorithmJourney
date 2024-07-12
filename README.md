@@ -649,6 +649,9 @@
 - [139. 单词拆分](https://leetcode.cn/problems/word-break/)
     - 思路: 先匹配一部分，在此基础上匹配剩余的部分【可以对单词长度排序从而优先匹配长单词】
     - 代码: [LeetCode139.java](./LeetCode/LeetCode139.java)
+- [152. 乘积最大子数组](https://leetcode.cn/problems/maximum-product-subarray/)
+    - 思路: Nx2的DP，但由于当前状态只与前一个状态相关，可以进一步用两个变量代替DP数组
+    - 代码: [LeetCode152.java](./LeetCode/LeetCode152.java)
 - [198. 打家劫舍](https://leetcode.cn/problems/house-robber/)
     - 思路: 先找出最小的问题，再想想怎样扩大问题规模
     - 代码: [LeetCode198.java](./LeetCode/LeetCode198.java)
