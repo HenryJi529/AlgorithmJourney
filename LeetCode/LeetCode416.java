@@ -72,7 +72,7 @@ class Solution416_2 {
         dp[0] = true;
         for (int i = 0; i < n; i++) {
             int num = nums[i];
-            // NOTE: 这里需要倒序，因为如果正序一轮中考前的会影响靠后的
+            // NOTE: 这里需要倒序，因为如果正序一轮中靠前的记录会影响靠后的记录
             for (int j = target; j >= num; --j) {
                 dp[j] |= dp[j - num];
             }

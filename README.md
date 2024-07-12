@@ -670,7 +670,7 @@
 - [410. 分割数组的最大值](https://leetcode.cn/problems/split-array-largest-sum/)
     - 代码: [LeetCode410.java](./LeetCode/LeetCode410.java)
 - [416. 分割等和子集](https://leetcode.cn/problems/partition-equal-subset-sum/)
-    - 思路: 针对NP问题考虑时间复杂度与元素大小相关的动态规划，并压缩状态为一维
+    - 思路: 针对NP完全问题考虑时间复杂度与元素大小相关的动态规划，并压缩状态为一维
     - 代码: [LeetCode416.java](./LeetCode/LeetCode416.java)
 - [486. 预测赢家](https://leetcode.cn/problems/predict-the-winner/)
     - 思路: Min-Max + DP
