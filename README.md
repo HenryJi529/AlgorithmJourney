@@ -528,6 +528,9 @@
 - [450. 删除二叉搜索树中的节点](https://leetcode.cn/problems/delete-node-in-a-bst/)
     - 思路: 考虑被删除节点的位置和被删除节点是否有左右子树
     - 代码: [LeetCode450.java](./LeetCode/LeetCode450.java)
+- [543. 二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/)
+    - 思路: DFS + 记忆最大值
+    - 代码: [LeetCode543.java](./LeetCode/LeetCode543.java)
 - [889. 根据前序和后序遍历构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
     - 代码: [LeetCode889.java](./LeetCode/LeetCode889.java)
 - [938. 二叉搜索树的范围和](https://leetcode.cn/problems/range-sum-of-bst/)
