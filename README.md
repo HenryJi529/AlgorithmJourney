@@ -369,6 +369,9 @@
     - 代码: [LeetCode92.java](./LeetCode/LeetCode92.java)
 - [138. 随机链表的复制](https://leetcode.cn/problems/copy-list-with-random-pointer/)
     - 代码: [LeetCode138.java](./LeetCode/LeetCode138.java)
+- [146. LRU 缓存](https://leetcode.cn/problems/lru-cache/)
+    - 思路: 继承原生LinkedHashMap 或 HashMap+双向链表
+    - 代码: [LeetCode146.java](./LeetCode/LeetCode146.java)
 - [160. 相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/)
     - 思路: HashMap记录前后节点 或 双指针遍历两遍
     - 代码: [LeetCode160.java](./LeetCode/LeetCode160.java)
