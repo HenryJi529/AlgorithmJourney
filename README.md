@@ -72,6 +72,9 @@
 - [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/)
     - 思路: 不需要DP，直接使用贪心算法更新最远位置
     - 代码: [LeetCode55.java](./LeetCode/LeetCode55.java)
+- [435. 无重叠区间](https://leetcode.cn/problems/non-overlapping-intervals/)
+    - 思路: 排序后用贪心算法更新右边界来查找不冲突的区间
+    - 代码: [LeetCode435.java](./LeetCode/LeetCode435.java)
 - [605. 种花问题](https://leetcode.cn/problems/can-place-flowers/)
     - 思路: 找到连续的0，累计可种数
     - 代码: [LeetCode605.java](./LeetCode/LeetCode605.java)
@@ -221,9 +224,6 @@
 - [414. 第三大的数](https://leetcode.cn/problems/third-maximum-number/)
     - 思路: HashSet+PQ 或 TreeSet
     - 代码: [LeetCode414.java](./LeetCode/LeetCode414.java)
-- [435. 无重叠区间](https://leetcode.cn/problems/non-overlapping-intervals/)
-    - 思路: 贪心算法更新右边界来查找不冲突的区间 或 具体查询重叠区间
-    - 代码: [LeetCode435.java](./LeetCode/LeetCode435.java)
 - [455. 分发饼干](https://leetcode.cn/problems/assign-cookies/)
     - 代码: [LeetCode455.java](./LeetCode/LeetCode455.java)
 - [502. IPO](https://leetcode.cn/problems/ipo/)
