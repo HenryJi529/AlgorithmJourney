@@ -529,6 +529,9 @@
 - [236. 二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/)
     - 思路: DFS返回是否包含两个点的boolean[] 或 找寻两个点并记录路径用来对比
     - 代码: [LeetCode236.java](./LeetCode/LeetCode236.java)
+- [437. 路径总和 III](https://leetcode.cn/problems/path-sum-iii/)
+    - 思路: 两重DFS，一层用于遍历root，一层用于寻找target  或  前缀和+回溯(注意把{0:1}提前放入) 
+    - 代码: [LeetCode437.java](./LeetCode/LeetCode437.java)
 - [450. 删除二叉搜索树中的节点](https://leetcode.cn/problems/delete-node-in-a-bst/)
     - 思路: 考虑被删除节点的位置和被删除节点是否有左右子树
     - 代码: [LeetCode450.java](./LeetCode/LeetCode450.java)
