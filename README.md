@@ -699,6 +699,10 @@
 - [51. N 皇后](https://leetcode.cn/problems/n-queens/)
     - 思路: 分离模型与视图 && 用abs(x1 - x2)!=abs(y1 - y2)判断是否在对角线上
     - 代码: [LeetCode51.java](./LeetCode/LeetCode51.java)
+- [131. 分割回文串](https://leetcode.cn/problems/palindrome-partitioning/)
+    - 思路: 中心扩散 + DP + 回溯
+    - 代码: [LeetCode131.java](./LeetCode/LeetCode131.java)
+
 
 ### 数据库
 
