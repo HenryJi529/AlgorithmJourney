@@ -27,8 +27,8 @@ public class LeetCode1123 {
 
 class Solution1123 {
     TreeNode resNode;
-    int resSelfDepth = Integer.MAX_VALUE;
-    int resChildDepth = -1;
+    int resSelfDepth;
+    int resChildDepth = 0;
 
     public TreeNode lcaDeepestLeaves(TreeNode root) {
         resNode = null;
@@ -38,12 +38,12 @@ class Solution1123 {
 
     public int preorder(TreeNode root, int currentDepth) {
         if (root == null) {
-            return -1;
+            return 0;
         }
         // System.out.println(root.val);
         int leftTreeHeight = preorder(root.left, currentDepth + 1);
         int rightTreeHeight = preorder(root.right, currentDepth + 1);
-        int currentHeight = Math.max(leftTreeHeight + 1, rightTreeHeight + 1);
+        int currentHeight = Math.max(leftTreeHeight, rightTreeHeight) + 1;
         // System.out.println(String.format("resSelfDepth: %d; resChildDepth:
         // %d;resNodeValue: %d", resSelfDepth,
         // resChildDepth, resNode.val));
@@ -53,9 +53,8 @@ class Solution1123 {
         // currentDepth, currentHeight, leftTreeHeight, rightTreeHeight));
 
         if (leftTreeHeight == rightTreeHeight) {
-            // 两子树要一样高
+            // 两子树要一样高，如果不一样高，说明一定存在更深的节点
             if (resChildDepth < currentHeight + currentDepth) {
-                // 最大的节点深度
                 resChildDepth = currentHeight + currentDepth;
                 resSelfDepth = currentDepth;
                 resNode = root;
