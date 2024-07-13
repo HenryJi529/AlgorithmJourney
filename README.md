@@ -78,6 +78,9 @@
 - [605. 种花问题](https://leetcode.cn/problems/can-place-flowers/)
     - 思路: 找到连续的0，累计可种数
     - 代码: [LeetCode605.java](./LeetCode/LeetCode605.java)
+- [763. 划分字母区间](https://leetcode.cn/problems/partition-labels/)
+    - 思路: 本质是合并区间问题，推荐只记录每个字母的右边界，再从左到右生成区间
+    - 代码: [LeetCode763.java](./LeetCode/LeetCode763.java)
 - [1642. 可以到达的最远建筑](https://leetcode.cn/problems/furthest-building-you-can-reach/)
     - 思路: 全梯子逐渐换砖头/全砖头逐渐换梯子
     - 代码: [LeetCode1642.java](./LeetCode/LeetCode1642.java)
