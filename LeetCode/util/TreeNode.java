@@ -41,6 +41,25 @@ public class TreeNode {
         return list.toString();
     }
 
+    public static TreeNode search(TreeNode root, int value) {
+        if (root == null) {
+            return null;
+        }
+        if (root.val == value) {
+            return root;
+        }
+        TreeNode result;
+        result = search(root.left, value);
+        if (result != null) {
+            return result;
+        }
+        result = search(root.right, value);
+        if (result != null) {
+            return result;
+        }
+        return null;
+    }
+
     public static TreeNode buildTree(Integer[] nodes) {
         if (nodes.length == 0 || nodes[0] == null) {
             return null;
