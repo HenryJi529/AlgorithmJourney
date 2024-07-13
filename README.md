@@ -459,6 +459,9 @@
 - [239. 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/)
     - 思路: 一般用不到手写索引优先队列，而是考虑存取(value, index)【窗口长度为k，不代表堆长为k】
     - 代码: [LeetCode239.java](./LeetCode/LeetCode239.java)
+- [295. 数据流的中位数](https://leetcode.cn/problems/find-median-from-data-stream/)
+    - 思路: 将数据分别插入较低和较高的两个优先队列
+    - 代码: [LeetCode295.java](./LeetCode/LeetCode295.java)
 - [347. 前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/)
     - 代码: [LeetCode347.java](./LeetCode/LeetCode347.java)
 - [373. 查找和最小的 K 对数字](https://leetcode.cn/problems/find-k-pairs-with-smallest-sums/)
