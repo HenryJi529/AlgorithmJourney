@@ -63,7 +63,7 @@ class Solution210 {
             if (!valid) {
                 break;
             }
-            if (visited[u] == false) {
+            if (!visited[u]) {
                 dfs(u);
             }
         }
@@ -78,12 +78,12 @@ class Solution210 {
         visited[u] = true;
         onStack[u] = true;
         for (int v : adjList.get(u)) {
-            if (visited[v] == false) {
+            if (!visited[v]) {
                 dfs(v);
             }
-            if (onStack[v] == true) {
+            if (onStack[v]) {
                 valid = false;
-                break;
+                return;
             }
         }
         onStack[u] = false;

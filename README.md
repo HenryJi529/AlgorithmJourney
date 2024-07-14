@@ -582,10 +582,10 @@
 - [200. 岛屿数量](https://leetcode.cn/problems/number-of-islands/)
     - 代码: [LeetCode200.java](./LeetCode/LeetCode200.java)
 - [207. 课程表](https://leetcode.cn/problems/course-schedule/)
-    - 思路: 问题转化为有向环检测
+    - 思路: 问题转化为有向环检测【DFS 或 BFS】
     - 代码: [LeetCode207.java](./LeetCode/LeetCode207.java)
 - [210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)
-    - 思路: 问题转化为拓扑排序(要注意有向环检测)
+    - 思路: 问题转化为拓扑排序(要注意有向环检测)【DFS 或 BFS】
     - 代码: [LeetCode210.java](./LeetCode/LeetCode210.java)
 - [332. 重新安排行程](https://leetcode.cn/problems/reconstruct-itinerary/)
     - 思路: 针对边的post-order traversal(边的深度优先搜索)
