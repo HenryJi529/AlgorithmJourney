@@ -527,6 +527,9 @@
 - [199. 二叉树的右视图](https://leetcode.cn/problems/binary-tree-right-side-view/)
     - 思路: 访问每一层最右边的节点(层序遍历)
     - 代码: [LeetCode199.java](./LeetCode/LeetCode199.java)
+- [208. 实现 Trie (前缀树)](https://leetcode.cn/problems/implement-trie-prefix-tree/)
+    - 思路: 生成一个字典树
+    - 代码: [LeetCode208.java](./LeetCode/LeetCode208.java)
 - [226. 翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/)
     - 代码: [LeetCode226.java](./LeetCode/LeetCode226.java)
 - [230. 二叉搜索树中第K小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/)
