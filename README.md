@@ -169,6 +169,9 @@
 - [74. 搜索二维矩阵](https://leetcode.cn/problems/search-a-2d-matrix/)
     - 思路: 一次整体二分查找 或 先对行再对列做二分查找
     - 代码: [LeetCode74.java](./LeetCode/LeetCode74.java)
+- [153. 寻找旋转排序数组中的最小值](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/)
+    - 思路: 可以看作是LeetCode33的部分问题
+    - 代码: [LeetCode153.java](./LeetCode/LeetCode153.java)
 - [475. 供暖器](https://leetcode.cn/problems/heaters/)
     - 思路: 排序 + 二分查找
     - 代码: [LeetCode475.java](./LeetCode/LeetCode475.java)
