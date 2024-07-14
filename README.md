@@ -53,6 +53,9 @@
     - 代码: [LeetCode118.java](./LeetCode/LeetCode118.java)
 - [258. 各位相加](https://leetcode.cn/problems/add-digits/)
     - 代码: [LeetCode258.java](./LeetCode/LeetCode258.java)
+- [1137. 第 N 个泰波那契数](https://leetcode.cn/problems/n-th-tribonacci-number/)
+    - 思路: 迭代t0, t1, t2
+    - 代码: [LeetCode1137.java](./LeetCode/LeetCode1137.java)
 
 ### 枚举
 
