@@ -127,6 +127,9 @@
     - 代码: [LeetCode905.java](./LeetCode/LeetCode905.java)
 - [1470. 重新排列数组](https://leetcode.cn/problems/shuffle-the-array/)
     - 代码: [LeetCode1470.java](./LeetCode/LeetCode1470.java)
+- [1768. 交替合并字符串](https://leetcode.cn/problems/merge-strings-alternately/)
+    - 思路: 双指针 + StringBuilder【char[]效率会更高些】
+    - 代码: [LeetCode1768.java](./LeetCode/LeetCode1768.java)
 - [2007. 从双倍数组中还原原数组](https://leetcode.cn/problems/find-original-array-from-doubled-array/)
     - 思路: left指向原值，right指向二倍值
     - 代码: [LeetCode2007.java](./LeetCode/LeetCode2007.java)
