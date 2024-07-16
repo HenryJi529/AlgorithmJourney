@@ -433,6 +433,9 @@
     - 代码: [LeetCode739.java](./LeetCode/LeetCode739.java)
 - [1047. 删除字符串中的所有相邻重复项](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/)
     - 代码: [LeetCode1047.java](./LeetCode/LeetCode1047.java)
+- [2390. 从字符串中移除星号](https://leetcode.cn/problems/removing-stars-from-a-string/)
+    - 思路: 明显看出后进先出关系，想到使用栈【可以直接操作StringBuilder而不用单独创建栈】
+    - 代码: [LeetCode2390.java](./LeetCode/LeetCode2390.java)
 
 
 ### 哈希
