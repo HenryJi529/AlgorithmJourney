@@ -361,6 +361,9 @@
     - 代码: [LeetCode168.java](./LeetCode/LeetCode168.java)
 - [1422. 分割字符串的最大得分](https://leetcode.cn/problems/maximum-score-after-splitting-a-string/)
     - 代码: [LeetCode1422.java](./LeetCode/LeetCode1422.java)
+- [1657. 确定两个字符串是否接近](https://leetcode.cn/problems/determine-if-two-strings-are-close/)
+    - 思路: 需要满足 前后字母的种类不变 但 数量可以交换 且 位置无所谓
+    - 代码: [LeetCode1657.java](./LeetCode/LeetCode1657.java)
 - [蓝桥504. 单词分析](https://www.lanqiao.cn/problems/504/learning/)
     - 代码: [LanQiao504](./LanQiao/LanQiao504.java)
 
