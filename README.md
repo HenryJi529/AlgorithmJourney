@@ -42,6 +42,8 @@
 - [1013. 将数组分成和相等的三个部分](https://leetcode.cn/problems/partition-array-into-three-parts-with-equal-sum/)
     - 思路: 直接按照累加和找分割点，并判断分割点的索引是否合理
     - 代码: [LeetCode1013.java](./LeetCode/LeetCode1013.java)
+- [1431. 拥有最多糖果的孩子](https://leetcode.cn/problems/kids-with-the-greatest-number-of-candies/)
+    - 代码: [LeetCode1431.java](./LeetCode/LeetCode1431.java)
 - [蓝桥97. k倍区间](https://www.lanqiao.cn/problems/97/learning/)
     - 思路: 两个序列模K余数相同则差模K为0
     - 代码: [LanQiao97.java](./LanQiao/LanQiao97.java)
@@ -56,6 +58,7 @@
 - [1137. 第 N 个泰波那契数](https://leetcode.cn/problems/n-th-tribonacci-number/)
     - 思路: 迭代t0, t1, t2
     - 代码: [LeetCode1137.java](./LeetCode/LeetCode1137.java)
+
 
 ### 枚举
 
