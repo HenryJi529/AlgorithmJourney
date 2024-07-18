@@ -359,6 +359,9 @@
     - 代码: [LeetCode165.java](./LeetCode/LeetCode165.java)
 - [168. Excel表列名称](https://leetcode.cn/problems/excel-sheet-column-title/)
     - 代码: [LeetCode168.java](./LeetCode/LeetCode168.java)
+- [1071. 字符串的最大公因子](https://leetcode.cn/problems/greatest-common-divisor-of-strings/)
+    - 思路: GCD + substring
+    - 代码: [LeetCode1071.java](./LeetCode/LeetCode1071.java)
 - [1422. 分割字符串的最大得分](https://leetcode.cn/problems/maximum-score-after-splitting-a-string/)
     - 代码: [LeetCode1422.java](./LeetCode/LeetCode1422.java)
 - [1657. 确定两个字符串是否接近](https://leetcode.cn/problems/determine-if-two-strings-are-close/)
