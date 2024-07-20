@@ -795,6 +795,8 @@
     - 代码: [LeetCode574.sql](./LeetCode/sql/LeetCode574.sql)
 - [577. 员工奖金](https://leetcode.cn/problems/employee-bonus/)
     - 代码: [LeetCode577.sql](./LeetCode/sql/LeetCode577.sql)
+- [578. 查询回答率最高的问题](https://leetcode.cn/problems/get-highest-answer-rate-question/)
+    - 代码: [LeetCode578.sql](./LeetCode/sql/LeetCode578.sql)
 - [584. 寻找用户推荐人](https://leetcode.cn/problems/find-customer-referee/)
     - 代码: [LeetCode584.sql](./LeetCode/sql/LeetCode584.sql)
 - [585. 2016年的投资](https://leetcode.cn/problems/investments-in-2016/)
