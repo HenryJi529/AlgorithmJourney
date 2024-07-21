@@ -109,8 +109,6 @@
 - [27. 移除元素](https://leetcode.cn/problems/remove-element/)
     - 思路: 快慢指针 或 反向指针【避免重复赋值】
     - 代码: [LeetCode27.java](./LeetCode/LeetCode27.java)
-- [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/)
-    - 代码: [LeetCode42.java](./LeetCode/LeetCode42.java)
 - [76. 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/)
     - 思路: 同向双指针，满足条件左指针右移动，不满足右指针右移
     - 代码: [LeetCode76.java](./LeetCode/LeetCode76.java)
@@ -661,6 +659,11 @@
 - [32. 最长有效括号](https://leetcode.cn/problems/longest-valid-parentheses/)
     - 思路: 考虑`(`与`)`对应关系【输入尺度太大，不能用2维DP】
     - 代码: [LeetCode32.java](./LeetCode/LeetCode32.java)
+- [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/)
+    - 思路: 
+        - 寻找可以盛水的区间 -> 找到节点i后第一个比它大的点，如果不存在则找高度>=height[i]-1的点 -> 单调栈(相对复杂)
+        - 累计每个位置能存放的水 -> 找到节点i左右两边的最大值 -> DP
+    - 代码: [LeetCode42.java](./LeetCode/LeetCode42.java)
 - [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/)
     - 思路: 状态f(i)为以i结尾的最大子数组和
     - 代码: [LeetCode53.java](./LeetCode/LeetCode53.java)
