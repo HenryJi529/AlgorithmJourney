@@ -937,6 +937,8 @@
     - 代码: [LeetCode1683.sql](./LeetCode/sql/LeetCode1683.sql)
 - [1693. 每天的领导和合伙人](https://leetcode.cn/problems/daily-leads-and-partners/)
     - 代码: [LeetCode1693.sql](./LeetCode/sql/LeetCode1693.sql)
+- [1173. 即时食物配送 I](https://leetcode.cn/problems/immediate-food-delivery-i/)
+    - 代码: [LeetCode1173.sql](./LeetCode/sql/LeetCode1173.sql)
 - [1729. 求关注者的数量](https://leetcode.cn/problems/find-followers-count/)
     - 代码: [LeetCode1729.sql](./LeetCode/sql/LeetCode1729.sql)
 - [1731. 每位经理的下属员工数量](https://leetcode.cn/problems/the-number-of-employees-which-report-to-each-employee/)
