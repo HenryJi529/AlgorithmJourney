@@ -921,6 +921,8 @@
     - 代码: [LeetCode1581.sql](./LeetCode/sql/LeetCode1581.sql)
 - [1587. 银行账户概要 II](https://leetcode.cn/problems/bank-account-summary-ii/)
     - 代码: [LeetCode1587.sql](./LeetCode/sql/LeetCode1587.sql)
+- [1607. 没有卖出的卖家](https://leetcode.cn/problems/sellers-with-no-sales/)
+    - 代码: [LeetCode1607.sql](./LeetCode/sql/LeetCode1607.sql)
 - [1633. 各赛事的用户注册率](https://leetcode.cn/problems/percentage-of-users-attended-a-contest/)
     - 代码: [LeetCode1633.sql](./LeetCode/sql/LeetCode1633.sql)
 - [1661. 每台机器的进程平均运行时间](https://leetcode.cn/problems/average-time-of-process-per-machine/)
