@@ -919,6 +919,8 @@
     - 代码: [LeetCode1517.sql](./LeetCode/sql/LeetCode1517.sql)
 - [1527. 患某种疾病的患者](https://leetcode.cn/problems/patients-with-a-condition/)
     - 代码: [LeetCode1527.sql](./LeetCode/sql/LeetCode1527.sql)
+- [1571. 仓库经理](https://leetcode.cn/problems/warehouse-manager/)
+    - 代码: [LeetCode1571.sql](./LeetCode/sql/LeetCode1571.sql)
 - [1581. 进店却未进行过交易的顾客](https://leetcode.cn/problems/customer-who-visited-but-did-not-make-any-transactions/)
     - 代码: [LeetCode1581.sql](./LeetCode/sql/LeetCode1581.sql)
 - [1587. 银行账户概要 II](https://leetcode.cn/problems/bank-account-summary-ii/)
