@@ -905,6 +905,8 @@
     - 代码: [LeetCode1398.sql](./LeetCode/sql/LeetCode1398.sql)
 - [1407. 排名靠前的旅行者](https://leetcode.cn/problems/top-travellers/)
     - 代码: [LeetCode1407.sql](./LeetCode/sql/LeetCode1407.sql)
+- [1440. 计算布尔表达式的值](https://leetcode.cn/problems/evaluate-boolean-expression/)
+    - 代码: [LeetCode1440.sql](./LeetCode/sql/LeetCode1440.sql)
 - [1445. 苹果和桔子](https://leetcode.cn/problems/apples-oranges/)
     - 代码: [LeetCode1445.sql](./LeetCode/sql/LeetCode1445.sql)
 - [1484. 按日期分组销售产品](https://leetcode.cn/problems/group-sold-products-by-the-date/)
