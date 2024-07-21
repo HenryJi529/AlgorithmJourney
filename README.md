@@ -883,6 +883,8 @@
     - 代码: [LeetCode1204.sql](./LeetCode/sql/LeetCode1204.sql)
 - [1211. 查询结果的质量和占比](https://leetcode.cn/problems/queries-quality-and-percentage/)
     - 代码: [LeetCode1211.sql](./LeetCode/sql/LeetCode1211.sql)
+- [1212. 查询球队积分](https://leetcode.cn/problems/team-scores-in-football-tournament/)
+    - 代码: [LeetCode1212.sql](./LeetCode/sql/LeetCode1212.sql)
 - [1251. 平均售价](https://leetcode.cn/problems/average-selling-price/)
     - 代码: [LeetCode1251.sql](./LeetCode/sql/LeetCode1251.sql)
 - [1280. 学生们参加各科测试的次数](https://leetcode.cn/problems/students-and-examinations/)
