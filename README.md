@@ -860,6 +860,8 @@
 - [1084. 销售分析III](https://leetcode.cn/problems/sales-analysis-iii/)
     - 思路: 尽可能减少遍历次数
     - 代码: [LeetCode1084.sql](./LeetCode/sql/LeetCode1084.sql)
+- [1112. 每位学生的最高成绩](https://leetcode.cn/problems/highest-grade-for-each-student/)
+    - 代码: [LeetCode1112.sql](./LeetCode/sql/LeetCode1112.sql)
 - [1113. 报告的记录](https://leetcode.cn/problems/reported-posts/)
     - 思路: 注意distinct的使用位置【处理单列的速度明显高于双列】
     - 代码: [LeetCode1113.sql](./LeetCode/sql/LeetCode1113.sql)
