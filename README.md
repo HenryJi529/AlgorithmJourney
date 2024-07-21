@@ -935,6 +935,8 @@
     - 代码: [LeetCode1789.sql](./LeetCode/sql/LeetCode1789.sql)
 - [1795. 每个产品在不同商店的价格](https://leetcode.cn/problems/rearrange-products-table/)
     - 代码: [LeetCode1795.sql](./LeetCode/sql/LeetCode1795.sql)
+- [1821. 寻找今年具有正收入的客户](https://leetcode.cn/problems/find-customers-with-positive-revenue-this-year/)
+    - 代码: [LeetCode1821.sql](./LeetCode/sql/LeetCode1821.sql)
 - [1873. 计算特殊奖金](https://leetcode.cn/problems/calculate-special-bonus/)
     - 代码: [LeetCode1873.sql](./LeetCode/sql/LeetCode1873.sql)
 - [1890. 2020年最后一次登录](https://leetcode.cn/problems/the-latest-login-in-2020/)
