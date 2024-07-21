@@ -1,7 +1,4 @@
-select
-    P.FirstName as firstName,
-    P.LastName as lastName,
-    A.City as city,
-    A.State as state
-from Person as P
-    left join Address as A on P.PersonId = A.PersonId;
+-- 连接
+select p.firstName, p.lastName, a.city, a.state
+from Person p
+    left join Address a on p.personId = a.personId;
