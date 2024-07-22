@@ -1,7 +1,7 @@
-select Users.name, SUM(Transactions.amount) balance
-from Transactions
-    left join Users on Transactions.account = Users.account
+select u.name, sum(t.amount) balance
+from Users u
+    left join Transactions as t on t.account = u.account
 group by
-    Transactions.account
+    t.account
 having
     balance > 10000;
