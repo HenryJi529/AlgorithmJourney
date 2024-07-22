@@ -889,6 +889,8 @@
     - 代码: [LeetCode1251.sql](./LeetCode/sql/LeetCode1251.sql)
 - [1280. 学生们参加各科测试的次数](https://leetcode.cn/problems/students-and-examinations/)
     - 代码: [LeetCode1280.sql](./LeetCode/sql/LeetCode1280.sql)
+- [1303. 求团队人数](https://leetcode.cn/problems/find-the-team-size/)
+    - 代码: [LeetCode1303.sql](./LeetCode/sql/LeetCode1303.sql)
 - [1321. 餐馆营业额变化增长](https://leetcode.cn/problems/restaurant-growth/)
     - 代码: [LeetCode1321.sql](./LeetCode/sql/LeetCode1321.sql)
 - [1322. 广告效果](https://leetcode.cn/problems/ads-performance/)
