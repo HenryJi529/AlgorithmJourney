@@ -911,6 +911,8 @@
     - 代码: [LeetCode1398.sql](./LeetCode/sql/LeetCode1398.sql)
 - [1407. 排名靠前的旅行者](https://leetcode.cn/problems/top-travellers/)
     - 代码: [LeetCode1407.sql](./LeetCode/sql/LeetCode1407.sql)
+- [1412. 查找成绩处于中游的学生](https://leetcode.cn/problems/find-the-quiet-students-in-all-exams/)
+    - 代码: [LeetCode1412.sql](./LeetCode/sql/LeetCode1412.sql)
 - [1440. 计算布尔表达式的值](https://leetcode.cn/problems/evaluate-boolean-expression/)
     - 代码: [LeetCode1440.sql](./LeetCode/sql/LeetCode1440.sql)
 - [1445. 苹果和桔子](https://leetcode.cn/problems/apples-oranges/)
