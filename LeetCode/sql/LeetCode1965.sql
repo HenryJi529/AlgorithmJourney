@@ -31,3 +31,18 @@ where
     t.name is null
     or t.salary is null
 order by employee_id;
+
+-- 统计数据次数
+select employee_id
+FROM (
+        SELECT employee_id
+        FROM Employees
+        UNION ALL
+        SELECT employee_id
+        FROM Salaries
+    ) AS t
+GROUP BY
+    employee_id
+HAVING
+    COUNT(*) = 1
+ORDER BY employee_id ASC;
