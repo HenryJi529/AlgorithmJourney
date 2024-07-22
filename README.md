@@ -915,6 +915,8 @@
     - 代码: [LeetCode1484.sql](./LeetCode/sql/LeetCode1484.sql)
 - [1495. 上月播放的儿童适宜电影](https://leetcode.cn/problems/friendly-movies-streamed-last-month/)
     - 代码: [LeetCode1495.sql](./LeetCode/sql/LeetCode1495.sql)
+- [1501. 可以放心投资的国家](https://leetcode.cn/problems/countries-you-can-safely-invest-in/)
+    - 代码: [LeetCode1501.sql](./LeetCode/sql/LeetCode1501.sql)
 - [1511. 消费者下单频率](https://leetcode.cn/problems/customer-order-frequency/)
     - 代码: [LeetCode1511.sql](./LeetCode/sql/LeetCode1511.sql)
 - [1517. 查找拥有有效邮箱的用户](https://leetcode.cn/problems/find-users-with-valid-e-mails/)
