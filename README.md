@@ -981,6 +981,9 @@
     - 代码: [LeetCode1747.sql](./LeetCode/sql/LeetCode1747.sql)
 - [1757. 可回收且低脂的产品](https://leetcode.cn/problems/recyclable-and-low-fat-products/)
     - 代码: [LeetCode1757.sql](./LeetCode/sql/LeetCode1757.sql)
+- [1767. 寻找没有被执行的任务对](https://leetcode.cn/problems/find-the-subtasks-that-did-not-execute/)
+    - 思路: 先用RCTE生成数字序列，从而获取所有的任务对，再进一步找出未执行的任务对
+    - 代码: [LeetCode1767.sql](./LeetCode/sql/LeetCode1767.sql)
 - [1783. 大满贯数量](https://leetcode.cn/problems/grand-slam-titles/)
     - 代码: [LeetCode1783.sql](./LeetCode/sql/LeetCode1783.sql)
 - [1789. 员工的直属部门](https://leetcode.cn/problems/primary-department-for-each-employee/)
