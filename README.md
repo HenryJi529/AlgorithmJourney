@@ -929,6 +929,8 @@
     - 代码: [LeetCode1517.sql](./LeetCode/sql/LeetCode1517.sql)
 - [1527. 患某种疾病的患者](https://leetcode.cn/problems/patients-with-a-condition/)
     - 代码: [LeetCode1527.sql](./LeetCode/sql/LeetCode1527.sql)
+- [1532. 最近的三笔订单](https://leetcode.cn/problems/the-most-recent-three-orders/)
+    - 代码: [LeetCode1532.sql](./LeetCode/sql/LeetCode1532.sql)
 - [1549. 每件商品的最新订单](https://leetcode.cn/problems/the-most-recent-orders-for-each-product/)
     - 代码: [LeetCode1549.sql](./LeetCode/sql/LeetCode1549.sql)
 - [1571. 仓库经理](https://leetcode.cn/problems/warehouse-manager/)
