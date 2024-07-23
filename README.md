@@ -851,6 +851,8 @@
     - 代码: [LeetCode1075.sql](./LeetCode/sql/LeetCode1075.sql)
 - [1076. 项目员工II](https://leetcode.cn/problems/project-employees-ii/)
     - 代码: [LeetCode1076.sql](./LeetCode/sql/LeetCode1076.sql)
+- [1077. 项目员工 III](https://leetcode.cn/problems/project-employees-iii/)
+    - 代码: [LeetCode1077.sql](./LeetCode/sql/LeetCode1077.sql)
 - [1082. 销售分析 I](https://leetcode.cn/problems/sales-analysis-i/)
     - 思路: 通过all筛选最大值
     - 代码: [LeetCode1082.sql](./LeetCode/sql/LeetCode1082.sql)
