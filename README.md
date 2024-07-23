@@ -959,6 +959,8 @@
     - 代码: [LeetCode1741.sql](./LeetCode/sql/LeetCode1741.sql)
 - [1757. 可回收且低脂的产品](https://leetcode.cn/problems/recyclable-and-low-fat-products/)
     - 代码: [LeetCode1757.sql](./LeetCode/sql/LeetCode1757.sql)
+- [1783. 大满贯数量](https://leetcode.cn/problems/grand-slam-titles/)
+    - 代码: [LeetCode1783.sql](./LeetCode/sql/LeetCode1783.sql)
 - [1789. 员工的直属部门](https://leetcode.cn/problems/primary-department-for-each-employee/)
     - 代码: [LeetCode1789.sql](./LeetCode/sql/LeetCode1789.sql)
 - [1795. 每个产品在不同商店的价格](https://leetcode.cn/problems/rearrange-products-table/)
