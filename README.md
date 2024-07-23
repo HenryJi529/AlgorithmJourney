@@ -897,6 +897,11 @@
     - 代码: [LeetCode1270.sql](./LeetCode/sql/LeetCode1270.sql)
 - [1280. 学生们参加各科测试的次数](https://leetcode.cn/problems/students-and-examinations/)
     - 代码: [LeetCode1280.sql](./LeetCode/sql/LeetCode1280.sql)
+- [1285. 找到连续区间的开始和结束数字](https://leetcode.cn/problems/find-the-start-and-end-number-of-continuous-ranges/)
+    - 思路:
+        - diff相同的log_id属于一个区间
+        - start_id就是log_id - 1不在表中的log_id，end_id同理
+    - 代码: [LeetCode1285.sql](./LeetCode/sql/LeetCode1285.sql)
 - [1303. 求团队人数](https://leetcode.cn/problems/find-the-team-size/)
     - 代码: [LeetCode1303.sql](./LeetCode/sql/LeetCode1303.sql)
 - [1321. 餐馆营业额变化增长](https://leetcode.cn/problems/restaurant-growth/)
