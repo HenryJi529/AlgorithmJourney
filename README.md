@@ -891,6 +891,8 @@
     - 代码: [LeetCode1251.sql](./LeetCode/sql/LeetCode1251.sql)
 - [1264. 页面推荐](https://leetcode.cn/problems/page-recommendations/)
     - 代码: [LeetCode1264.sql](./LeetCode/sql/LeetCode1264.sql)
+- [1270. 向公司 CEO 汇报工作的所有人](https://leetcode.cn/problems/all-people-report-to-the-given-manager/)
+    - 代码: [LeetCode1270.sql](./LeetCode/sql/LeetCode1270.sql)
 - [1280. 学生们参加各科测试的次数](https://leetcode.cn/problems/students-and-examinations/)
     - 代码: [LeetCode1280.sql](./LeetCode/sql/LeetCode1280.sql)
 - [1303. 求团队人数](https://leetcode.cn/problems/find-the-team-size/)
