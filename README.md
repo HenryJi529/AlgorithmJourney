@@ -957,6 +957,8 @@
     - 代码: [LeetCode1731.sql](./LeetCode/sql/LeetCode1731.sql)
 - [1741. 查找每个员工花费的总时间](https://leetcode.cn/problems/find-total-time-spent-by-each-employee/)
     - 代码: [LeetCode1741.sql](./LeetCode/sql/LeetCode1741.sql)
+- [1747. 应该被禁止的 Leetflex 账户](https://leetcode.cn/problems/leetflex-banned-accounts/)
+    - 代码: [LeetCode1747.sql](./LeetCode/sql/LeetCode1747.sql)
 - [1757. 可回收且低脂的产品](https://leetcode.cn/problems/recyclable-and-low-fat-products/)
     - 代码: [LeetCode1757.sql](./LeetCode/sql/LeetCode1757.sql)
 - [1783. 大满贯数量](https://leetcode.cn/problems/grand-slam-titles/)
