@@ -889,6 +889,9 @@
     - 代码: [LeetCode1211.sql](./LeetCode/sql/LeetCode1211.sql)
 - [1212. 查询球队积分](https://leetcode.cn/problems/team-scores-in-football-tournament/)
     - 代码: [LeetCode1212.sql](./LeetCode/sql/LeetCode1212.sql)
+- [1225. 报告系统状态的连续日期](https://leetcode.cn/problems/report-contiguous-dates/)
+    - 思路: 类似LeetCode1285，但处理起来略复杂
+    - 代码: [LeetCode1225.sql](./LeetCode/sql/LeetCode1225.sql)
 - [1251. 平均售价](https://leetcode.cn/problems/average-selling-price/)
     - 代码: [LeetCode1251.sql](./LeetCode/sql/LeetCode1251.sql)
 - [1264. 页面推荐](https://leetcode.cn/problems/page-recommendations/)
