@@ -437,6 +437,9 @@
 - [739. 每日温度](https://leetcode.cn/problems/daily-temperatures/)
     - 思路: 递减栈【存储中间结果以降低时间复杂度】
     - 代码: [LeetCode739.java](./LeetCode/LeetCode739.java)
+- [901. 股票价格跨度](https://leetcode.cn/problems/online-stock-span/)
+    - 思路: 递减栈，存储三元组(索引、价格、该价格对应的返回值)
+    - 代码: [LeetCode901.java](./LeetCode/LeetCode901.java)
 - [1047. 删除字符串中的所有相邻重复项](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/)
     - 代码: [LeetCode1047.java](./LeetCode/LeetCode1047.java)
 - [2390. 从字符串中移除星号](https://leetcode.cn/problems/removing-stars-from-a-string/)
