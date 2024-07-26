@@ -127,6 +127,8 @@
     - 代码: [LeetCode283.java](./LeetCode/LeetCode283.java)
 - [344. 反转字符串](https://leetcode.cn/problems/reverse-string/)
     - 代码: [LeetCode344.java](./LeetCode/LeetCode344.java)
+- [392. 判断子序列](https://leetcode.cn/problems/is-subsequence/)
+    - 代码: [LeetCode392.java](./LeetCode/LeetCode392.java)
 - [905. 按奇偶排序数组](https://leetcode.cn/problems/sort-array-by-parity/)
     - 代码: [LeetCode905.java](./LeetCode/LeetCode905.java)
 - [1470. 重新排列数组](https://leetcode.cn/problems/shuffle-the-array/)
