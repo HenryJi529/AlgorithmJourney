@@ -484,6 +484,8 @@
     - 代码: [LeetCode1679.java](./LeetCode/LeetCode1679.java)
 - [1941. 检查是否所有字符出现次数相同](https://leetcode.cn/problems/check-if-all-characters-have-equal-number-of-occurrences/)
     - 代码: [LeetCode1941.java](./LeetCode/LeetCode1941.java)
+- [2215. 找出两数组的不同](https://leetcode.cn/problems/find-the-difference-of-two-arrays/)
+    - 代码: [LeetCode2215.java](./LeetCode/LeetCode2215.java)
 
 
 ### 堆
