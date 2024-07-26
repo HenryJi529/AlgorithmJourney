@@ -439,6 +439,7 @@
     - 思路: 可以多分出一个栈用来存放乘数
     - 代码: [LeetCode394.java](./LeetCode/LeetCode394.java)
 - [735. 小行星碰撞](https://leetcode.cn/problems/asteroid-collision/)
+    - 思路: 由于当前的行星是否碎需要考虑前一个行星，可以想到用栈来解【注意只有相向才会碰撞】
     - 代码: [LeetCode735.java](./LeetCode/LeetCode735.java)
 - [739. 每日温度](https://leetcode.cn/problems/daily-temperatures/)
     - 思路: 递减栈【存储中间结果以降低时间复杂度】
