@@ -163,6 +163,9 @@
     - 代码: [LeetCode1004.java](./LeetCode/LeetCode1004.java)
 - [1456. 定长子串中元音的最大数目](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)
     - 代码: [LeetCode1456.java](./LeetCode/LeetCode1456.java)
+- [1493. 删掉一个元素以后全为 1 的最长子数组](https://leetcode.cn/problems/longest-subarray-of-1s-after-deleting-one-element/)
+    - 思路: 简化版的LeetCode1004
+    - 代码: [LeetCode1493.java](./LeetCode/LeetCode1493.java)
 
 
 ### 二分查找
