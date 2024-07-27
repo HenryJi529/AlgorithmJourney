@@ -190,6 +190,9 @@
 - [153. 寻找旋转排序数组中的最小值](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/)
     - 思路: 可以看作是LeetCode33的部分问题
     - 代码: [LeetCode153.java](./LeetCode/LeetCode153.java)
+- [374. 猜数字大小](https://leetcode.cn/problems/guess-number-higher-or-lower/)
+    - 思路: 要小心l + r越界
+    - 代码: [LeetCode374.java](./LeetCode/LeetCode374.java)
 - [475. 供暖器](https://leetcode.cn/problems/heaters/)
     - 思路: 排序 + 二分查找
     - 代码: [LeetCode475.java](./LeetCode/LeetCode475.java)
