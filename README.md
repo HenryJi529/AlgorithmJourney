@@ -159,6 +159,8 @@
     - 代码: [LeetCode438.java](./LeetCode/LeetCode438.java)
 - [643. 子数组最大平均数 I](https://leetcode.cn/problems/maximum-average-subarray-i/)
     - 代码: [LeetCode643.java](./LeetCode/LeetCode643.java)
+- [1004. 最大连续1的个数 III](https://leetcode.cn/problems/max-consecutive-ones-iii/)
+    - 代码: [LeetCode1004.java](./LeetCode/LeetCode1004.java)
 - [1456. 定长子串中元音的最大数目](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)
     - 代码: [LeetCode1456.java](./LeetCode/LeetCode1456.java)
 
