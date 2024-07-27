@@ -491,6 +491,8 @@
 - [1002. 查找共用字符](https://leetcode.cn/problems/find-common-characters/)
     - 思路: 用 哈希表/小写字母数组 统计字符
     - 代码: [LeetCode1002.java](./LeetCode/LeetCode1002.java)
+- [1207. 独一无二的出现次数](https://leetcode.cn/problems/unique-number-of-occurrences/)
+    - 代码: [LeetCode1207.java](./LeetCode/LeetCode1207.java)
 - [1512. 好数对的数目](https://leetcode.cn/problems/number-of-good-pairs/)
     - 代码: [LeetCode1512.java](./LeetCode/LeetCode1512.java)
 - [1679. K 和数对的最大数目](https://leetcode.cn/problems/max-number-of-k-sum-pairs/)
