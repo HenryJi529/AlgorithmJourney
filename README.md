@@ -78,6 +78,9 @@
 - [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/)
     - 思路: 不需要DP，直接使用贪心算法更新最远位置
     - 代码: [LeetCode55.java](./LeetCode/LeetCode55.java)
+- [334. 递增的三元子序列](https://leetcode.cn/problems/increasing-triplet-subsequence/)
+    - 思路: 贪心算法(非常tricky)  或  双向遍历找最值
+    - 代码: [LeetCode334.java](./LeetCode/LeetCode334.java)
 - [435. 无重叠区间](https://leetcode.cn/problems/non-overlapping-intervals/)
     - 思路: 排序后用贪心算法更新右边界来查找不冲突的区间
     - 代码: [LeetCode435.java](./LeetCode/LeetCode435.java)
