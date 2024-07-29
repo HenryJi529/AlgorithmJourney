@@ -145,6 +145,9 @@
 - [2122. 还原原数组](https://leetcode.cn/problems/recover-the-original-array/)
     - 思路: 针对可能的k，依次用双指针法找到对应的元素【2007的进阶版】
     - 代码: [LeetCode2122.java](./LeetCode/LeetCode2122.java)
+- [2130. 链表最大孪生和](https://leetcode.cn/problems/maximum-twin-sum-of-a-linked-list/)
+    - 思路: 先用快慢指针找到分界点，再反转后半部分，最后使用双指针求最大和
+    - 代码: [LeetCode2130.java](./LeetCode/LeetCode2130.java)
 
 
 ### 滑动窗口
