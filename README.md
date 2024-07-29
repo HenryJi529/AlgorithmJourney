@@ -452,7 +452,7 @@
 - [232. 用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/)
     - 代码: [LeetCode232.java](./LeetCode/LeetCode232.java)
 - [394. 字符串解码](https://leetcode.cn/problems/decode-string/)
-    - 思路: 可以多分出一个栈用来存放乘数
+    - 思路: 关键在于乘数的解析
     - 代码: [LeetCode394.java](./LeetCode/LeetCode394.java)
 - [735. 小行星碰撞](https://leetcode.cn/problems/asteroid-collision/)
     - 思路: 由于当前的行星是否碎需要考虑前一个行星，可以想到用栈来解【注意只有相向才会碰撞】

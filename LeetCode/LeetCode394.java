@@ -1,5 +1,5 @@
 import java.util.Deque;
-import java.util.ArrayDeque;
+import java.util.LinkedList;
 
 public class LeetCode394 {
     public static void main(String[] args) {
@@ -25,44 +25,75 @@ public class LeetCode394 {
     }
 }
 
+/**
+ * 解析数字与字符串、字符串解码分两步进行
+ */
 class Solution394 {
     public String decodeString(String s) {
-        StringBuilder sb;
-        int num;
-        int rank;
-        Deque<Character> stack = new ArrayDeque<Character>();
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            if (c == ']') {
-                sb = new StringBuilder();
-                while (stack.peek() != '[') {
-                    sb.append(stack.pop());
-                }
-                sb.reverse();
-                stack.pop();
+        // 遍历所有元素，将数据拆分
+        Deque<String> strs = new LinkedList<>();
+        StringBuilder sb_num = new StringBuilder();
+        StringBuilder sb_str = new StringBuilder();
 
-                // 获取重复次数
-                num = 0;
-                rank = 1;
-                while (!stack.isEmpty() && (stack.peek() >= '0' && stack.peek() <= '9')) {
-                    num += rank * (int) (stack.pop() - '0');
-                    rank *= 10;
+        for (Character c : s.toCharArray()) {
+            if (c >= '0' && c <= '9') {
+                if (sb_str.length() > 0) {
+                    strs.offer(sb_str.toString());
+                    sb_str = new StringBuilder();
                 }
-
-                for (int j = 0; j < num; j++) {
-                    for (int k = 0; k < sb.length(); k++) {
-                        stack.push(sb.charAt(k));
-                    }
+                sb_num.append(c);
+            } else if (c == '[') {
+                strs.offer(sb_num.toString());
+                sb_num = new StringBuilder();
+                strs.offer("[");
+            } else if (c == ']') {
+                if (sb_str.length() > 0) {
+                    strs.offer(sb_str.toString());
+                    sb_str = new StringBuilder();
                 }
+                strs.offer("]");
             } else {
-                stack.push(c);
+                sb_str.append(c);
             }
         }
-        sb = new StringBuilder();
-        while (!stack.isEmpty()) {
-            sb.append(stack.pop());
+        if (sb_str.length() > 0) {
+            strs.offer(sb_str.toString());
         }
-        sb.reverse();
-        return sb.toString();
+        // System.out.println(strs);
+
+        // 组合乘数和被乘的字符串
+        Deque<String> stack = new LinkedList<>();
+        while (!strs.isEmpty()) {
+            String str = strs.poll();
+            if (str == "]") {
+                StringBuilder curr = new StringBuilder();
+                while (!stack.isEmpty() && stack.peek() != "[") {
+                    curr.insert(0, stack.pop());
+                }
+                if (stack.isEmpty()) {
+                    // 没有乘数
+                    stack.push(curr.toString());
+                } else {
+                    stack.pop(); // 弹出"["
+                    int multi = Integer.parseInt(stack.pop());
+                    StringBuilder sb = new StringBuilder();
+                    while (multi > 0) {
+                        sb.append(curr.toString());
+                        multi--;
+                    }
+                    stack.push(sb.toString());
+                }
+            } else {
+                stack.push(str);
+            }
+        }
+        // System.out.println(stack);
+
+        // 生成最终结果
+        StringBuilder res = new StringBuilder();
+        while (!stack.isEmpty()) {
+            res.insert(0, stack.pop());
+        }
+        return res.toString();
     }
 }
