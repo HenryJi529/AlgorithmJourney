@@ -431,6 +431,9 @@
     - 代码: [LeetCode234.java](./LeetCode/LeetCode234.java)
 - [237. 删除链表中的节点](https://leetcode.cn/problems/delete-node-in-a-linked-list/)
     - 代码: [LeetCode237.java](./LeetCode/LeetCode237.java)
+- [328. 奇偶链表](https://leetcode.cn/problems/odd-even-linked-list/)
+    - 思路: 用两个dummyNode辅助，先拆分再合并
+    - 代码: [LeetCode328.java](./LeetCode/LeetCode328.java)
 - [876. 链表的中间结点](https://leetcode.cn/problems/middle-of-the-linked-list/)
     - 思路: 快慢指针
     - 代码: [LeetCode876.java](./LeetCode/LeetCode876.java)
