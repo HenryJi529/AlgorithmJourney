@@ -444,7 +444,7 @@
     - 代码: [LeetCode2095.java](./LeetCode/LeetCode2095.java)
 
 
-### 队与栈
+### 队列与栈
 
 - [20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/)
     - 代码: [LeetCode20.java](./LeetCode/LeetCode20.java)
@@ -462,6 +462,9 @@
 - [394. 字符串解码](https://leetcode.cn/problems/decode-string/)
     - 思路: 关键在于乘数的解析
     - 代码: [LeetCode394.java](./LeetCode/LeetCode394.java)
+- [649. Dota2 参议院](https://leetcode.cn/problems/dota2-senate/)
+    - 思路: 用两个队列分别存储两个势力【将遍历到的元素+N插回，而不是插入原值】
+    - 代码: [LeetCode649.java](./LeetCode/LeetCode649.java)
 - [735. 小行星碰撞](https://leetcode.cn/problems/asteroid-collision/)
     - 思路: 由于当前的行星是否碎需要考虑前一个行星，可以想到用栈来解【注意只有相向才会碰撞】
     - 代码: [LeetCode735.java](./LeetCode/LeetCode735.java)
