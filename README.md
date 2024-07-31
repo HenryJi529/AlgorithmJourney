@@ -362,6 +362,8 @@
         - 矩阵化的二分(通过递归)
         - 从右上角搜索，将矩阵看成二叉查找树
     - 代码: [LeetCode240.java](./LeetCode/LeetCode240.java)
+- [724. 寻找数组的中心下标](https://leetcode.cn/problems/find-pivot-index/)
+    - 代码: [LeetCode724.java](./LeetCode/LeetCode724.java)
 - [1732. 找到最高海拔](https://leetcode.cn/problems/find-the-highest-altitude/)
     - 代码: [LeetCode1732.java](./LeetCode/LeetCode1732.java)
 
