@@ -439,6 +439,9 @@
 - [876. 链表的中间结点](https://leetcode.cn/problems/middle-of-the-linked-list/)
     - 思路: 快慢指针
     - 代码: [LeetCode876.java](./LeetCode/LeetCode876.java)
+- [1836. 从未排序的链表中移除重复元素](https://leetcode.cn/problems/remove-duplicates-from-an-unsorted-linked-list/)
+    - 思路: 确定重复的时候就要删除
+    - 代码: [LeetCode1836.java](./LeetCode/LeetCode1836.java)
 - [2095. 删除链表的中间节点](https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list/)
     - 思路: 快慢指针【要仔细考虑dummyNode加还是不加，以及循环条件判断是什么】
     - 代码: [LeetCode2095.java](./LeetCode/LeetCode2095.java)
