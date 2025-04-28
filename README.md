@@ -1054,6 +1054,8 @@
     - 代码: [LeetCode1978.sql](./LeetCode/sql/LeetCode1978.sql)
 - [2356. 每位教师所教授的科目种类的数量](https://leetcode.cn/problems/number-of-unique-subjects-taught-by-each-teacher/)
     - 代码: [LeetCode2356.sql](./LeetCode/sql/LeetCode2356.sql)
+- [3220. 奇数和偶数交易](https://leetcode.cn/problems/odd-and-even-transactions/)
+    - 代码: [LeetCode3220.sql](./LeetCode/sql/LeetCode3220.sql)
 
 ### Shell
 
