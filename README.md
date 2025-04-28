@@ -1056,6 +1056,9 @@
     - 代码: [LeetCode2356.sql](./LeetCode/sql/LeetCode2356.sql)
 - [3220. 奇数和偶数交易](https://leetcode.cn/problems/odd-and-even-transactions/)
     - 代码: [LeetCode3220.sql](./LeetCode/sql/LeetCode3220.sql)
+- [3421. 查找进步的学生](https://leetcode.cn/problems/find-students-who-improved/)
+    - 代码: [LeetCode3421.sql](./LeetCode/sql/LeetCode3421.sql)
+
 
 ### Shell
 
